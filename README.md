@@ -1,6 +1,7 @@
 # Fashion Trend Forecast
 
-**Where interest in outfit items is heading over the next 3 and 6 months, in England, France and Denmark.**
+**Search-interest forecasts for outfit items in England, France and Denmark, 3 and 6 months ahead, validated on a
+held-out year.**
 
 [![Live demo](https://img.shields.io/badge/Live%20demo-open%20the%20app-1d4ed8?style=for-the-badge)](https://gauravmittal06.github.io/fashion_predictor/)
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
@@ -9,71 +10,67 @@
 
 [![Fashion Trend Forecast](assets/preview.png)](https://gauravmittal06.github.io/fashion_predictor/)
 
-Choose a country, the outfit items you care about (leather jacket, trench coat, satin dress, blazer, burgundy and so on)
-and a 3- or 6-month horizon. The app shows:
-- **Forecast:** monthly search interest with the forecast and its likely range.
-- **Label:** Rising, Steady or Fading, compared with the same months last year.
-- **Track record:** how often the forecast was right for that item in a hidden test year.
+## Overview
 
-The app runs entirely in your browser. There is no server and nothing to install.
+The app forecasts monthly Google search interest for 41 outfit items, such as leather jackets, trench coats, satin
+dresses, blazers and burgundy. Select a country, the items and a 3- or 6-month horizon to see:
 
----
+- **Forecast:** observed search interest, the forecast and its 80% range.
+- **Outlook:** each item labelled Rising, Steady or Fading against the same months of the previous year.
+- **Validation:** test-year accuracy, a backtest of past forecasts against actual values, a log of every
+  Rising/Fading call and a benchmark against WGSN.
 
-## Results
+The app runs entirely in the browser (Streamlit via [stlite](https://github.com/whitphx/stlite)). No server or
+installation is required.
 
-Tested on a **hidden year (Nov 2025 – Oct 2026)**. Every choice of method was made on earlier months only. Each test
-forecast used only the data available at the time.
+## Key results
 
-| Hidden test year | 3 months ahead | 6 months ahead |
+Held-out test year **Nov 2025 – Oct 2026**. The model and labelling rule were selected on earlier data only, and each
+forecast used only the data available at its forecast date.
+
+| Metric | 3 months | 6 months |
 |---|---|---|
-| Rising / Steady / Fading labels right | **66%** | **64%** |
-| Items labelled right most of the time | **34 of 41** | **26 of 41** |
-| Error compared with repeating last year | **33% smaller** | **24% smaller** |
-| Real values inside the forecast range (aim 80%) | **79%** | **77%** |
-| *Always saying "Steady"* | *31%* | *31%* |
-| *"The recent trend continues" rule* | *64%* | *61%* |
+| Labels correct (Rising / Steady / Fading) | **66%** | **64%** |
+| Items labelled correctly on most forecast dates | **34 / 41** | **26 / 41** |
+| Forecast error vs same-months-last-year baseline | **−33%** | **−24%** |
+| Actual values within the 80% forecast range | **79%** | **77%** |
+| Baseline: recent-trend rule, labels correct | 64% | 61% |
+| Baseline: always "Steady", labels correct | 31% | 31% |
 
-## Proof built into the app
+**Benchmark:** two WGSN trend calls (burgundy, Feb 2025; boho, Jun 2025) were compared with the model's forecast made
+on the same date. The model was correct in 4 of 4 country cases and WGSN in 2 of 4.
 
-| | |
-|---|---|
-| 🕰️ **Time machine** | Go back to any month since Dec 2023. See the forecast the model made with only the data up to then, next to what really happened. |
-| 📋 **Track record** | Every Rising / Fading call in the hidden year, each marked right or wrong. |
-| 🥊 **Against the professionals** | Two trend calls by WGSN, a leading paid trend-forecasting service, checked against what searches did next. Our model got 4 of 4; WGSN got 2 of 4. |
-| 🔒 **Sealed forecast** | Today's forecast is saved with a SHA-256 fingerprint, so it cannot be changed unnoticed. The app scores it automatically as new months arrive. |
-
-## How it works
+## Methodology
 
 ```mermaid
 flowchart LR
-    A[Google Trends<br/>monthly searches<br/>49 items, 3 countries] --> B[Clean and scale<br/>100 = item's usual level]
-    B --> C[Chronos-2<br/>history from Nov 2019<br/>items of a country forecast together]
-    B --> D[Momentum<br/>last 3 months vs<br/>a year before]
-    C --> E[Trend score<br/>forecast + momentum]
+    A[Google Trends<br/>monthly search interest<br/>49 items, 3 countries] --> B[Preprocessing<br/>index 100 = item average]
+    B --> C[Chronos-2<br/>history from Nov 2019<br/>cross-learning per country]
+    B --> D[Momentum<br/>last 3 months vs<br/>same months a year earlier]
+    C --> E[Trend score]
     D --> E
     E --> F[Rising / Steady / Fading]
-    C --> G[Forecast and<br/>likely range]
-    F --> H[App<br/>runs in the browser]
+    C --> G[Forecast and 80% range]
+    F --> H[Web app]
     G --> H
 ```
 
-1. **Data:** monthly Google search interest for 49 outfit items, Nov 2019 – Oct 2026. Each item is searched in its
-   country's language, for example *veste en cuir* in France and *læderjakke* in Denmark. Eight items too rarely
-   searched to forecast were left out, leaving 41.
-2. **Forecaster:** [Chronos-2](https://huggingface.co/amazon/chronos-2), a pretrained time-series model, used
-   without training on this data. It reads each item's history from Nov 2019 and forecasts all items of a country
-   together (cross-learning), so it can tell when interest in everything is moving. It was chosen over
-   Holt-Winters, a seasonal baseline, a quantile LSTM and the plain Chronos-2, because it had the lowest error on the
-   development months.
-3. **Label:** trend score = forecast change mixed with recent momentum: 25 / 75 at 3 months, 50 / 50 at 6 months,
-   both chosen on development months. **Rising** at +10% or more against the same months last year, **Fading** at
-   −10% or less, otherwise **Steady**.
-4. **Testing:** the last 12 months were locked away until every choice was made, then forecast once from every
-   start month, using only earlier data each time.
+1. **Data.** Monthly Google Trends search interest, Nov 2019 – Oct 2026, queried in each country's language (for
+   example *veste en cuir* in France, *læderjakke* in Denmark). 49 items were collected; 8 with very low search volume
+   were excluded, leaving 41.
+2. **Forecasting.** [Chronos-2](https://huggingface.co/amazon/chronos-2), a pretrained time-series transformer, is
+   used without training on these series. Each item's history from Nov 2019 is read, and the items of a country are
+   forecast jointly (cross-learning). It was selected over Holt-Winters, a trend-plus-season model, a quantile LSTM and
+   standard Chronos-2 because it had the lowest error in the selection period.
+3. **Labelling.** Trend score = *w* × forecast change + (1 − *w*) × recent momentum, with *w* = 0.25 for 3 months and
+   0.5 for 6 months, both selected on pre-test data. The label is **Rising** at +10% or more against the same months of
+   the previous year, **Fading** at −10% or less, and **Steady** otherwise.
+4. **Evaluation.** The final 12 months were held out until every modelling choice was fixed. They were then forecast
+   from each successive forecast date using only earlier data.
 
-## Run it yourself
+## Getting started
 
-The live site needs nothing. To run it locally:
+The [live app](https://gauravmittal06.github.io/fashion_predictor/) needs no setup. To run it locally:
 
 ```bash
 pip install -r requirements.txt
@@ -83,45 +80,44 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-To rebuild everything from the data (Chronos-2 runs best on a GPU):
+## Reproducing the results
+
+Rebuilding the forecasts runs Chronos-2; a GPU is recommended.
 
 | Step | Command | Output |
 |---|---|---|
-| Forecasts, tests and sealed forecast | `python scripts/build_forecasts.py` | `outputs/forecast/`, `sealed/` |
-| Comparison with WGSN | `python scripts/check_wgsn.py` | `outputs/forecast/wgsn_check.csv` |
-| The improvement experiment (20 options) | `python scripts/improve_forecasts.py` | `outputs/forecast/improve_results.csv` |
-| Check the sealed forecast is untouched | `python scripts/verify_seal.py` | |
-| Preview picture and the web page | `python scripts/make_preview.py`, then `python scripts/build_site.py` | `assets/preview.png`, `index.html` |
+| Forecasts and validation | `python scripts/build_forecasts.py` | `outputs/forecast/` |
+| WGSN benchmark | `python scripts/check_wgsn.py` | `outputs/forecast/wgsn_check.csv` |
+| Model-selection experiment | `python scripts/improve_forecasts.py` | `outputs/forecast/improve_results.csv` |
+| Preview image and web page | `python scripts/make_preview.py`, then `python scripts/build_site.py` | `assets/preview.png`, `index.html` |
 
-To add new months, open each group of items in [Google Trends](https://trends.google.com/) (country,
-Nov 2019 – today, monthly) and save it in the same format in `data/google_trends/`. Then run the steps above.
+To extend the data, export each item group from [Google Trends](https://trends.google.com/) (country,
+Nov 2019 – present, monthly) in the same format into `data/google_trends/`, then rerun the steps above.
 
-## Project structure
+## Repository structure
 
 ```
-app.py                  the app (Streamlit)
-index.html              the website: runs app.py in the browser with stlite
+app.py                  Streamlit application
+index.html              web page that runs app.py in the browser (stlite)
 fpt/                    forecasting code and settings
-scripts/                build, test, check and publish scripts
-data/google_trends/     monthly search interest; terms.csv lists every item
-outputs/forecast/       forecasts, test results and every past forecast
-outputs/models/         the comparison LSTM's weights
-sealed/                 sealed forecasts with their fingerprints
-assets/                 preview picture
+scripts/                build, evaluation and publishing scripts
+data/google_trends/     monthly search interest; terms.csv lists all items
+outputs/forecast/       forecasts, validation results and backtest forecasts
+outputs/models/         weights of the comparison LSTM
+assets/                 preview image
 ```
 
-## Limits
+## Limitations
 
-- **Searches, not sales.** Search interest is a signal of interest, not of what is bought.
-- **New trends.** A trend that hasn't started yet, such as one only seen on the catwalk, can't be seen in search data.
-  Expert forecasts and this model work best together.
-- **Overlapping checks.** The test year gives 7 to 10 checks per item, and they overlap. So one item's own record is
-  only a rough guide.
-- **"Leopard" in Denmark.** It counts every search for the word, not only clothes.
+- **Search interest is not sales.** It measures interest, which usually but not always leads to purchases.
+- **Emerging trends.** Trends with no search activity yet, such as early runway signals, can't be detected from search
+  data. Expert forecasts and this model complement each other.
+- **Item-level accuracy.** Per-item test results come from 7–10 overlapping forecast windows and are indicative only.
+- **Search terms.** The Danish term "leopard" includes searches unrelated to clothing.
 
 ## Acknowledgements
 
-- [Chronos-2](https://github.com/amazon-science/chronos-forecasting) by Amazon Science.
-- [stlite](https://github.com/whitphx/stlite) runs Streamlit in the browser.
+- [Chronos-2](https://github.com/amazon-science/chronos-forecasting), Amazon Science.
+- [stlite](https://github.com/whitphx/stlite) for running Streamlit in the browser.
 - Search data: [Google Trends](https://trends.google.com/).
-- The comparison LSTM was trained on [GeoStyle](https://github.com/kavitabala/geostyle) street-style trends (Mall et al., ICCV 2019).
+- The comparison LSTM was trained on [GeoStyle](https://github.com/kavitabala/geostyle) (Mall et al., ICCV 2019).

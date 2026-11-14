@@ -191,7 +191,7 @@ hist.to_csv(OUT / 'history.csv')
 items = terms.assign(country_name=terms.country.map(COUNTRY))[['country', 'country_name', 'term', 'english', 'group', 'note']]
 items.to_csv(OUT / 'items.csv')
 
-# 7. Evidence: every past forecast (time machine) and every label it gave, right or wrong - same rule as the app
+# 7. Validation: every past forecast (backtest) and every label it gave, scored with the same rule as the app
 months = list(hist.index)
 np.savez_compressed(OUT / 'past_forecasts.npz', items=np.array(keep), scale=scale, cutoffs=np.array(cutoffs),
                     months=np.array(months), model3=preds[chosen[3]][:, :, :3], model6=preds[chosen[6]])
@@ -243,28 +243,12 @@ for h in HORIZONS:
           f'momentum rule {p["trend_rule_labels_right"]:.0%}); Rising/Fading calls {p["calls_right"]}/{p["calls"]}; '
           f'items mostly right {p["items_mostly_right"]}/{p["items"]}; inside range {p["inside_range"]:.0%}; '
           f'error vs last year {p["error_vs_last_year"]:+.0%}')
-(OUT / 'proof.json').write_text(json.dumps(proof, indent=1, default=float))
+(OUT / 'validation.json').write_text(json.dumps(proof, indent=1, default=float))
 meta = {'months': [hist.index[0], hist.index[-1]], 'locked_from': hist.index[dev],
         'chosen': {str(h): chosen[h] for h in HORIZONS}, 'kept': len(keep), 'dropped_sparse': dropped,
         'future': [future[0].strftime('%Y-%m'), future[-1].strftime('%Y-%m')],
         'rule': {str(h): RULE[h] for h in HORIZONS}}
 (OUT / 'meta.json').write_text(json.dumps(meta, indent=1, default=float))
-
-# 8. Seal today's forecast: a fingerprint (SHA-256) of the exact numbers, so nobody can change them later unnoticed
-import hashlib  # noqa: E402
-SEAL = C.ROOT / 'sealed'
-SEAL.mkdir(exist_ok=True)
-body = {'made_on': pd.Timestamp.today().strftime('%Y-%m-%d'), 'data_up_to': months[-1],
-        'forecaster': chosen[6], 'rule': RULE, 'forecast': pd.DataFrame(fc).round(4).to_dict('records'),
-        'calls': pd.DataFrame(calls).round(4).to_dict('records')}
-text = json.dumps(body, sort_keys=True, ensure_ascii=False)
-seal = {'sha256': hashlib.sha256(text.encode('utf-8')).hexdigest(), 'sealed': body}
-name = SEAL / f'forecast_data_to_{months[-1]}.json'
-if name.exists():
-    print('sealed forecast already exists, not overwritten:', name.name)
-else:
-    name.write_text(json.dumps(seal, ensure_ascii=False, indent=1), encoding='utf-8')
-    print('sealed', name.name, 'fingerprint', seal['sha256'])
 
 print('\nNext 6 months, not stable:')
 c6 = pd.DataFrame(calls).query('horizon == 6 and call != "stable"')

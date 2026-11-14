@@ -11,10 +11,10 @@ STLITE = '1.12.0'
 SITE_URL = 'https://gauravmittal06.github.io/fashion_predictor/'
 TITLE = 'Fashion Trend Forecast'
 DESCRIPTION = ('Where interest in outfit items is heading over the next 3 and 6 months in England, France and Denmark, '
-               'with a hidden-year test, a time machine and a sealed forecast as proof.')
+               'validated on a held-out year.')
 
 files = ['app.py'] + sorted(str(p.relative_to(ROOT)).replace('\\', '/') for p in
-                            list((ROOT / 'outputs' / 'forecast').glob('*')) + list((ROOT / 'sealed').glob('*.json'))
+                            (ROOT / 'outputs' / 'forecast').glob('*')
                             if p.name not in ('improve_preds.npz', 'improve_results.csv'))
 mount = {'requirements': ['plotly'], 'entrypoint': 'app.py',
          'files': {f: {'url': f'./{f}'} for f in files},

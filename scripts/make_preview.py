@@ -19,7 +19,7 @@ hist.index = pd.to_datetime(hist.index)
 fc = pd.read_csv(FC / 'forecast.csv', parse_dates=['month'])
 meta = json.loads((FC / 'meta.json').read_text())
 base = hist[hist.index < meta['locked_from']].mean()
-proof = json.loads((FC / 'proof.json').read_text())['3']
+proof = json.loads((FC / 'validation.json').read_text())['3']
 
 fig = plt.figure(figsize=(12, 6.3), dpi=100)
 fig.patch.set_facecolor('white')
@@ -48,14 +48,14 @@ ax.xaxis.set_major_locator(mdates.MonthLocator(bymonth=(1, 7)))
 ax.set_ylabel('Search interest (100 = usual level)', color='#6b7280', fontsize=10)
 ax.legend(frameon=False, loc='upper left', fontsize=11)
 
-stats = [(f'{proof["labels_right"]:.0%}', 'labels right in a\nhidden test year'),
-         (f'{proof["error_vs_last_year"]:.0%}', 'smaller error than\nrepeating last year'),
-         (f'{proof["inside_range"]:.0%}', 'of real values inside\nthe forecast range')]
+stats = [(f'{proof["labels_right"]:.0%}', 'labels correct on a\nheld-out year'),
+         (f'{proof["error_vs_last_year"]:.0%}', 'lower error than a\nlast-year baseline'),
+         (f'{proof["inside_range"]:.0%}', 'of actual values within\nthe forecast range')]
 for i, (big, small) in enumerate(stats):
     y0 = 0.66 - i * 0.21
     fig.text(0.73, y0, big, fontsize=34, weight='bold', color='#1d4ed8')
     fig.text(0.73, y0 - 0.07, small, fontsize=12, color='#374151', va='top')
-fig.text(0.05, 0.04, '3-month forecasts, tested on Nov 2025 – Oct 2026 using only earlier data · Chronos-2',
+fig.text(0.05, 0.04, '3-month forecasts · held-out test year Nov 2025 – Oct 2026 · Chronos-2',
          fontsize=10, color='#9ca3af')
 (ROOT / 'assets').mkdir(exist_ok=True)
 fig.savefig(ROOT / 'assets' / 'preview.png', facecolor='white')
