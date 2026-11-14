@@ -1,0 +1,52 @@
+{
+ "3": {
+  "labels_right": 0.6634146341463415,
+  "labels": 410,
+  "calls": 295,
+  "calls_right": 215,
+  "always_steady_right": 0.3073170731707317,
+  "trend_rule_labels_right": 0.6414634146341464,
+  "trend_rule_calls": 303,
+  "trend_rule_calls_right": 212,
+  "inside_range": 0.7853658536585366,
+  "error_vs_last_year": 0.32709265748837835,
+  "items_beating_last_year": 28,
+  "items": 41,
+  "items_mostly_right": 34,
+  "start_months": 10,
+  "rule": "trend score 0.25",
+  "rule_development": {
+   "range agrees": 0.5329268292682927,
+   "middle": 0.6341463414634146,
+   "trend score 0.25": 0.6536585365853659,
+   "trend score 0.5": 0.6487804878048781,
+   "trend score 0.75": 0.6439024390243903
+  },
+  "forecaster": "chronos-2 long memory + cross-learning"
+ },
+ "6": {
+  "labels_right": 0.6445993031358885,
+  "labels": 287,
+  "calls": 200,
+  "calls_right": 143,
+  "always_steady_right": 0.313588850174216,
+  "trend_rule_labels_right": 0.6062717770034843,
+  "trend_rule_calls": 215,
+  "trend_rule_calls_right": 143,
+  "inside_range": 0.7740998838559815,
+  "error_vs_last_year": 0.23875518175930088,
+  "items_beating_last_year": 29,
+  "items": 41,
+  "items_mostly_right": 26,
+  "start_months": 7,
+  "rule": "trend score 0.5",
+  "rule_development": {
+   "range agrees": 0.44619799139167865,
+   "middle": 0.563845050215208,
+   "trend score 0.25": 0.6054519368723099,
+   "trend score 0.5": 0.6097560975609756,
+   "trend score 0.75": 0.6040172166427547
+  },
+  "forecaster": "chronos-2 long memory + cross-learning"
+ }
+}

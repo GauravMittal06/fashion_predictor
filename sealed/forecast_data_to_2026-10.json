@@ -1,0 +1,3952 @@
+{
+ "sha256": "6a0809e445b9fe4479973309cd01f4e126796e4548b2e3c52b64591d8705fe08",
+ "sealed": {
+  "made_on": "2026-11-14",
+  "data_up_to": "2026-10",
+  "forecaster": "chronos-2 long memory + cross-learning",
+  "rule": {
+   "3": "trend score 0.25",
+   "6": "trend score 0.5"
+  },
+  "forecast": [
+   {
+    "item": "GB|leather jacket",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 86.1553,
+    "mid": 95.8015,
+    "high": 105.0681
+   },
+   {
+    "item": "GB|leather jacket",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 79.4473,
+    "mid": 89.2488,
+    "high": 100.2082
+   },
+   {
+    "item": "GB|leather jacket",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 65.8196,
+    "mid": 77.3175,
+    "high": 89.2473
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 56.5085,
+    "mid": 65.3302,
+    "high": 74.6363
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 44.895,
+    "mid": 54.1522,
+    "high": 63.1172
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 41.1744,
+    "mid": 50.4058,
+    "high": 59.5758
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 49.035,
+    "mid": 54.6069,
+    "high": 60.2218
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 44.0909,
+    "mid": 50.2681,
+    "high": 56.7632
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 37.0113,
+    "mid": 44.0223,
+    "high": 51.1267
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 16.0871,
+    "mid": 19.171,
+    "high": 21.6501
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 12.7318,
+    "mid": 16.4364,
+    "high": 19.1863
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 11.2711,
+    "mid": 15.3562,
+    "high": 18.5041
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 50.4063,
+    "mid": 59.7715,
+    "high": 69.0155
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 48.3713,
+    "mid": 58.0296,
+    "high": 68.9515
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 37.5535,
+    "mid": 46.1959,
+    "high": 55.5178
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 26.4818,
+    "mid": 32.0083,
+    "high": 39.0931
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 22.2488,
+    "mid": 29.356,
+    "high": 37.8717
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 23.1883,
+    "mid": 31.6979,
+    "high": 41.6752
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 45.6191,
+    "mid": 51.6807,
+    "high": 59.42
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 40.6963,
+    "mid": 49.3645,
+    "high": 59.7214
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 42.0677,
+    "mid": 52.2747,
+    "high": 64.2916
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 6.9146,
+    "mid": 9.6422,
+    "high": 13.5451
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 5.6768,
+    "mid": 9.1764,
+    "high": 13.8756
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 4.071,
+    "mid": 8.0831,
+    "high": 13.3042
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 7.2362,
+    "mid": 9.4946,
+    "high": 12.5147
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 6.6111,
+    "mid": 9.0747,
+    "high": 12.3048
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 6.8763,
+    "mid": 9.594,
+    "high": 13.2031
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 1.5884,
+    "mid": 2.4929,
+    "high": 3.7544
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 1.3432,
+    "mid": 2.408,
+    "high": 3.7121
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 2.9073,
+    "mid": 4.2768,
+    "high": 6.1728
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 38.3911,
+    "mid": 48.6467,
+    "high": 58.7903
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 33.2313,
+    "mid": 46.2115,
+    "high": 58.552
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 28.4397,
+    "mid": 43.7795,
+    "high": 57.7355
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 89.4576,
+    "mid": 99.6753,
+    "high": 108.4306
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 85.2256,
+    "mid": 96.6405,
+    "high": 107.3689
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 71.3642,
+    "mid": 84.5982,
+    "high": 95.9976
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 8.913,
+    "mid": 10.067,
+    "high": 11.2704
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 7.9147,
+    "mid": 9.4405,
+    "high": 10.805
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 7.6295,
+    "mid": 9.2839,
+    "high": 10.8763
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 4.1876,
+    "mid": 4.8575,
+    "high": 5.5322
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 3.7423,
+    "mid": 4.4953,
+    "high": 5.2682
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 3.0946,
+    "mid": 3.9528,
+    "high": 4.7822
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 36.5908,
+    "mid": 43.4535,
+    "high": 49.5457
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 33.0916,
+    "mid": 41.5607,
+    "high": 48.8813
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 17.7185,
+    "mid": 26.4638,
+    "high": 35.3353
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 8.8189,
+    "mid": 11.3889,
+    "high": 13.9916
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 6.8867,
+    "mid": 10.3341,
+    "high": 13.7216
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 6.4846,
+    "mid": 10.4965,
+    "high": 14.4592
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 11.7273,
+    "mid": 16.3474,
+    "high": 24.0982
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 10.4046,
+    "mid": 17.3178,
+    "high": 30.4131
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 11.2606,
+    "mid": 22.6614,
+    "high": 47.468
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 78.9369,
+    "mid": 89.5139,
+    "high": 100.8064
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 65.7232,
+    "mid": 79.9583,
+    "high": 93.1384
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 57.4748,
+    "mid": 75.4447,
+    "high": 90.8388
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 15.7737,
+    "mid": 20.234,
+    "high": 23.3827
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 14.9578,
+    "mid": 19.9425,
+    "high": 24.5051
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 22.5046,
+    "mid": 30.517,
+    "high": 38.326
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 23.4486,
+    "mid": 26.5883,
+    "high": 29.9787
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 20.6242,
+    "mid": 23.5104,
+    "high": 26.7875
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 18.7244,
+    "mid": 21.6168,
+    "high": 24.7812
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 59.7908,
+    "mid": 70.1786,
+    "high": 82.3437
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 41.0928,
+    "mid": 48.7236,
+    "high": 58.9615
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 42.8805,
+    "mid": 50.2879,
+    "high": 60.4528
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 28.4275,
+    "mid": 31.7434,
+    "high": 36.9804
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 27.0105,
+    "mid": 30.3278,
+    "high": 36.1521
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 25.661,
+    "mid": 29.1508,
+    "high": 35.2159
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 8.6849,
+    "mid": 11.1055,
+    "high": 14.5212
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 7.4607,
+    "mid": 9.6908,
+    "high": 12.3862
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 5.7705,
+    "mid": 7.1508,
+    "high": 8.8987
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 6.7258,
+    "mid": 8.1523,
+    "high": 9.564
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 6.5473,
+    "mid": 8.0484,
+    "high": 9.5937
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 7.22,
+    "mid": 8.817,
+    "high": 10.4906
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 10.3756,
+    "mid": 12.2957,
+    "high": 14.0806
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 10.5668,
+    "mid": 12.9937,
+    "high": 15.2495
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 9.2212,
+    "mid": 11.8287,
+    "high": 14.5171
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 21.1341,
+    "mid": 23.1851,
+    "high": 25.7067
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 27.4934,
+    "mid": 30.2858,
+    "high": 33.1449
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 17.9939,
+    "mid": 20.6708,
+    "high": 23.3128
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 5.0891,
+    "mid": 6.2768,
+    "high": 7.7021
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 5.3993,
+    "mid": 6.7029,
+    "high": 8.1259
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 4.8907,
+    "mid": 6.1734,
+    "high": 7.577
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 6.1982,
+    "mid": 8.3954,
+    "high": 10.7611
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 5.7947,
+    "mid": 8.5148,
+    "high": 11.0904
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 10.3978,
+    "mid": 13.5381,
+    "high": 16.5628
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 45.2598,
+    "mid": 51.2551,
+    "high": 58.3097
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 40.3153,
+    "mid": 48.0864,
+    "high": 56.5235
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 38.0356,
+    "mid": 46.3345,
+    "high": 55.8547
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 42.4275,
+    "mid": 53.0865,
+    "high": 65.1443
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 39.7011,
+    "mid": 51.3549,
+    "high": 64.3191
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 35.2491,
+    "mid": 45.9918,
+    "high": 59.1059
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 8.2481,
+    "mid": 9.5995,
+    "high": 11.0105
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 6.96,
+    "mid": 8.6199,
+    "high": 10.2847
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 7.6542,
+    "mid": 9.4816,
+    "high": 11.2598
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 28.2978,
+    "mid": 31.4478,
+    "high": 34.4279
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 26.7046,
+    "mid": 30.8355,
+    "high": 34.7221
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 23.1585,
+    "mid": 28.2062,
+    "high": 32.5715
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 36.5533,
+    "mid": 41.3431,
+    "high": 45.7761
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 34.0532,
+    "mid": 40.4532,
+    "high": 46.0387
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 27.0946,
+    "mid": 34.2851,
+    "high": 40.7358
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 11.9196,
+    "mid": 13.9293,
+    "high": 16.2892
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 12.1444,
+    "mid": 14.6534,
+    "high": 17.4861
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 15.2347,
+    "mid": 19.649,
+    "high": 24.7103
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 9.2658,
+    "mid": 10.9465,
+    "high": 12.4934
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 7.4293,
+    "mid": 9.1203,
+    "high": 10.818
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 6.7722,
+    "mid": 8.5368,
+    "high": 10.3287
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 11.1485,
+    "mid": 14.0339,
+    "high": 16.992
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 7.2971,
+    "mid": 10.1889,
+    "high": 12.8677
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 8.2643,
+    "mid": 11.2799,
+    "high": 14.4045
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 84.9368,
+    "mid": 93.722,
+    "high": 101.9516
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 81.2027,
+    "mid": 91.1332,
+    "high": 100.6112
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 71.2564,
+    "mid": 81.4149,
+    "high": 90.6617
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 88.8479,
+    "mid": 97.4477,
+    "high": 105.0633
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 83.0275,
+    "mid": 91.5104,
+    "high": 100.2067
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 75.9502,
+    "mid": 84.5429,
+    "high": 92.7137
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 20.5457,
+    "mid": 24.1589,
+    "high": 28.6679
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 15.7728,
+    "mid": 19.0447,
+    "high": 23.0609
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 12.0173,
+    "mid": 14.2089,
+    "high": 16.9352
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 4.2969,
+    "mid": 5.6469,
+    "high": 7.3265
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 4.8139,
+    "mid": 6.4996,
+    "high": 8.3394
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 4.2709,
+    "mid": 5.9341,
+    "high": 7.8288
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 3,
+    "month": "2026-11",
+    "low": 46.7871,
+    "mid": 57.7713,
+    "high": 74.4123
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 3,
+    "month": "2026-12",
+    "low": 44.7263,
+    "mid": 56.1407,
+    "high": 75.3584
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 3,
+    "month": "2027-01",
+    "low": 45.4815,
+    "mid": 58.2173,
+    "high": 80.5607
+   },
+   {
+    "item": "GB|leather jacket",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 86.1553,
+    "mid": 95.8015,
+    "high": 105.0681
+   },
+   {
+    "item": "GB|leather jacket",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 79.4473,
+    "mid": 89.2488,
+    "high": 100.2082
+   },
+   {
+    "item": "GB|leather jacket",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 65.8196,
+    "mid": 77.3175,
+    "high": 89.2473
+   },
+   {
+    "item": "GB|leather jacket",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 65.8434,
+    "mid": 78.3968,
+    "high": 91.1455
+   },
+   {
+    "item": "GB|leather jacket",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 65.546,
+    "mid": 78.6329,
+    "high": 91.1033
+   },
+   {
+    "item": "GB|leather jacket",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 59.3245,
+    "mid": 72.2779,
+    "high": 85.8821
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 56.5085,
+    "mid": 65.3302,
+    "high": 74.6363
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 44.895,
+    "mid": 54.1522,
+    "high": 63.1172
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 41.1744,
+    "mid": 50.4058,
+    "high": 59.5758
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 46.4921,
+    "mid": 56.5574,
+    "high": 66.5996
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 49.5363,
+    "mid": 60.9819,
+    "high": 71.6656
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 39.4807,
+    "mid": 50.9749,
+    "high": 62.4009
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 49.035,
+    "mid": 54.6069,
+    "high": 60.2218
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 44.0909,
+    "mid": 50.2681,
+    "high": 56.7632
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 37.0113,
+    "mid": 44.0223,
+    "high": 51.1267
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 40.5917,
+    "mid": 48.1903,
+    "high": 55.6607
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 42.4777,
+    "mid": 50.405,
+    "high": 57.8988
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 36.2819,
+    "mid": 44.7815,
+    "high": 52.6556
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 16.0871,
+    "mid": 19.171,
+    "high": 21.6501
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 12.7318,
+    "mid": 16.4364,
+    "high": 19.1863
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 11.2711,
+    "mid": 15.3562,
+    "high": 18.5041
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 13.6695,
+    "mid": 18.7519,
+    "high": 22.6706
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 16.3246,
+    "mid": 22.0316,
+    "high": 26.212
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 11.5249,
+    "mid": 16.6832,
+    "high": 20.9014
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 50.4063,
+    "mid": 59.7715,
+    "high": 69.0155
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 48.3713,
+    "mid": 58.0296,
+    "high": 68.9515
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 37.5535,
+    "mid": 46.1959,
+    "high": 55.5178
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 24.991,
+    "mid": 31.9032,
+    "high": 38.6564
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 13.2984,
+    "mid": 18.8549,
+    "high": 23.8738
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 6.0042,
+    "mid": 8.849,
+    "high": 12.9195
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 26.4818,
+    "mid": 32.0083,
+    "high": 39.0931
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 22.2488,
+    "mid": 29.356,
+    "high": 37.8717
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 23.1883,
+    "mid": 31.6979,
+    "high": 41.6752
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 26.3368,
+    "mid": 36.0025,
+    "high": 46.9508
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 27.4452,
+    "mid": 37.6186,
+    "high": 49.0519
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 30.3653,
+    "mid": 40.8174,
+    "high": 53.012
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 45.6191,
+    "mid": 51.6807,
+    "high": 59.42
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 40.6963,
+    "mid": 49.3645,
+    "high": 59.7214
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 42.0677,
+    "mid": 52.2747,
+    "high": 64.2916
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 44.2321,
+    "mid": 55.3291,
+    "high": 69.5964
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 41.061,
+    "mid": 52.8055,
+    "high": 67.7043
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 41.2582,
+    "mid": 53.1423,
+    "high": 69.1842
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 6.9146,
+    "mid": 9.6422,
+    "high": 13.5451
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 5.6768,
+    "mid": 9.1764,
+    "high": 13.8756
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 4.071,
+    "mid": 8.0831,
+    "high": 13.3042
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 4.9054,
+    "mid": 9.2904,
+    "high": 15.2631
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 5.1516,
+    "mid": 9.8531,
+    "high": 15.7506
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 5.445,
+    "mid": 10.6287,
+    "high": 16.9876
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 7.2362,
+    "mid": 9.4946,
+    "high": 12.5147
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 6.6111,
+    "mid": 9.0747,
+    "high": 12.3048
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 6.8763,
+    "mid": 9.594,
+    "high": 13.2031
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 7.8791,
+    "mid": 10.9285,
+    "high": 14.6061
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 9.0462,
+    "mid": 12.2553,
+    "high": 16.1709
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 10.7071,
+    "mid": 14.0575,
+    "high": 18.1158
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 1.5884,
+    "mid": 2.4929,
+    "high": 3.7544
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 1.3432,
+    "mid": 2.408,
+    "high": 3.7121
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 2.9073,
+    "mid": 4.2768,
+    "high": 6.1728
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 4.0495,
+    "mid": 5.4709,
+    "high": 7.2311
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 4.539,
+    "mid": 5.9858,
+    "high": 7.8323
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 5.5872,
+    "mid": 7.0724,
+    "high": 9.131
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 38.3911,
+    "mid": 48.6467,
+    "high": 58.7903
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 33.2313,
+    "mid": 46.2115,
+    "high": 58.552
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 28.4397,
+    "mid": 43.7795,
+    "high": 57.7355
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 34.4053,
+    "mid": 50.283,
+    "high": 65.3487
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 35.6863,
+    "mid": 52.2948,
+    "high": 68.0964
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 31.4838,
+    "mid": 49.2343,
+    "high": 65.9892
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 89.4576,
+    "mid": 99.6753,
+    "high": 108.4306
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 85.2256,
+    "mid": 96.6405,
+    "high": 107.3689
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 71.3642,
+    "mid": 84.5982,
+    "high": 95.9976
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 68.6808,
+    "mid": 82.1322,
+    "high": 94.6574
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 66.3351,
+    "mid": 80.2821,
+    "high": 93.338
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 61.7102,
+    "mid": 75.6041,
+    "high": 89.3371
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 8.913,
+    "mid": 10.067,
+    "high": 11.2704
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 7.9147,
+    "mid": 9.4405,
+    "high": 10.805
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 7.6295,
+    "mid": 9.2839,
+    "high": 10.8763
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 8.3436,
+    "mid": 10.1685,
+    "high": 11.9591
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 8.819,
+    "mid": 10.7091,
+    "high": 12.5878
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 8.3331,
+    "mid": 10.326,
+    "high": 12.443
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 4.1876,
+    "mid": 4.8575,
+    "high": 5.5322
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 3.7423,
+    "mid": 4.4953,
+    "high": 5.2682
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 3.0946,
+    "mid": 3.9528,
+    "high": 4.7822
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 3.1511,
+    "mid": 4.0004,
+    "high": 4.8541
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 2.9834,
+    "mid": 3.8591,
+    "high": 4.7371
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 2.3694,
+    "mid": 3.2292,
+    "high": 4.1381
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 36.5908,
+    "mid": 43.4535,
+    "high": 49.5457
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 33.0916,
+    "mid": 41.5607,
+    "high": 48.8813
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 17.7185,
+    "mid": 26.4638,
+    "high": 35.3353
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 16.7654,
+    "mid": 25.2589,
+    "high": 34.0942
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 12.3911,
+    "mid": 18.8877,
+    "high": 26.9788
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 10.2674,
+    "mid": 15.9128,
+    "high": 23.2815
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 8.8189,
+    "mid": 11.3889,
+    "high": 13.9916
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 6.8867,
+    "mid": 10.3341,
+    "high": 13.7216
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 6.4846,
+    "mid": 10.4965,
+    "high": 14.4592
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 7.2734,
+    "mid": 11.4996,
+    "high": 15.8729
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 7.3865,
+    "mid": 11.7687,
+    "high": 16.3854
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 6.9468,
+    "mid": 11.6729,
+    "high": 16.6041
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 11.7273,
+    "mid": 16.3474,
+    "high": 24.0982
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 10.4046,
+    "mid": 17.3178,
+    "high": 30.4131
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 11.2606,
+    "mid": 22.6614,
+    "high": 47.468
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 13.9666,
+    "mid": 26.6972,
+    "high": 51.1344
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 17.1349,
+    "mid": 29.803,
+    "high": 51.6764
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 21.5711,
+    "mid": 36.0755,
+    "high": 60.0781
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 78.9369,
+    "mid": 89.5139,
+    "high": 100.8064
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 65.7232,
+    "mid": 79.9583,
+    "high": 93.1384
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 57.4748,
+    "mid": 75.4447,
+    "high": 90.8388
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 59.1013,
+    "mid": 78.5483,
+    "high": 96.3107
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 55.7391,
+    "mid": 76.7427,
+    "high": 95.8427
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 52.4933,
+    "mid": 74.6748,
+    "high": 95.6901
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 15.7737,
+    "mid": 20.234,
+    "high": 23.3827
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 14.9578,
+    "mid": 19.9425,
+    "high": 24.5051
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 22.5046,
+    "mid": 30.517,
+    "high": 38.326
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 32.3137,
+    "mid": 44.893,
+    "high": 57.8346
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 40.0996,
+    "mid": 55.4731,
+    "high": 74.0119
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 51.173,
+    "mid": 71.7177,
+    "high": 93.8779
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 23.4486,
+    "mid": 26.5883,
+    "high": 29.9787
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 20.6242,
+    "mid": 23.5104,
+    "high": 26.7875
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 18.7244,
+    "mid": 21.6168,
+    "high": 24.7812
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 17.4646,
+    "mid": 20.307,
+    "high": 23.4695
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 16.3906,
+    "mid": 19.2488,
+    "high": 22.5377
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 12.9609,
+    "mid": 15.8061,
+    "high": 18.9147
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 59.7908,
+    "mid": 70.1786,
+    "high": 82.3437
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 41.0928,
+    "mid": 48.7236,
+    "high": 58.9615
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 42.8805,
+    "mid": 50.2879,
+    "high": 60.4528
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 49.4214,
+    "mid": 58.3006,
+    "high": 69.6507
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 59.9302,
+    "mid": 71.6815,
+    "high": 85.2767
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 45.749,
+    "mid": 55.9404,
+    "high": 68.4353
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 28.4275,
+    "mid": 31.7434,
+    "high": 36.9804
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 27.0105,
+    "mid": 30.3278,
+    "high": 36.1521
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 25.661,
+    "mid": 29.1508,
+    "high": 35.2159
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 24.4099,
+    "mid": 28.1484,
+    "high": 34.1221
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 22.7001,
+    "mid": 26.7756,
+    "high": 32.8879
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 19.7591,
+    "mid": 23.2273,
+    "high": 28.8494
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 8.6849,
+    "mid": 11.1055,
+    "high": 14.5212
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 7.4607,
+    "mid": 9.6908,
+    "high": 12.3862
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 5.7705,
+    "mid": 7.1508,
+    "high": 8.8987
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 3.011,
+    "mid": 3.787,
+    "high": 4.4788
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 1.2357,
+    "mid": 1.7614,
+    "high": 2.1452
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 0.7314,
+    "mid": 1.0937,
+    "high": 1.4829
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 6.7258,
+    "mid": 8.1523,
+    "high": 9.564
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 6.5473,
+    "mid": 8.0484,
+    "high": 9.5937
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 7.22,
+    "mid": 8.817,
+    "high": 10.4906
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 8.3127,
+    "mid": 9.976,
+    "high": 11.6528
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 9.7703,
+    "mid": 11.6132,
+    "high": 13.5128
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 12.5537,
+    "mid": 14.483,
+    "high": 16.5513
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 10.3756,
+    "mid": 12.2957,
+    "high": 14.0806
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 10.5668,
+    "mid": 12.9937,
+    "high": 15.2495
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 9.2212,
+    "mid": 11.8287,
+    "high": 14.5171
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 9.8121,
+    "mid": 12.4433,
+    "high": 15.1434
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 9.3484,
+    "mid": 12.1448,
+    "high": 14.9678
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 9.6049,
+    "mid": 12.4502,
+    "high": 15.4307
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 21.1341,
+    "mid": 23.1851,
+    "high": 25.7067
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 27.4934,
+    "mid": 30.2858,
+    "high": 33.1449
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 17.9939,
+    "mid": 20.6708,
+    "high": 23.3128
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 20.9548,
+    "mid": 23.6082,
+    "high": 26.7692
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 19.7254,
+    "mid": 22.585,
+    "high": 25.6293
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 23.8481,
+    "mid": 27.0726,
+    "high": 30.453
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 5.0891,
+    "mid": 6.2768,
+    "high": 7.7021
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 5.3993,
+    "mid": 6.7029,
+    "high": 8.1259
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 4.8907,
+    "mid": 6.1734,
+    "high": 7.577
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 4.8482,
+    "mid": 6.1032,
+    "high": 7.583
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 5.1561,
+    "mid": 6.4844,
+    "high": 8.0022
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 6.2682,
+    "mid": 7.7121,
+    "high": 9.2435
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 6.1982,
+    "mid": 8.3954,
+    "high": 10.7611
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 5.7947,
+    "mid": 8.5148,
+    "high": 11.0904
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 10.3978,
+    "mid": 13.5381,
+    "high": 16.5628
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 14.3114,
+    "mid": 17.9059,
+    "high": 21.6216
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 17.1503,
+    "mid": 21.9587,
+    "high": 27.0006
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 19.315,
+    "mid": 24.7322,
+    "high": 31.223
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 45.2598,
+    "mid": 51.2551,
+    "high": 58.3097
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 40.3153,
+    "mid": 48.0864,
+    "high": 56.5235
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 38.0356,
+    "mid": 46.3345,
+    "high": 55.8547
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 36.3001,
+    "mid": 44.9301,
+    "high": 55.1695
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 35.2796,
+    "mid": 46.786,
+    "high": 58.4033
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 34.1498,
+    "mid": 45.4375,
+    "high": 57.7882
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 42.4275,
+    "mid": 53.0865,
+    "high": 65.1443
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 39.7011,
+    "mid": 51.3549,
+    "high": 64.3191
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 35.2491,
+    "mid": 45.9918,
+    "high": 59.1059
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 29.0658,
+    "mid": 38.8623,
+    "high": 50.3776
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 22.8064,
+    "mid": 30.4215,
+    "high": 39.6654
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 18.8907,
+    "mid": 24.668,
+    "high": 31.4457
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 8.2481,
+    "mid": 9.5995,
+    "high": 11.0105
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 6.96,
+    "mid": 8.6199,
+    "high": 10.2847
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 7.6542,
+    "mid": 9.4816,
+    "high": 11.2598
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 6.235,
+    "mid": 8.0877,
+    "high": 10.0089
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 6.8368,
+    "mid": 8.8096,
+    "high": 10.8797
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 6.3325,
+    "mid": 8.388,
+    "high": 10.5141
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 28.2978,
+    "mid": 31.4478,
+    "high": 34.4279
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 26.7046,
+    "mid": 30.8355,
+    "high": 34.7221
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 23.1585,
+    "mid": 28.2062,
+    "high": 32.5715
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 22.502,
+    "mid": 27.7023,
+    "high": 32.8403
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 22.94,
+    "mid": 28.4398,
+    "high": 33.2628
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 22.6397,
+    "mid": 28.5241,
+    "high": 34.1687
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 36.5533,
+    "mid": 41.3431,
+    "high": 45.7761
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 34.0532,
+    "mid": 40.4532,
+    "high": 46.0387
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 27.0946,
+    "mid": 34.2851,
+    "high": 40.7358
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 23.2609,
+    "mid": 31.1339,
+    "high": 39.6057
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 27.2903,
+    "mid": 36.9745,
+    "high": 46.7065
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 33.6687,
+    "mid": 45.1957,
+    "high": 55.7654
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 11.9196,
+    "mid": 13.9293,
+    "high": 16.2892
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 12.1444,
+    "mid": 14.6534,
+    "high": 17.4861
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 15.2347,
+    "mid": 19.649,
+    "high": 24.7103
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 22.6375,
+    "mid": 30.6389,
+    "high": 38.3127
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 36.405,
+    "mid": 48.5963,
+    "high": 61.8005
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 53.2615,
+    "mid": 69.8249,
+    "high": 88.4266
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 9.2658,
+    "mid": 10.9465,
+    "high": 12.4934
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 7.4293,
+    "mid": 9.1203,
+    "high": 10.818
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 6.7722,
+    "mid": 8.5368,
+    "high": 10.3287
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 9.0393,
+    "mid": 11.0023,
+    "high": 12.8682
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 11.7514,
+    "mid": 13.7291,
+    "high": 15.5619
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 11.3847,
+    "mid": 13.4501,
+    "high": 15.2962
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 11.1485,
+    "mid": 14.0339,
+    "high": 16.992
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 7.2971,
+    "mid": 10.1889,
+    "high": 12.8677
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 8.2643,
+    "mid": 11.2799,
+    "high": 14.4045
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 12.2494,
+    "mid": 15.9021,
+    "high": 19.5515
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 22.3228,
+    "mid": 26.696,
+    "high": 30.7499
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 21.6707,
+    "mid": 26.3121,
+    "high": 30.4964
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 84.9368,
+    "mid": 93.722,
+    "high": 101.9516
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 81.2027,
+    "mid": 91.1332,
+    "high": 100.6112
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 71.2564,
+    "mid": 81.4149,
+    "high": 90.6617
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 70.0584,
+    "mid": 80.8317,
+    "high": 91.0134
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 72.7549,
+    "mid": 83.8948,
+    "high": 94.4928
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 76.6135,
+    "mid": 89.8947,
+    "high": 101.8281
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 88.8479,
+    "mid": 97.4477,
+    "high": 105.0633
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 83.0275,
+    "mid": 91.5104,
+    "high": 100.2067
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 75.9502,
+    "mid": 84.5429,
+    "high": 92.7137
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 68.623,
+    "mid": 77.5572,
+    "high": 85.8674
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 61.3089,
+    "mid": 70.233,
+    "high": 79.1719
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 54.2368,
+    "mid": 63.0007,
+    "high": 72.0774
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 20.5457,
+    "mid": 24.1589,
+    "high": 28.6679
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 15.7728,
+    "mid": 19.0447,
+    "high": 23.0609
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 12.0173,
+    "mid": 14.2089,
+    "high": 16.9352
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 8.0464,
+    "mid": 9.8788,
+    "high": 11.6079
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 4.3649,
+    "mid": 5.8247,
+    "high": 7.2143
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 1.9174,
+    "mid": 2.7357,
+    "high": 3.4674
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 4.2969,
+    "mid": 5.6469,
+    "high": 7.3265
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 4.8139,
+    "mid": 6.4996,
+    "high": 8.3394
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 4.2709,
+    "mid": 5.9341,
+    "high": 7.8288
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 4.9089,
+    "mid": 6.7001,
+    "high": 8.6065
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 6.0015,
+    "mid": 7.9288,
+    "high": 9.8517
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 6.9555,
+    "mid": 8.8554,
+    "high": 10.8439
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 6,
+    "month": "2026-11",
+    "low": 46.7871,
+    "mid": 57.7713,
+    "high": 74.4123
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 6,
+    "month": "2026-12",
+    "low": 44.7263,
+    "mid": 56.1407,
+    "high": 75.3584
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 6,
+    "month": "2027-01",
+    "low": 45.4815,
+    "mid": 58.2173,
+    "high": 80.5607
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 6,
+    "month": "2027-02",
+    "low": 45.6872,
+    "mid": 58.926,
+    "high": 82.3031
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 6,
+    "month": "2027-03",
+    "low": 44.1752,
+    "mid": 56.3908,
+    "high": 79.068
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 6,
+    "month": "2027-04",
+    "low": 43.6269,
+    "mid": 55.495,
+    "high": 76.8036
+   }
+  ],
+  "calls": [
+   {
+    "item": "GB|leather jacket",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.0978,
+    "low_change": -0.0317,
+    "high_change": 0.2323,
+    "trend_score": 0.0948,
+    "momentum": 0.0938
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.0487,
+    "low_change": -0.1199,
+    "high_change": 0.2181,
+    "trend_score": -0.0234,
+    "momentum": -0.0474
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.0636,
+    "low_change": -0.0704,
+    "high_change": 0.2008,
+    "trend_score": -0.0047,
+    "momentum": -0.0274
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.0617,
+    "low_change": -0.1648,
+    "high_change": 0.2363,
+    "trend_score": -0.0163,
+    "momentum": -0.0423
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.018,
+    "low_change": -0.1836,
+    "high_change": 0.1586,
+    "trend_score": -0.0368,
+    "momentum": -0.043
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.034,
+    "low_change": -0.2009,
+    "high_change": 0.3182,
+    "trend_score": 0.277,
+    "momentum": 0.358
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.2777,
+    "low_change": 0.0699,
+    "high_change": 0.5286,
+    "trend_score": 0.4547,
+    "momentum": 0.5138
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.1848,
+    "low_change": -0.4951,
+    "high_change": 0.2341,
+    "trend_score": -0.0903,
+    "momentum": -0.0588
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.1265,
+    "low_change": -0.1711,
+    "high_change": 0.5209,
+    "trend_score": 0.3161,
+    "momentum": 0.3793
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.0197,
+    "low_change": -0.3512,
+    "high_change": 0.5155,
+    "trend_score": 0.1203,
+    "momentum": 0.1538
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.0879,
+    "low_change": -0.3417,
+    "high_change": 0.1518,
+    "trend_score": 0.0034,
+    "momentum": 0.0338
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.0039,
+    "low_change": -0.1275,
+    "high_change": 0.1057,
+    "trend_score": 0.0046,
+    "momentum": 0.0075
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.0072,
+    "low_change": -0.1566,
+    "high_change": 0.1363,
+    "trend_score": -0.026,
+    "momentum": -0.0323
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.1088,
+    "low_change": -0.0813,
+    "high_change": 0.2985,
+    "trend_score": 0.0954,
+    "momentum": 0.0909
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.0134,
+    "low_change": -0.2054,
+    "high_change": 0.216,
+    "trend_score": 0.0485,
+    "momentum": 0.0602
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.2392,
+    "low_change": -0.1465,
+    "high_change": 0.622,
+    "trend_score": 0.0598,
+    "momentum": 0.0
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.6567,
+    "low_change": -0.0179,
+    "high_change": 1.9994,
+    "trend_score": 0.4642,
+    "momentum": 0.4
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.1775,
+    "low_change": -0.0282,
+    "high_change": 0.3692,
+    "trend_score": 0.2833,
+    "momentum": 0.3186
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.1046,
+    "low_change": -0.1682,
+    "high_change": 0.3471,
+    "trend_score": 0.156,
+    "momentum": 0.1731
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.004,
+    "low_change": -0.1278,
+    "high_change": 0.1326,
+    "trend_score": 0.0253,
+    "momentum": 0.0351
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.0986,
+    "low_change": -0.0665,
+    "high_change": 0.3101,
+    "trend_score": 0.0247,
+    "momentum": 0.0
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.0296,
+    "low_change": -0.1372,
+    "high_change": 0.1526,
+    "trend_score": 0.0033,
+    "momentum": 0.0143
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.0684,
+    "low_change": -0.2695,
+    "high_change": 0.1935,
+    "trend_score": -0.0171,
+    "momentum": 0.0
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.0424,
+    "low_change": -0.1461,
+    "high_change": 0.2353,
+    "trend_score": 0.0642,
+    "momentum": 0.0714
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.1248,
+    "low_change": -0.086,
+    "high_change": 0.3287,
+    "trend_score": 0.2187,
+    "momentum": 0.25
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.0495,
+    "low_change": -0.1459,
+    "high_change": 0.0534,
+    "trend_score": -0.0432,
+    "momentum": -0.0411
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.0081,
+    "low_change": -0.1906,
+    "high_change": 0.2318,
+    "trend_score": 0.1687,
+    "momentum": 0.2222
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "fading",
+    "change": -0.1987,
+    "low_change": -0.4108,
+    "high_change": 0.0109,
+    "trend_score": -0.1886,
+    "momentum": -0.1852
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "fading",
+    "change": -0.2168,
+    "low_change": -0.3354,
+    "high_change": -0.0823,
+    "trend_score": -0.1497,
+    "momentum": -0.1273
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.0669,
+    "low_change": -0.1675,
+    "high_change": 0.3374,
+    "trend_score": -0.0297,
+    "momentum": -0.0619
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "fading",
+    "change": -0.1606,
+    "low_change": -0.3072,
+    "high_change": -0.0135,
+    "trend_score": -0.1725,
+    "momentum": -0.1765
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.1752,
+    "low_change": 0.0151,
+    "high_change": 0.3211,
+    "trend_score": 0.3635,
+    "momentum": 0.4262
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.065,
+    "low_change": -0.1037,
+    "high_change": 0.2161,
+    "trend_score": 0.2593,
+    "momentum": 0.3241
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.0048,
+    "low_change": -0.1813,
+    "high_change": 0.2184,
+    "trend_score": 0.1634,
+    "momentum": 0.2162
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.0465,
+    "low_change": -0.2178,
+    "high_change": 0.1213,
+    "trend_score": -0.0314,
+    "momentum": -0.0263
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": -0.0405,
+    "low_change": -0.2781,
+    "high_change": 0.1963,
+    "trend_score": 0.1335,
+    "momentum": 0.1915
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": 0.0651,
+    "low_change": -0.0504,
+    "high_change": 0.1729,
+    "trend_score": 0.1816,
+    "momentum": 0.2204
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.0126,
+    "low_change": -0.1053,
+    "high_change": 0.0758,
+    "trend_score": 0.0058,
+    "momentum": 0.012
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": -0.0588,
+    "low_change": -0.2076,
+    "high_change": 0.1256,
+    "trend_score": -0.0147,
+    "momentum": 0.0
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "rising",
+    "change": -0.0484,
+    "low_change": -0.2957,
+    "high_change": 0.2366,
+    "trend_score": 0.1033,
+    "momentum": 0.1538
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 3,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.25",
+    "call": "stable",
+    "change": 0.1105,
+    "low_change": -0.1162,
+    "high_change": 0.486,
+    "trend_score": 0.0606,
+    "momentum": 0.044
+   },
+   {
+    "item": "GB|leather jacket",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.0329,
+    "low_change": -0.1132,
+    "high_change": 0.182,
+    "trend_score": 0.0633,
+    "momentum": 0.0938
+   },
+   {
+    "item": "GB|trench coat",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.0542,
+    "low_change": -0.1337,
+    "high_change": 0.2399,
+    "trend_score": 0.0034,
+    "momentum": -0.0474
+   },
+   {
+    "item": "GB|bomber jacket",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.0255,
+    "low_change": -0.1246,
+    "high_change": 0.1731,
+    "trend_score": -0.0009,
+    "momentum": -0.0274
+   },
+   {
+    "item": "GB|suede jacket",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.004,
+    "low_change": -0.2444,
+    "high_change": 0.1956,
+    "trend_score": -0.0191,
+    "momentum": -0.0423
+   },
+   {
+    "item": "GB|wool coat",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0018,
+    "low_change": -0.1936,
+    "high_change": 0.2006,
+    "trend_score": -0.0224,
+    "momentum": -0.043
+   },
+   {
+    "item": "GB|satin dress",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": -0.0611,
+    "low_change": -0.2938,
+    "high_change": 0.2111,
+    "trend_score": 0.1485,
+    "momentum": 0.358
+   },
+   {
+    "item": "GB|lace dress",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": -0.0169,
+    "low_change": -0.2033,
+    "high_change": 0.2185,
+    "trend_score": 0.2484,
+    "momentum": 0.5138
+   },
+   {
+    "item": "GB|bodycon dress",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "fading",
+    "change": -0.3089,
+    "low_change": -0.6078,
+    "high_change": 0.082,
+    "trend_score": -0.1838,
+    "momentum": -0.0588
+   },
+   {
+    "item": "GB|slip dress",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": -0.0521,
+    "low_change": -0.2992,
+    "high_change": 0.2596,
+    "trend_score": 0.1636,
+    "momentum": 0.3793
+   },
+   {
+    "item": "GB|boho dress",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.2512,
+    "low_change": -0.4591,
+    "high_change": 0.0225,
+    "trend_score": -0.0487,
+    "momentum": 0.1538
+   },
+   {
+    "item": "GB|blazer",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.1198,
+    "low_change": -0.389,
+    "high_change": 0.1349,
+    "trend_score": -0.043,
+    "momentum": 0.0338
+   },
+   {
+    "item": "GB|cardigan",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0372,
+    "low_change": -0.1785,
+    "high_change": 0.093,
+    "trend_score": -0.0149,
+    "momentum": 0.0075
+   },
+   {
+    "item": "GB|wide leg jeans",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0165,
+    "low_change": -0.1811,
+    "high_change": 0.1466,
+    "trend_score": -0.0244,
+    "momentum": -0.0323
+   },
+   {
+    "item": "GB|tweed jacket",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.0606,
+    "low_change": -0.1509,
+    "high_change": 0.2744,
+    "trend_score": 0.0758,
+    "momentum": 0.0909
+   },
+   {
+    "item": "GB|burgundy dress",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0417,
+    "low_change": -0.2915,
+    "high_change": 0.2185,
+    "trend_score": 0.0093,
+    "momentum": 0.0602
+   },
+   {
+    "item": "GB|leopard print dress",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.1383,
+    "low_change": -0.2577,
+    "high_change": 0.543,
+    "trend_score": 0.0692,
+    "momentum": 0.0
+   },
+   {
+    "item": "GB|polka dot dress",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": 0.034,
+    "low_change": -0.4023,
+    "high_change": 0.8394,
+    "trend_score": 0.217,
+    "momentum": 0.4
+   },
+   {
+    "item": "GB|brown dress",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": 0.0967,
+    "low_change": -0.1467,
+    "high_change": 0.3225,
+    "trend_score": 0.2077,
+    "momentum": 0.3186
+   },
+   {
+    "item": "GB|yellow dress",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0479,
+    "low_change": -0.3066,
+    "high_change": 0.2233,
+    "trend_score": 0.0626,
+    "momentum": 0.1731
+   },
+   {
+    "item": "FR|veste en cuir",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.0166,
+    "low_change": -0.1231,
+    "high_change": 0.1718,
+    "trend_score": 0.0259,
+    "momentum": 0.0351
+   },
+   {
+    "item": "FR|trench",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.06,
+    "low_change": -0.1079,
+    "high_change": 0.269,
+    "trend_score": 0.03,
+    "momentum": 0.0
+   },
+   {
+    "item": "FR|bomber",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.059,
+    "low_change": -0.178,
+    "high_change": 0.1345,
+    "trend_score": -0.0224,
+    "momentum": 0.0143
+   },
+   {
+    "item": "FR|manteau en laine",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0392,
+    "low_change": -0.2529,
+    "high_change": 0.2198,
+    "trend_score": -0.0196,
+    "momentum": 0.0
+   },
+   {
+    "item": "FR|robe en satin",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.0354,
+    "low_change": -0.1334,
+    "high_change": 0.2096,
+    "trend_score": 0.0534,
+    "momentum": 0.0714
+   },
+   {
+    "item": "FR|robe en dentelle",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": 0.1068,
+    "low_change": -0.1205,
+    "high_change": 0.3342,
+    "trend_score": 0.1784,
+    "momentum": 0.25
+   },
+   {
+    "item": "FR|robe moulante",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0428,
+    "low_change": -0.1484,
+    "high_change": 0.0715,
+    "trend_score": -0.042,
+    "momentum": -0.0411
+   },
+   {
+    "item": "FR|robe nuisette",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": 0.0663,
+    "low_change": -0.1445,
+    "high_change": 0.3036,
+    "trend_score": 0.1443,
+    "momentum": 0.2222
+   },
+   {
+    "item": "FR|robe bohème",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "fading",
+    "change": -0.12,
+    "low_change": -0.3225,
+    "high_change": 0.095,
+    "trend_score": -0.1526,
+    "momentum": -0.1852
+   },
+   {
+    "item": "FR|blazer",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "fading",
+    "change": -0.2438,
+    "low_change": -0.3868,
+    "high_change": -0.0854,
+    "trend_score": -0.1855,
+    "momentum": -0.1273
+   },
+   {
+    "item": "FR|cardigan",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0416,
+    "low_change": -0.2622,
+    "high_change": 0.2159,
+    "trend_score": -0.0518,
+    "momentum": -0.0619
+   },
+   {
+    "item": "FR|jean large",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "fading",
+    "change": -0.1589,
+    "low_change": -0.3291,
+    "high_change": 0.0152,
+    "trend_score": -0.1677,
+    "momentum": -0.1765
+   },
+   {
+    "item": "FR|robe bordeaux",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": 0.16,
+    "low_change": -0.0315,
+    "high_change": 0.3377,
+    "trend_score": 0.2931,
+    "momentum": 0.4262
+   },
+   {
+    "item": "FR|robe marron",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": 0.0379,
+    "low_change": -0.1768,
+    "high_change": 0.2427,
+    "trend_score": 0.181,
+    "momentum": 0.3241
+   },
+   {
+    "item": "FR|robe jaune",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": 0.017,
+    "low_change": -0.2185,
+    "high_change": 0.2733,
+    "trend_score": 0.1166,
+    "momentum": 0.2162
+   },
+   {
+    "item": "DK|læderjakke",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0321,
+    "low_change": -0.1936,
+    "high_change": 0.1213,
+    "trend_score": -0.0292,
+    "momentum": -0.0263
+   },
+   {
+    "item": "DK|trenchcoat",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0242,
+    "low_change": -0.2247,
+    "high_change": 0.1688,
+    "trend_score": 0.0837,
+    "momentum": 0.1915
+   },
+   {
+    "item": "DK|blazer",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "rising",
+    "change": 0.0418,
+    "low_change": -0.0864,
+    "high_change": 0.1611,
+    "trend_score": 0.1311,
+    "momentum": 0.2204
+   },
+   {
+    "item": "DK|cardigan",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.0006,
+    "low_change": -0.1074,
+    "high_change": 0.1056,
+    "trend_score": 0.0063,
+    "momentum": 0.012
+   },
+   {
+    "item": "DK|uldfrakke",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": -0.0275,
+    "low_change": -0.1966,
+    "high_change": 0.1661,
+    "trend_score": -0.0138,
+    "momentum": 0.0
+   },
+   {
+    "item": "DK|satin kjole",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.0391,
+    "low_change": -0.2188,
+    "high_change": 0.3199,
+    "trend_score": 0.0965,
+    "momentum": 0.1538
+   },
+   {
+    "item": "DK|leopard",
+    "horizon": 6,
+    "forecaster": "chronos-2 long memory + cross-learning",
+    "rule": "trend score 0.5",
+    "call": "stable",
+    "change": 0.0784,
+    "low_change": -0.1494,
+    "high_change": 0.4733,
+    "trend_score": 0.0612,
+    "momentum": 0.044
+   }
+  ]
+ }
+}

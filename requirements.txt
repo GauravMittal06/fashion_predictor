@@ -1,0 +1,11 @@
+# Python 3.13. To run the app locally, the first four are enough.
+streamlit==1.51.0
+pandas==3.0.5
+numpy==2.2.6
+plotly==7.1.0
+# To rebuild the forecasts (scripts/), also:
+# PyTorch with NVIDIA GPU support (CUDA 11.8) - install first:
+#   pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu118
+chronos-forecasting==2.3.2
+statsmodels==0.15.0
+matplotlib==3.10.0
