@@ -3,6 +3,7 @@ Pyodide), so no server is needed. Re-run after scripts/build_forecasts.py so the
 
     python scripts/build_site.py
 """
+import hashlib
 import json
 from pathlib import Path
 
@@ -16,8 +17,14 @@ DESCRIPTION = ('Where interest in outfit items is heading over the next 3 and 6 
 files = ['app.py'] + sorted(str(p.relative_to(ROOT)).replace('\\', '/') for p in
                             (ROOT / 'outputs' / 'forecast').glob('*')
                             if p.name not in ('improve_preds.npz', 'improve_results.csv'))
+
+def version(f):
+    """Short content hash: the URL changes whenever the file does, so browsers never mix old and new files."""
+    return hashlib.sha1((ROOT / f).read_bytes()).hexdigest()[:10]
+
+
 mount = {'requirements': ['plotly'], 'entrypoint': 'app.py',
-         'files': {f: {'url': f'./{f}'} for f in files},
+         'files': {f: {'url': f'./{f}?v={version(f)}'} for f in files},
          'streamlitConfig': {'client.toolbarMode': 'viewer', 'theme.base': 'light', 'theme.primaryColor': '#1d4ed8',
                              'theme.font': 'sans serif'}}
 
