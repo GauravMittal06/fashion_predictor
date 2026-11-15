@@ -11,12 +11,14 @@ ROOT = Path(__file__).resolve().parent.parent
 STLITE = '1.12.0'
 SITE_URL = 'https://gauravmittal06.github.io/fashion_predictor/'
 TITLE = 'Fashion Trend Forecast'
-DESCRIPTION = ('Where interest in outfit items is heading over the next 3 and 6 months in England, France and Denmark, '
-               'validated on a held-out year.')
+DESCRIPTION = ('Where interest in garments, fabrics, colours and styles is heading over the next 3 and 6 months in '
+               'England, France and Denmark, validated on a held-out year.')
 
 files = ['app.py'] + sorted(str(p.relative_to(ROOT)).replace('\\', '/') for p in
                             (ROOT / 'outputs' / 'forecast').glob('*')
                             if p.name not in ('improve_preds.npz', 'improve_results.csv'))
+files += sorted(str(p.relative_to(ROOT)).replace('\\', '/') for p in (ROOT / 'data' / 'insights').glob('*.csv'))
+files += ['data/google_trends/not_forecast.csv']
 
 def version(f):
     """Short content hash: the URL changes whenever the file does, so browsers never mix old and new files."""

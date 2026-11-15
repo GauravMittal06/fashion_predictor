@@ -8,23 +8,15 @@
   "3": "chronos-2 long memory + cross-learning",
   "6": "chronos-2 long memory + cross-learning"
  },
- "kept": 41,
- "dropped_sparse": [
-  "GB|cashmere jumper",
-  "FR|veste en daim",
-  "FR|pull en cachemire",
-  "FR|veste en tweed",
-  "FR|robe l\u00e9opard",
-  "FR|robe \u00e0 pois",
-  "DK|bomberjakke",
-  "DK|ruskindsjakke"
- ],
+ "kept": 168,
+ "dropped_sparse": [],
+ "uk_feb_2026_fixed": true,
  "future": [
   "2026-11",
   "2027-04"
  ],
  "rule": {
-  "3": "trend score 0.25",
+  "3": "trend score 0.75",
   "6": "trend score 0.5"
  }
 }

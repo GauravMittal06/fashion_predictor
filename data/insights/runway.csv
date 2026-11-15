@@ -1,0 +1,241 @@
+attribute,type,brand,year,looks,total_looks,share
+Tweed,Fabrics,Chanel,2016,1,9,0.1111
+Tweed,Fabrics,Chanel,2017,3,8,0.375
+Tweed,Fabrics,Chanel,2018,2,8,0.25
+Tweed,Fabrics,Chanel,2019,4,8,0.5
+Tweed,Fabrics,Chanel,2020,1,8,0.125
+Tweed,Fabrics,Chanel,2021,2,8,0.25
+Tweed,Fabrics,Chanel,2022,2,8,0.25
+Tweed,Fabrics,Chanel,2023,1,3,0.3333
+Tweed,Fabrics,Chanel,2024,2,4,0.5
+Tweed,Fabrics,Chanel,2025,1,4,0.25
+Tweed,Fabrics,Dior,2016,0,5,0.0
+Tweed,Fabrics,Dior,2017,0,5,0.0
+Tweed,Fabrics,Dior,2018,0,5,0.0
+Tweed,Fabrics,Dior,2019,0,5,0.0
+Tweed,Fabrics,Dior,2020,0,5,0.0
+Tweed,Fabrics,Dior,2021,0,5,0.0
+Tweed,Fabrics,Dior,2022,0,5,0.0
+Tweed,Fabrics,Dior,2023,0,5,0.0
+Tweed,Fabrics,Dior,2024,0,5,0.0
+Tweed,Fabrics,Dior,2025,0,5,0.0
+Lace,Fabrics,Chanel,2016,6,9,0.6667
+Lace,Fabrics,Chanel,2017,5,8,0.625
+Lace,Fabrics,Chanel,2018,6,8,0.75
+Lace,Fabrics,Chanel,2019,5,8,0.625
+Lace,Fabrics,Chanel,2020,5,8,0.625
+Lace,Fabrics,Chanel,2021,5,8,0.625
+Lace,Fabrics,Chanel,2022,5,8,0.625
+Lace,Fabrics,Chanel,2023,2,3,0.6667
+Lace,Fabrics,Chanel,2024,3,4,0.75
+Lace,Fabrics,Chanel,2025,4,4,1.0
+Lace,Fabrics,Dior,2016,5,5,1.0
+Lace,Fabrics,Dior,2017,5,5,1.0
+Lace,Fabrics,Dior,2018,5,5,1.0
+Lace,Fabrics,Dior,2019,5,5,1.0
+Lace,Fabrics,Dior,2020,5,5,1.0
+Lace,Fabrics,Dior,2021,5,5,1.0
+Lace,Fabrics,Dior,2022,5,5,1.0
+Lace,Fabrics,Dior,2023,5,5,1.0
+Lace,Fabrics,Dior,2024,5,5,1.0
+Lace,Fabrics,Dior,2025,5,5,1.0
+Floral details,Runway details,Chanel,2016,3,9,0.3333
+Floral details,Runway details,Chanel,2017,2,8,0.25
+Floral details,Runway details,Chanel,2018,2,8,0.25
+Floral details,Runway details,Chanel,2019,1,8,0.125
+Floral details,Runway details,Chanel,2020,1,8,0.125
+Floral details,Runway details,Chanel,2021,1,8,0.125
+Floral details,Runway details,Chanel,2022,0,8,0.0
+Floral details,Runway details,Chanel,2023,3,3,1.0
+Floral details,Runway details,Chanel,2024,1,4,0.25
+Floral details,Runway details,Chanel,2025,1,4,0.25
+Floral details,Runway details,Dior,2016,1,5,0.2
+Floral details,Runway details,Dior,2017,3,5,0.6
+Floral details,Runway details,Dior,2018,1,5,0.2
+Floral details,Runway details,Dior,2019,3,5,0.6
+Floral details,Runway details,Dior,2020,3,5,0.6
+Floral details,Runway details,Dior,2021,4,5,0.8
+Floral details,Runway details,Dior,2022,3,5,0.6
+Floral details,Runway details,Dior,2023,2,5,0.4
+Floral details,Runway details,Dior,2024,4,5,0.8
+Floral details,Runway details,Dior,2025,2,5,0.4
+Embroidery,Runway details,Chanel,2016,1,9,0.1111
+Embroidery,Runway details,Chanel,2017,2,8,0.25
+Embroidery,Runway details,Chanel,2018,4,8,0.5
+Embroidery,Runway details,Chanel,2019,3,8,0.375
+Embroidery,Runway details,Chanel,2020,1,8,0.125
+Embroidery,Runway details,Chanel,2021,1,8,0.125
+Embroidery,Runway details,Chanel,2022,0,8,0.0
+Embroidery,Runway details,Chanel,2023,2,3,0.6667
+Embroidery,Runway details,Chanel,2024,3,4,0.75
+Embroidery,Runway details,Chanel,2025,3,4,0.75
+Embroidery,Runway details,Dior,2016,5,5,1.0
+Embroidery,Runway details,Dior,2017,5,5,1.0
+Embroidery,Runway details,Dior,2018,5,5,1.0
+Embroidery,Runway details,Dior,2019,5,5,1.0
+Embroidery,Runway details,Dior,2020,5,5,1.0
+Embroidery,Runway details,Dior,2021,5,5,1.0
+Embroidery,Runway details,Dior,2022,5,5,1.0
+Embroidery,Runway details,Dior,2023,5,5,1.0
+Embroidery,Runway details,Dior,2024,5,5,1.0
+Embroidery,Runway details,Dior,2025,5,5,1.0
+Sequins & beads,Runway details,Chanel,2016,0,9,0.0
+Sequins & beads,Runway details,Chanel,2017,0,8,0.0
+Sequins & beads,Runway details,Chanel,2018,0,8,0.0
+Sequins & beads,Runway details,Chanel,2019,1,8,0.125
+Sequins & beads,Runway details,Chanel,2020,1,8,0.125
+Sequins & beads,Runway details,Chanel,2021,2,8,0.25
+Sequins & beads,Runway details,Chanel,2022,1,8,0.125
+Sequins & beads,Runway details,Chanel,2023,2,3,0.6667
+Sequins & beads,Runway details,Chanel,2024,1,4,0.25
+Sequins & beads,Runway details,Chanel,2025,0,4,0.0
+Sequins & beads,Runway details,Dior,2016,1,5,0.2
+Sequins & beads,Runway details,Dior,2017,2,5,0.4
+Sequins & beads,Runway details,Dior,2018,3,5,0.6
+Sequins & beads,Runway details,Dior,2019,1,5,0.2
+Sequins & beads,Runway details,Dior,2020,0,5,0.0
+Sequins & beads,Runway details,Dior,2021,0,5,0.0
+Sequins & beads,Runway details,Dior,2022,0,5,0.0
+Sequins & beads,Runway details,Dior,2023,1,5,0.2
+Sequins & beads,Runway details,Dior,2024,1,5,0.2
+Sequins & beads,Runway details,Dior,2025,1,5,0.2
+Pearls & crystals,Runway details,Chanel,2016,2,9,0.2222
+Pearls & crystals,Runway details,Chanel,2017,2,8,0.25
+Pearls & crystals,Runway details,Chanel,2018,3,8,0.375
+Pearls & crystals,Runway details,Chanel,2019,3,8,0.375
+Pearls & crystals,Runway details,Chanel,2020,1,8,0.125
+Pearls & crystals,Runway details,Chanel,2021,1,8,0.125
+Pearls & crystals,Runway details,Chanel,2022,1,8,0.125
+Pearls & crystals,Runway details,Chanel,2023,1,3,0.3333
+Pearls & crystals,Runway details,Chanel,2024,1,4,0.25
+Pearls & crystals,Runway details,Chanel,2025,2,4,0.5
+Pearls & crystals,Runway details,Dior,2016,1,5,0.2
+Pearls & crystals,Runway details,Dior,2017,0,5,0.0
+Pearls & crystals,Runway details,Dior,2018,0,5,0.0
+Pearls & crystals,Runway details,Dior,2019,0,5,0.0
+Pearls & crystals,Runway details,Dior,2020,0,5,0.0
+Pearls & crystals,Runway details,Dior,2021,0,5,0.0
+Pearls & crystals,Runway details,Dior,2022,0,5,0.0
+Pearls & crystals,Runway details,Dior,2023,1,5,0.2
+Pearls & crystals,Runway details,Dior,2024,0,5,0.0
+Pearls & crystals,Runway details,Dior,2025,1,5,0.2
+Gold hardware,Runway details,Chanel,2016,7,9,0.7778
+Gold hardware,Runway details,Chanel,2017,5,8,0.625
+Gold hardware,Runway details,Chanel,2018,5,8,0.625
+Gold hardware,Runway details,Chanel,2019,3,8,0.375
+Gold hardware,Runway details,Chanel,2020,3,8,0.375
+Gold hardware,Runway details,Chanel,2021,3,8,0.375
+Gold hardware,Runway details,Chanel,2022,3,8,0.375
+Gold hardware,Runway details,Chanel,2023,2,3,0.6667
+Gold hardware,Runway details,Chanel,2024,3,4,0.75
+Gold hardware,Runway details,Chanel,2025,3,4,0.75
+Gold hardware,Runway details,Dior,2016,5,5,1.0
+Gold hardware,Runway details,Dior,2017,2,5,0.4
+Gold hardware,Runway details,Dior,2018,3,5,0.6
+Gold hardware,Runway details,Dior,2019,2,5,0.4
+Gold hardware,Runway details,Dior,2020,3,5,0.6
+Gold hardware,Runway details,Dior,2021,4,5,0.8
+Gold hardware,Runway details,Dior,2022,2,5,0.4
+Gold hardware,Runway details,Dior,2023,2,5,0.4
+Gold hardware,Runway details,Dior,2024,4,5,0.8
+Gold hardware,Runway details,Dior,2025,2,5,0.4
+Studs & rivets,Runway details,Chanel,2016,4,9,0.4444
+Studs & rivets,Runway details,Chanel,2017,5,8,0.625
+Studs & rivets,Runway details,Chanel,2018,5,8,0.625
+Studs & rivets,Runway details,Chanel,2019,5,8,0.625
+Studs & rivets,Runway details,Chanel,2020,5,8,0.625
+Studs & rivets,Runway details,Chanel,2021,5,8,0.625
+Studs & rivets,Runway details,Chanel,2022,5,8,0.625
+Studs & rivets,Runway details,Chanel,2023,2,3,0.6667
+Studs & rivets,Runway details,Chanel,2024,2,4,0.5
+Studs & rivets,Runway details,Chanel,2025,2,4,0.5
+Studs & rivets,Runway details,Dior,2016,0,5,0.0
+Studs & rivets,Runway details,Dior,2017,0,5,0.0
+Studs & rivets,Runway details,Dior,2018,0,5,0.0
+Studs & rivets,Runway details,Dior,2019,0,5,0.0
+Studs & rivets,Runway details,Dior,2020,0,5,0.0
+Studs & rivets,Runway details,Dior,2021,0,5,0.0
+Studs & rivets,Runway details,Dior,2022,0,5,0.0
+Studs & rivets,Runway details,Dior,2023,0,5,0.0
+Studs & rivets,Runway details,Dior,2024,0,5,0.0
+Studs & rivets,Runway details,Dior,2025,0,5,0.0
+Exposed zips,Runway details,Chanel,2016,2,9,0.2222
+Exposed zips,Runway details,Chanel,2017,2,8,0.25
+Exposed zips,Runway details,Chanel,2018,0,8,0.0
+Exposed zips,Runway details,Chanel,2019,0,8,0.0
+Exposed zips,Runway details,Chanel,2020,0,8,0.0
+Exposed zips,Runway details,Chanel,2021,0,8,0.0
+Exposed zips,Runway details,Chanel,2022,0,8,0.0
+Exposed zips,Runway details,Chanel,2023,1,3,0.3333
+Exposed zips,Runway details,Chanel,2024,1,4,0.25
+Exposed zips,Runway details,Chanel,2025,1,4,0.25
+Exposed zips,Runway details,Dior,2016,2,5,0.4
+Exposed zips,Runway details,Dior,2017,2,5,0.4
+Exposed zips,Runway details,Dior,2018,2,5,0.4
+Exposed zips,Runway details,Dior,2019,2,5,0.4
+Exposed zips,Runway details,Dior,2020,1,5,0.2
+Exposed zips,Runway details,Dior,2021,2,5,0.4
+Exposed zips,Runway details,Dior,2022,1,5,0.2
+Exposed zips,Runway details,Dior,2023,2,5,0.4
+Exposed zips,Runway details,Dior,2024,1,5,0.2
+Exposed zips,Runway details,Dior,2025,1,5,0.2
+Feathers,Runway details,Chanel,2016,0,9,0.0
+Feathers,Runway details,Chanel,2017,0,8,0.0
+Feathers,Runway details,Chanel,2018,1,8,0.125
+Feathers,Runway details,Chanel,2019,1,8,0.125
+Feathers,Runway details,Chanel,2020,1,8,0.125
+Feathers,Runway details,Chanel,2021,0,8,0.0
+Feathers,Runway details,Chanel,2022,0,8,0.0
+Feathers,Runway details,Chanel,2023,0,3,0.0
+Feathers,Runway details,Chanel,2024,0,4,0.0
+Feathers,Runway details,Chanel,2025,1,4,0.25
+Feathers,Runway details,Dior,2016,0,5,0.0
+Feathers,Runway details,Dior,2017,0,5,0.0
+Feathers,Runway details,Dior,2018,0,5,0.0
+Feathers,Runway details,Dior,2019,0,5,0.0
+Feathers,Runway details,Dior,2020,0,5,0.0
+Feathers,Runway details,Dior,2021,0,5,0.0
+Feathers,Runway details,Dior,2022,0,5,0.0
+Feathers,Runway details,Dior,2023,0,5,0.0
+Feathers,Runway details,Dior,2024,0,5,0.0
+Feathers,Runway details,Dior,2025,0,5,0.0
+Geometric motifs,Runway details,Chanel,2016,1,9,0.1111
+Geometric motifs,Runway details,Chanel,2017,0,8,0.0
+Geometric motifs,Runway details,Chanel,2018,1,8,0.125
+Geometric motifs,Runway details,Chanel,2019,0,8,0.0
+Geometric motifs,Runway details,Chanel,2020,0,8,0.0
+Geometric motifs,Runway details,Chanel,2021,0,8,0.0
+Geometric motifs,Runway details,Chanel,2022,0,8,0.0
+Geometric motifs,Runway details,Chanel,2023,0,3,0.0
+Geometric motifs,Runway details,Chanel,2024,1,4,0.25
+Geometric motifs,Runway details,Chanel,2025,0,4,0.0
+Geometric motifs,Runway details,Dior,2016,0,5,0.0
+Geometric motifs,Runway details,Dior,2017,0,5,0.0
+Geometric motifs,Runway details,Dior,2018,1,5,0.2
+Geometric motifs,Runway details,Dior,2019,1,5,0.2
+Geometric motifs,Runway details,Dior,2020,1,5,0.2
+Geometric motifs,Runway details,Dior,2021,1,5,0.2
+Geometric motifs,Runway details,Dior,2022,1,5,0.2
+Geometric motifs,Runway details,Dior,2023,1,5,0.2
+Geometric motifs,Runway details,Dior,2024,0,5,0.0
+Geometric motifs,Runway details,Dior,2025,1,5,0.2
+Animal motifs,Runway details,Chanel,2016,0,9,0.0
+Animal motifs,Runway details,Chanel,2017,0,8,0.0
+Animal motifs,Runway details,Chanel,2018,0,8,0.0
+Animal motifs,Runway details,Chanel,2019,0,8,0.0
+Animal motifs,Runway details,Chanel,2020,0,8,0.0
+Animal motifs,Runway details,Chanel,2021,0,8,0.0
+Animal motifs,Runway details,Chanel,2022,1,8,0.125
+Animal motifs,Runway details,Chanel,2023,0,3,0.0
+Animal motifs,Runway details,Chanel,2024,0,4,0.0
+Animal motifs,Runway details,Chanel,2025,0,4,0.0
+Animal motifs,Runway details,Dior,2016,1,5,0.2
+Animal motifs,Runway details,Dior,2017,2,5,0.4
+Animal motifs,Runway details,Dior,2018,2,5,0.4
+Animal motifs,Runway details,Dior,2019,2,5,0.4
+Animal motifs,Runway details,Dior,2020,1,5,0.2
+Animal motifs,Runway details,Dior,2021,0,5,0.0
+Animal motifs,Runway details,Dior,2022,0,5,0.0
+Animal motifs,Runway details,Dior,2023,1,5,0.2
+Animal motifs,Runway details,Dior,2024,1,5,0.2
+Animal motifs,Runway details,Dior,2025,2,5,0.4

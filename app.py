@@ -1,6 +1,8 @@
-"""Fashion Trend Forecast: search-interest forecasts for outfit items, 3 and 6 months ahead, with model validation.
+"""Fashion Trend Forecast: search-interest forecasts for outfit attributes, 3 and 6 months ahead, with model
+validation and the team's Instagram and Paris Fashion Week research.
 
-Reads outputs/forecast/ (made by scripts/build_forecasts.py).
+Reads outputs/forecast/ (made by scripts/build_forecasts.py), data/insights/ (totals from the team's workbook) and
+data/google_trends/not_forecast.csv.
 
     streamlit run app.py
 """
@@ -12,9 +14,14 @@ import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
 FC = ROOT / 'outputs' / 'forecast'
+INS = ROOT / 'data' / 'insights'
+NOT_FC = ROOT / 'data' / 'google_trends' / 'not_forecast.csv'
+TYPES = ['Garments', 'Fabrics', 'Colours', 'Styles', 'Runway details']
+COUNTRIES = {'England': 'GB', 'France': 'FR', 'Denmark': 'DK'}
 WORD = {'rising': 'Rising', 'stable': 'Steady', 'fading': 'Fading'}
 ICON = {'rising': '▲', 'stable': '●', 'fading': '▼'}
 COLOURS = ['#2563eb', '#dc2626', '#16a34a', '#9333ea', '#ea580c', '#0891b2']
+BRAND_COLOUR = {'Chanel': '#111827', 'Dior': '#2563eb'}
 
 st.set_page_config(page_title='Fashion Trend Forecast', layout='wide')
 
@@ -29,15 +36,22 @@ def load(stamp):
     test = pd.read_csv(FC / 'test_summary.csv')
     # per item, hidden test year, scored with the SAME rule the app uses for its labels
     tt = pd.read_csv(FC / 'track_record.csv').query('period == "test year"')
-    tt = tt.assign(miss=(tt.predicted_change - tt.actual_change).abs(),
-                   steady_but_rose=(tt.call == 'stable') & (tt.actual_direction == 'rising'))
+    tt = tt.assign(miss=(tt.predicted_change - tt.actual_change).abs())
     by_item = {h: tt[tt.horizon == h].groupby('item').agg(right=('right', 'sum'), checks=('right', 'size'),
-                                                           miss=('miss', 'median'),
-                                                           steady_but_rose=('steady_but_rose', 'sum'))
+                                                           miss=('miss', 'median'))
                for h in (3, 6)}
     meta = json.loads((FC / 'meta.json').read_text())
     meta['validation'] = json.loads((FC / 'validation.json').read_text())
     return items, hist, fc, calls, test, by_item, meta
+
+
+@st.cache_data
+def load_research(stamp):
+    posts = pd.read_csv(INS / 'post_counts.csv', dtype={'year': str})
+    runway = pd.read_csv(INS / 'runway.csv')
+    direction = pd.read_csv(INS / 'runway_direction.csv')
+    not_fc = pd.read_csv(NOT_FC)
+    return posts, runway, direction, not_fc
 
 
 @st.cache_data
@@ -55,27 +69,72 @@ if not (FC / 'meta.json').exists():
     st.stop()
 STAMP = (FC / 'meta.json').stat().st_mtime          # reload when the forecasts are rebuilt
 items, hist, fc, calls, test, by_item, meta = load(STAMP)
+posts, runway, direction, not_fc = load_research(STAMP)
+ALL_POSTS = posts[(posts.season == 'all') & (posts.year == 'all')].set_index(['attribute', 'country'])
 
 
 def rule_weight(h):
     """Share of the forecast in the trend score (the rest is recent momentum)."""
     r = meta['rule'][str(h)]
     return 1.0 if r in ('middle', 'range agrees') else float(r.split()[-1])
+
+
+def post_line(attribute, cc, country):
+    """'In the team's Instagram posts: ...' for one attribute and country, or '' when not matched on posts."""
+    if (attribute, cc) not in ALL_POSTS.index:
+        return ''
+    r = ALL_POSTS.loc[(attribute, cc)]
+    if r.posts == 0:
+        return f'Not recorded in the team\'s {country} Instagram posts.'
+    return (f'In the team\'s Instagram posts: **{int(r.posts)} of {int(r.total_posts)}** {country} posts '
+            f'({r.posts / r.total_posts:.0%}).')
+
+
+def runway_line(attribute):
+    d = direction[direction.attribute == attribute]
+    if d.empty:
+        return ''
+    parts = []
+    for r in d.itertuples():
+        if r.direction == 'not seen':
+            parts.append(f'{r.brand}: not seen')
+        elif r.direction == 'in every look':
+            parts.append(f'{r.brand}: in every look')
+        else:
+            parts.append(f'{r.brand} {r.share_2016_20:.0%} → {r.share_2021_25:.0%} of looks ({r.direction})')
+    return 'Paris runway, 2016–20 → 2021–25: ' + '; '.join(parts) + '.'
+
+
 base = hist[hist.index < meta['locked_from']].mean()          # each item's usual level = 100
 
 st.title('Fashion Trend Forecast')
-st.caption('Search-interest forecasts for outfit items in England, France and Denmark, based on monthly Google Trends. '
-           f'History {pd.Timestamp(meta["months"][0]):%b %Y} – {pd.Timestamp(meta["months"][1]):%b %Y}; '
-           f'forecast {pd.Timestamp(meta["future"][0]):%b %Y} onwards.')
+st.caption('Search-interest forecasts for outfit garments, fabrics, colours, styles and runway details in England, '
+           'France and Denmark, based on monthly Google Trends and on the attributes recorded in our Instagram and Paris '
+           f'Fashion Week research. History {pd.Timestamp(meta["months"][0]):%b %Y} – '
+           f'{pd.Timestamp(meta["months"][1]):%b %Y}; forecast {pd.Timestamp(meta["future"][0]):%b %Y} onwards.')
 
-c1, c2, c3 = st.columns([1, 3, 1])
-country = c1.selectbox('Country', ['England', 'France', 'Denmark'])
-here = items[items.country_name == country].sort_values(['group', 'english'])
-names = dict(zip(here.index, here.english))
-default = [k for k in here.index if here.loc[k, 'english'] in ('Leather jacket', 'Trench coat')][:2]
-chosen = c2.multiselect('Outfit items', list(here.index), default=default, format_func=lambda k: names[k],
-                        max_selections=6, placeholder='Choose items')
+c1, c2, c3 = st.columns([1, 2, 1])
+country = c1.selectbox('Country', list(COUNTRIES))
+cc = COUNTRIES[country]
+group = c2.radio('Attribute type', TYPES, horizontal=True)
 h = c3.radio('Forecast', [3, 6], format_func=lambda x: f'{x} months', horizontal=True)
+here = items[(items.country_name == country) & (items.group == group)].sort_values('english')
+names = dict(zip(items.index, items.english))
+
+
+def n_posts(k):
+    a = items.loc[k, 'english']
+    return int(ALL_POSTS.posts.get((a, cc), 0))
+
+
+ranked = sorted(here.index, key=lambda k: (-n_posts(k), names[k]))
+chosen = st.multiselect(f'{group} ({len(here)} with a forecast in {country})', list(here.index), default=ranked[:2],
+                        format_func=lambda k: names[k], max_selections=6, placeholder='Choose items',
+                        key=f'items_{cc}_{group}')
+skipped = not_fc[(not_fc.country == cc) & (not_fc.type == group)]
+if len(skipped):
+    st.caption(f'Not forecast in {country}: ' + ', '.join(sorted(skipped.attribute)) +
+               ' (too few Google searches, or not searched). Their research data is shown below.')
 
 if not chosen:
     st.info('Select one or more items.')
@@ -106,29 +165,33 @@ st.plotly_chart(fig, use_container_width=True)
 st.caption('Solid: observed. Dashed: forecast. Shaded: 80% forecast range. Index 100 = the item\'s average level '
            '(Jan 2022 – Oct 2025), so items are comparable. Double-click the chart to show the full history.')
 
-# ---------------- one line per chosen item ----------------
+# ---------------- one block per chosen item ----------------
 st.subheader(f'Outlook: next {h} months vs the same months last year')
 for k in chosen:
     c = calls[(calls.item == k) & (calls.horizon == h)].iloc[0]
     t = by_item[h].loc[k] if k in by_item[h].index else None
-    trust = ''
+    lines = [f'{ICON[c.call]} **{names[k]}: {WORD[c.call]}** · trend score {c.trend_score:+.0%} '
+             f'(forecast {c.change:+.0%}, range {c.low_change:+.0%} to {c.high_change:+.0%}; '
+             f'recent momentum {c.momentum:+.0%}). Google searches for "{items.loc[k, "term"]}".']
     if t is not None:
-        trust = (f'  \nTest-year accuracy for this item: **{int(t.right)} of {int(t.checks)}** labels correct; median '
-                 f'error **±{t.miss * 100:.0f} points**.' + (' Lower reliability for this item.'
-                                                             if t.right / t.checks < 0.5 else ''))
-    st.markdown(f'{ICON[c.call]} **{names[k]}: {WORD[c.call]}** · trend score {c.trend_score:+.0%} '
-                f'(forecast {c.change:+.0%}, range {c.low_change:+.0%} to {c.high_change:+.0%}; '
-                f'recent momentum {c.momentum:+.0%}).{trust}')
+        lines.append(f'Test-year accuracy for this item: **{int(t.right)} of {int(t.checks)}** labels correct; median '
+                     f'error **±{t.miss * 100:.0f} points**.' + (' Lower reliability for this item.'
+                                                                 if t.right / t.checks < 0.5 else ''))
+    for extra in (post_line(names[k], cc, country), runway_line(names[k])):
+        if extra:
+            lines.append(extra)
+    st.markdown('  \n'.join(lines))
 wt = rule_weight(h)
 st.caption(f'**Labelling rule:** trend score = {wt:.0%} × forecast change + {1 - wt:.0%} × recent momentum (last 3 '
            'months vs the same 3 months a year earlier). Rising at +10% or more, Fading at −10% or less, otherwise Steady. '
            'The weighting was selected on data before the test year.')
 
 # ---------------- all items in the country ----------------
-with st.expander(f'All items in {country}, next {h} months', expanded=True):
-    t = calls[(calls.horizon == h) & calls.item.isin(here.index)].copy()
+with st.expander(f'All items in {country}, next {h} months', expanded=False):
+    allc = items[items.country_name == country]
+    t = calls[(calls.horizon == h) & calls.item.isin(allc.index)].copy()
     t['Item'] = t.item.map(names)
-    t['Group'] = t.item.map(here.group)
+    t['Type'] = t.item.map(allc.group)
     t['Trend'] = t.call.map(lambda c: f'{ICON[c]} {WORD[c]}')
     t['Trend score'] = t.trend_score.map('{:+.0%}'.format)
     t['Forecast vs last year'] = t.change.map('{:+.0%}'.format)
@@ -136,9 +199,10 @@ with st.expander(f'All items in {country}, next {h} months', expanded=True):
     t['Recent momentum'] = t.momentum.map('{:+.0%}'.format)
     bi = by_item[h]
     t['Test-year accuracy'] = t.item.map(lambda k: f'{int(bi.right[k])} of {int(bi.checks[k])}' if k in bi.index else '')
+    t['Instagram posts'] = t.item.map(lambda k: str(n_posts(k)) if (names[k], cc) in ALL_POSTS.index else '')
     t = t.sort_values('trend_score', ascending=False)
-    st.dataframe(t[['Item', 'Group', 'Trend', 'Trend score', 'Forecast vs last year', 'Likely range', 'Recent momentum',
-                    'Test-year accuracy']], hide_index=True, use_container_width=True)
+    st.dataframe(t[['Item', 'Type', 'Trend', 'Trend score', 'Forecast vs last year', 'Likely range', 'Recent momentum',
+                    'Test-year accuracy', 'Instagram posts']], hide_index=True, use_container_width=True)
 
 # ---------------- how good is it ----------------
 with st.expander('Accuracy and method'):
@@ -147,7 +211,7 @@ with st.expander('Accuracy and method'):
     st.markdown(
         f'**Test design.** Model and labelling rule were selected on data before Nov 2025. The 12 months Nov 2025 – '
         f'Oct 2026 were held out and forecast from {p["start_months"]} successive forecast dates, each using only '
-        'earlier data.\n\n'
+        f'earlier data. All {p["items"]} items in all three countries are included.\n\n'
         f'- **Forecast error:** {p["error_vs_last_year"]:.0%} lower than a same-months-last-year baseline; lower on '
         f'{p["items_beating_last_year"]} of {p["items"]} items.\n'
         f'- **Labels (Rising / Steady / Fading):** {p["labels_right"]:.0%} correct, against '
@@ -166,14 +230,86 @@ with st.expander('Accuracy and method'):
 
 with st.expander('About the data'):
     st.markdown(
-        '- **Source:** monthly Google Trends search interest per country, Nov 2019 – Oct 2026, queried in each '
-        'country\'s language.\n'
-        '- **Items:** selected from outfits recorded in our Instagram dataset (leather and suede jackets, trench coats, '
-        'satin and lace dresses, blazers, burgundy, leopard print and others).\n'
-        f'- **Excluded (search volume too low):** {", ".join(meta["dropped_sparse"])}.\n'
-        '- **Note:** the Danish term "leopard" includes searches unrelated to clothing.\n'
+        '- **Attributes:** every garment, fabric, colour, style and runway detail recorded in our research at least '
+        'twice in the Instagram posts or five times in the runway notes; spelling variants are merged (for example '
+        '"creme" and "off white" count as cream).\n'
+        '- **Search data:** monthly Google Trends search interest per country, Nov 2019 – Oct 2026, in each country\'s '
+        'language. Fabrics, colours, styles and runway details are searched with a typical garment (for example '
+        '"satin dress").\n'
         '- **Scope:** forecasts describe search interest, not sales, and cannot anticipate sudden events such as a '
         'viral post.')
+    nf = not_fc.copy()
+    nf['Country'] = nf.country.map({v: k for k, v in COUNTRIES.items()})
+    nf['Reason'] = nf.reason.map(lambda r: 'Too few Google searches' if r.startswith('too few') else r[0].upper() + r[1:])
+    st.markdown('**Not forecast**')
+    st.dataframe(nf[['Country', 'type', 'attribute', 'Reason']].rename(columns={'type': 'Type', 'attribute': 'Attribute'}),
+                 hide_index=True, use_container_width=True)
+
+# =====================================================================================================================
+# RESEARCH DATA
+# =====================================================================================================================
+st.divider()
+st.header('Instagram research')
+p_all = posts[(posts.season == 'all') & (posts.year == 'all') & (posts.country == cc)]
+total = int(p_all.total_posts.max())
+st.caption(f'{total} Instagram posts from {country} recorded by our team (2024–2025): share of posts that mention '
+           'each attribute.')
+r1, r2 = st.columns(2)
+ins_type = r1.selectbox('Attribute type', TYPES, index=TYPES.index(group), key='ins_type')
+view = r2.radio('Compare', ['All posts', 'Autumn/Winter vs Spring/Summer'], horizontal=True, key='ins_view')
+pt = p_all[(p_all.type == ins_type) & (p_all.posts > 0)].sort_values('share', ascending=False).head(12)
+if pt.empty:
+    st.info(f'No {ins_type.lower()} recorded in the {country} posts.')
+else:
+    g = go.Figure()
+    if view == 'All posts':
+        g.add_trace(go.Bar(x=pt.share, y=pt.attribute, orientation='h', marker_color='#2563eb',
+                           text=[f'{int(a)} of {int(b)}' for a, b in zip(pt.posts, pt.total_posts)],
+                           textposition='outside', hovertemplate='%{y}: %{x:.0%}<extra></extra>'))
+    else:
+        for season, col in (('A/W', '#9333ea'), ('S/S', '#ea580c')):
+            ps = posts[(posts.season == season) & (posts.year == 'all') & (posts.country == cc) &
+                       posts.attribute.isin(pt.attribute)].set_index('attribute').reindex(pt.attribute)
+            n = int(ps.total_posts.max())
+            label = 'Autumn/Winter' if season == 'A/W' else 'Spring/Summer'
+            g.add_trace(go.Bar(x=ps.share, y=ps.index, orientation='h', name=f'{label} ({n} posts)',
+                               marker_color=col, hovertemplate='%{y}: %{x:.0%}<extra>' + label + '</extra>'))
+        g.update_layout(barmode='group')
+    g.update_yaxes(autorange='reversed')
+    g.update_xaxes(tickformat='.0%', title='Share of posts')
+    g.update_layout(height=max(260, 34 * len(pt) + 80), margin=dict(l=10, r=40, t=10, b=10),
+                    legend=dict(orientation='h', y=-0.2))
+    st.plotly_chart(g, use_container_width=True)
+    if view != 'All posts':
+        st.caption('Posts without a season in the sheet are left out of this comparison.')
+
+st.header('Paris Fashion Week')
+looks = runway.drop_duplicates(['brand', 'year']).groupby('brand').total_looks.sum().to_dict()
+st.caption(f'Trims recorded by our team for Chanel ({looks.get("Chanel", 0)} looks) and Dior ({looks.get("Dior", 0)} '
+           'looks), 2016–2025: share of looks showing each detail.')
+details = list(dict.fromkeys(direction.attribute))
+pick = st.selectbox('Detail', details, index=details.index('Floral details') if 'Floral details' in details else 0)
+rw = runway[runway.attribute == pick]
+g = go.Figure()
+for brand, d in rw.groupby('brand'):
+    g.add_trace(go.Scatter(x=d.year, y=d.share, name=brand, mode='lines+markers',
+                           line=dict(color=BRAND_COLOUR.get(brand, '#6b7280'), width=2),
+                           customdata=list(zip(d.looks, d.total_looks)),
+                           hovertemplate='%{x}: %{y:.0%} (%{customdata[0]} of %{customdata[1]} looks)<extra>' +
+                                         brand + '</extra>'))
+g.update_yaxes(tickformat='.0%', range=[-0.02, 1.05], title='Share of looks')
+g.update_xaxes(dtick=1)
+g.update_layout(height=320, margin=dict(l=10, r=10, t=10, b=10), legend=dict(orientation='h', y=-0.2))
+st.plotly_chart(g, use_container_width=True)
+dt = direction.copy()
+dt['2016–20'] = dt.share_2016_20.map('{:.0%}'.format)
+dt['2021–25'] = dt.share_2021_25.map('{:.0%}'.format)
+dt['Change'] = dt.change_points.map(lambda v: f'{v:+.0f} pts')
+dt['Direction'] = dt.direction.str.capitalize()
+st.dataframe(dt[['attribute', 'brand', '2016–20', '2021–25', 'Change', 'Direction']]
+             .rename(columns={'attribute': 'Detail', 'brand': 'Brand'}), hide_index=True, use_container_width=True)
+st.caption('Direction: Rising or Falling when the share of looks changed by 10 points or more between 2016–20 and '
+           '2021–25, otherwise Steady.')
 
 # =====================================================================================================================
 # MODEL VALIDATION
@@ -239,11 +375,12 @@ with st.expander(f'Test-year call log ({len(made)} Rising / Fading calls, {h} mo
     tr = made.copy()
     tr['Forecast date'] = pd.to_datetime(tr.made_with_data_to).dt.strftime('%b %Y')
     tr['Item'] = tr.item.map(items.english)
+    tr['Type'] = tr.item.map(items.group)
     tr['Country'] = tr.item.map(items.country_name)
     tr['Forecast'] = [f'{WORD[c]} {v:+.0%}' for c, v in zip(tr.call, tr.trend_score)]
     tr['Actual'] = [f'{WORD[c]} {v:+.0%}' for c, v in zip(tr.actual_direction, tr.actual_change)]
     tr['Result'] = tr.right.map(RESULT)
-    st.dataframe(tr[['Forecast date', 'Country', 'Item', 'Forecast', 'Actual', 'Result']],
+    st.dataframe(tr[['Forecast date', 'Country', 'Type', 'Item', 'Forecast', 'Actual', 'Result']],
                  hide_index=True, use_container_width=True)
     st.caption('Forecast shows the trend score. Baseline for comparison: a "recent trend continues" rule made '
                f'{pr["trend_rule_calls"]} calls over the same period, {pr["trend_rule_calls_right"] / pr["trend_rule_calls"]:.0%} '

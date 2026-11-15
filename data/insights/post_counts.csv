@@ -1,0 +1,1918 @@
+attribute,type,country,season,year,posts,total_posts,share
+Dress,Garments,GB,all,all,32,59,0.5424
+Trench coat,Garments,GB,all,all,8,59,0.1356
+Blazer,Garments,GB,all,all,9,59,0.1525
+Coat,Garments,GB,all,all,5,59,0.0847
+Shirt,Garments,GB,all,all,8,59,0.1356
+Sweater,Garments,GB,all,all,6,59,0.1017
+Trousers,Garments,GB,all,all,11,59,0.1864
+Jeans,Garments,GB,all,all,3,59,0.0508
+Skirt,Garments,GB,all,all,3,59,0.0508
+Shorts,Garments,GB,all,all,3,59,0.0508
+Top,Garments,GB,all,all,4,59,0.0678
+Turtleneck,Garments,GB,all,all,2,59,0.0339
+Scarf,Garments,GB,all,all,4,59,0.0678
+Hat,Garments,GB,all,all,9,59,0.1525
+Tights,Garments,GB,all,all,3,59,0.0508
+Bodycon dress,Garments,GB,all,all,3,59,0.0508
+Bomber jacket,Garments,GB,all,all,1,59,0.0169
+Cardigan,Garments,GB,all,all,0,59,0.0
+Slip dress,Garments,GB,all,all,0,59,0.0
+Wide-leg jeans,Garments,GB,all,all,0,59,0.0
+Cotton,Fabrics,GB,all,all,10,59,0.1695
+Wool,Fabrics,GB,all,all,18,59,0.3051
+Satin,Fabrics,GB,all,all,12,59,0.2034
+Knit,Fabrics,GB,all,all,14,59,0.2373
+Denim,Fabrics,GB,all,all,4,59,0.0678
+Tweed,Fabrics,GB,all,all,9,59,0.1525
+Leather,Fabrics,GB,all,all,3,59,0.0508
+Lace,Fabrics,GB,all,all,5,59,0.0847
+Cashmere,Fabrics,GB,all,all,9,59,0.1525
+Fur,Fabrics,GB,all,all,3,59,0.0508
+Jersey,Fabrics,GB,all,all,3,59,0.0508
+Chiffon,Fabrics,GB,all,all,2,59,0.0339
+Velvet,Fabrics,GB,all,all,2,59,0.0339
+Suede,Fabrics,GB,all,all,0,59,0.0
+Tulle,Fabrics,GB,all,all,2,59,0.0339
+Silk,Fabrics,GB,all,all,6,59,0.1017
+Linen,Fabrics,GB,all,all,2,59,0.0339
+Crepe,Fabrics,GB,all,all,7,59,0.1186
+Mesh,Fabrics,GB,all,all,0,59,0.0
+Bouclé,Fabrics,GB,all,all,3,59,0.0508
+Poplin,Fabrics,GB,all,all,1,59,0.0169
+Twill,Fabrics,GB,all,all,0,59,0.0
+White,Colours,GB,all,all,37,59,0.6271
+Black,Colours,GB,all,all,23,59,0.3898
+Beige,Colours,GB,all,all,15,59,0.2542
+Brown,Colours,GB,all,all,10,59,0.1695
+Blue,Colours,GB,all,all,5,59,0.0847
+Burgundy,Colours,GB,all,all,7,59,0.1186
+Grey,Colours,GB,all,all,3,59,0.0508
+Cream,Colours,GB,all,all,9,59,0.1525
+Camel,Colours,GB,all,all,5,59,0.0847
+Red,Colours,GB,all,all,0,59,0.0
+Navy,Colours,GB,all,all,3,59,0.0508
+Pink,Colours,GB,all,all,3,59,0.0508
+Green,Colours,GB,all,all,2,59,0.0339
+Yellow,Colours,GB,all,all,2,59,0.0339
+Silver,Colours,GB,all,all,0,59,0.0
+Polka dots,Colours,GB,all,all,0,59,0.0
+Casual,Styles,GB,all,all,0,59,0.0
+Evening wear,Styles,GB,all,all,0,59,0.0
+Formal / office,Styles,GB,all,all,1,59,0.0169
+Loungewear,Styles,GB,all,all,1,59,0.0169
+Boho,Styles,GB,all,all,1,59,0.0169
+Floral details,Runway details,GB,all,all,0,59,0.0
+Embroidery,Runway details,GB,all,all,1,59,0.0169
+Sequins & beads,Runway details,GB,all,all,3,59,0.0508
+Pearls & crystals,Runway details,GB,all,all,0,59,0.0
+Studs & rivets,Runway details,GB,all,all,0,59,0.0
+Feathers,Runway details,GB,all,all,0,59,0.0
+Geometric motifs,Runway details,GB,all,all,0,59,0.0
+Animal motifs,Runway details,GB,all,all,0,59,0.0
+Dress,Garments,GB,all,2024,0,0,
+Trench coat,Garments,GB,all,2024,0,0,
+Blazer,Garments,GB,all,2024,0,0,
+Coat,Garments,GB,all,2024,0,0,
+Shirt,Garments,GB,all,2024,0,0,
+Sweater,Garments,GB,all,2024,0,0,
+Trousers,Garments,GB,all,2024,0,0,
+Jeans,Garments,GB,all,2024,0,0,
+Skirt,Garments,GB,all,2024,0,0,
+Shorts,Garments,GB,all,2024,0,0,
+Top,Garments,GB,all,2024,0,0,
+Turtleneck,Garments,GB,all,2024,0,0,
+Scarf,Garments,GB,all,2024,0,0,
+Hat,Garments,GB,all,2024,0,0,
+Tights,Garments,GB,all,2024,0,0,
+Bodycon dress,Garments,GB,all,2024,0,0,
+Bomber jacket,Garments,GB,all,2024,0,0,
+Cardigan,Garments,GB,all,2024,0,0,
+Slip dress,Garments,GB,all,2024,0,0,
+Wide-leg jeans,Garments,GB,all,2024,0,0,
+Cotton,Fabrics,GB,all,2024,0,0,
+Wool,Fabrics,GB,all,2024,0,0,
+Satin,Fabrics,GB,all,2024,0,0,
+Knit,Fabrics,GB,all,2024,0,0,
+Denim,Fabrics,GB,all,2024,0,0,
+Tweed,Fabrics,GB,all,2024,0,0,
+Leather,Fabrics,GB,all,2024,0,0,
+Lace,Fabrics,GB,all,2024,0,0,
+Cashmere,Fabrics,GB,all,2024,0,0,
+Fur,Fabrics,GB,all,2024,0,0,
+Jersey,Fabrics,GB,all,2024,0,0,
+Chiffon,Fabrics,GB,all,2024,0,0,
+Velvet,Fabrics,GB,all,2024,0,0,
+Suede,Fabrics,GB,all,2024,0,0,
+Tulle,Fabrics,GB,all,2024,0,0,
+Silk,Fabrics,GB,all,2024,0,0,
+Linen,Fabrics,GB,all,2024,0,0,
+Crepe,Fabrics,GB,all,2024,0,0,
+Mesh,Fabrics,GB,all,2024,0,0,
+Bouclé,Fabrics,GB,all,2024,0,0,
+Poplin,Fabrics,GB,all,2024,0,0,
+Twill,Fabrics,GB,all,2024,0,0,
+White,Colours,GB,all,2024,0,0,
+Black,Colours,GB,all,2024,0,0,
+Beige,Colours,GB,all,2024,0,0,
+Brown,Colours,GB,all,2024,0,0,
+Blue,Colours,GB,all,2024,0,0,
+Burgundy,Colours,GB,all,2024,0,0,
+Grey,Colours,GB,all,2024,0,0,
+Cream,Colours,GB,all,2024,0,0,
+Camel,Colours,GB,all,2024,0,0,
+Red,Colours,GB,all,2024,0,0,
+Navy,Colours,GB,all,2024,0,0,
+Pink,Colours,GB,all,2024,0,0,
+Green,Colours,GB,all,2024,0,0,
+Yellow,Colours,GB,all,2024,0,0,
+Silver,Colours,GB,all,2024,0,0,
+Polka dots,Colours,GB,all,2024,0,0,
+Casual,Styles,GB,all,2024,0,0,
+Evening wear,Styles,GB,all,2024,0,0,
+Formal / office,Styles,GB,all,2024,0,0,
+Loungewear,Styles,GB,all,2024,0,0,
+Boho,Styles,GB,all,2024,0,0,
+Floral details,Runway details,GB,all,2024,0,0,
+Embroidery,Runway details,GB,all,2024,0,0,
+Sequins & beads,Runway details,GB,all,2024,0,0,
+Pearls & crystals,Runway details,GB,all,2024,0,0,
+Studs & rivets,Runway details,GB,all,2024,0,0,
+Feathers,Runway details,GB,all,2024,0,0,
+Geometric motifs,Runway details,GB,all,2024,0,0,
+Animal motifs,Runway details,GB,all,2024,0,0,
+Dress,Garments,GB,all,2025,32,59,0.5424
+Trench coat,Garments,GB,all,2025,8,59,0.1356
+Blazer,Garments,GB,all,2025,9,59,0.1525
+Coat,Garments,GB,all,2025,5,59,0.0847
+Shirt,Garments,GB,all,2025,8,59,0.1356
+Sweater,Garments,GB,all,2025,6,59,0.1017
+Trousers,Garments,GB,all,2025,11,59,0.1864
+Jeans,Garments,GB,all,2025,3,59,0.0508
+Skirt,Garments,GB,all,2025,3,59,0.0508
+Shorts,Garments,GB,all,2025,3,59,0.0508
+Top,Garments,GB,all,2025,4,59,0.0678
+Turtleneck,Garments,GB,all,2025,2,59,0.0339
+Scarf,Garments,GB,all,2025,4,59,0.0678
+Hat,Garments,GB,all,2025,9,59,0.1525
+Tights,Garments,GB,all,2025,3,59,0.0508
+Bodycon dress,Garments,GB,all,2025,3,59,0.0508
+Bomber jacket,Garments,GB,all,2025,1,59,0.0169
+Cardigan,Garments,GB,all,2025,0,59,0.0
+Slip dress,Garments,GB,all,2025,0,59,0.0
+Wide-leg jeans,Garments,GB,all,2025,0,59,0.0
+Cotton,Fabrics,GB,all,2025,10,59,0.1695
+Wool,Fabrics,GB,all,2025,18,59,0.3051
+Satin,Fabrics,GB,all,2025,12,59,0.2034
+Knit,Fabrics,GB,all,2025,14,59,0.2373
+Denim,Fabrics,GB,all,2025,4,59,0.0678
+Tweed,Fabrics,GB,all,2025,9,59,0.1525
+Leather,Fabrics,GB,all,2025,3,59,0.0508
+Lace,Fabrics,GB,all,2025,5,59,0.0847
+Cashmere,Fabrics,GB,all,2025,9,59,0.1525
+Fur,Fabrics,GB,all,2025,3,59,0.0508
+Jersey,Fabrics,GB,all,2025,3,59,0.0508
+Chiffon,Fabrics,GB,all,2025,2,59,0.0339
+Velvet,Fabrics,GB,all,2025,2,59,0.0339
+Suede,Fabrics,GB,all,2025,0,59,0.0
+Tulle,Fabrics,GB,all,2025,2,59,0.0339
+Silk,Fabrics,GB,all,2025,6,59,0.1017
+Linen,Fabrics,GB,all,2025,2,59,0.0339
+Crepe,Fabrics,GB,all,2025,7,59,0.1186
+Mesh,Fabrics,GB,all,2025,0,59,0.0
+Bouclé,Fabrics,GB,all,2025,3,59,0.0508
+Poplin,Fabrics,GB,all,2025,1,59,0.0169
+Twill,Fabrics,GB,all,2025,0,59,0.0
+White,Colours,GB,all,2025,37,59,0.6271
+Black,Colours,GB,all,2025,23,59,0.3898
+Beige,Colours,GB,all,2025,15,59,0.2542
+Brown,Colours,GB,all,2025,10,59,0.1695
+Blue,Colours,GB,all,2025,5,59,0.0847
+Burgundy,Colours,GB,all,2025,7,59,0.1186
+Grey,Colours,GB,all,2025,3,59,0.0508
+Cream,Colours,GB,all,2025,9,59,0.1525
+Camel,Colours,GB,all,2025,5,59,0.0847
+Red,Colours,GB,all,2025,0,59,0.0
+Navy,Colours,GB,all,2025,3,59,0.0508
+Pink,Colours,GB,all,2025,3,59,0.0508
+Green,Colours,GB,all,2025,2,59,0.0339
+Yellow,Colours,GB,all,2025,2,59,0.0339
+Silver,Colours,GB,all,2025,0,59,0.0
+Polka dots,Colours,GB,all,2025,0,59,0.0
+Casual,Styles,GB,all,2025,0,59,0.0
+Evening wear,Styles,GB,all,2025,0,59,0.0
+Formal / office,Styles,GB,all,2025,1,59,0.0169
+Loungewear,Styles,GB,all,2025,1,59,0.0169
+Boho,Styles,GB,all,2025,1,59,0.0169
+Floral details,Runway details,GB,all,2025,0,59,0.0
+Embroidery,Runway details,GB,all,2025,1,59,0.0169
+Sequins & beads,Runway details,GB,all,2025,3,59,0.0508
+Pearls & crystals,Runway details,GB,all,2025,0,59,0.0
+Studs & rivets,Runway details,GB,all,2025,0,59,0.0
+Feathers,Runway details,GB,all,2025,0,59,0.0
+Geometric motifs,Runway details,GB,all,2025,0,59,0.0
+Animal motifs,Runway details,GB,all,2025,0,59,0.0
+Dress,Garments,GB,A/W,all,8,24,0.3333
+Trench coat,Garments,GB,A/W,all,7,24,0.2917
+Blazer,Garments,GB,A/W,all,5,24,0.2083
+Coat,Garments,GB,A/W,all,4,24,0.1667
+Shirt,Garments,GB,A/W,all,7,24,0.2917
+Sweater,Garments,GB,A/W,all,6,24,0.25
+Trousers,Garments,GB,A/W,all,7,24,0.2917
+Jeans,Garments,GB,A/W,all,2,24,0.0833
+Skirt,Garments,GB,A/W,all,1,24,0.0417
+Shorts,Garments,GB,A/W,all,1,24,0.0417
+Top,Garments,GB,A/W,all,0,24,0.0
+Turtleneck,Garments,GB,A/W,all,2,24,0.0833
+Scarf,Garments,GB,A/W,all,2,24,0.0833
+Hat,Garments,GB,A/W,all,0,24,0.0
+Tights,Garments,GB,A/W,all,3,24,0.125
+Bodycon dress,Garments,GB,A/W,all,3,24,0.125
+Bomber jacket,Garments,GB,A/W,all,1,24,0.0417
+Cardigan,Garments,GB,A/W,all,0,24,0.0
+Slip dress,Garments,GB,A/W,all,0,24,0.0
+Wide-leg jeans,Garments,GB,A/W,all,0,24,0.0
+Cotton,Fabrics,GB,A/W,all,3,24,0.125
+Wool,Fabrics,GB,A/W,all,15,24,0.625
+Satin,Fabrics,GB,A/W,all,3,24,0.125
+Knit,Fabrics,GB,A/W,all,11,24,0.4583
+Denim,Fabrics,GB,A/W,all,2,24,0.0833
+Tweed,Fabrics,GB,A/W,all,5,24,0.2083
+Leather,Fabrics,GB,A/W,all,3,24,0.125
+Lace,Fabrics,GB,A/W,all,4,24,0.1667
+Cashmere,Fabrics,GB,A/W,all,9,24,0.375
+Fur,Fabrics,GB,A/W,all,3,24,0.125
+Jersey,Fabrics,GB,A/W,all,0,24,0.0
+Chiffon,Fabrics,GB,A/W,all,0,24,0.0
+Velvet,Fabrics,GB,A/W,all,1,24,0.0417
+Suede,Fabrics,GB,A/W,all,0,24,0.0
+Tulle,Fabrics,GB,A/W,all,2,24,0.0833
+Silk,Fabrics,GB,A/W,all,1,24,0.0417
+Linen,Fabrics,GB,A/W,all,0,24,0.0
+Crepe,Fabrics,GB,A/W,all,2,24,0.0833
+Mesh,Fabrics,GB,A/W,all,0,24,0.0
+Bouclé,Fabrics,GB,A/W,all,0,24,0.0
+Poplin,Fabrics,GB,A/W,all,1,24,0.0417
+Twill,Fabrics,GB,A/W,all,0,24,0.0
+White,Colours,GB,A/W,all,13,24,0.5417
+Black,Colours,GB,A/W,all,11,24,0.4583
+Beige,Colours,GB,A/W,all,11,24,0.4583
+Brown,Colours,GB,A/W,all,7,24,0.2917
+Blue,Colours,GB,A/W,all,1,24,0.0417
+Burgundy,Colours,GB,A/W,all,6,24,0.25
+Grey,Colours,GB,A/W,all,2,24,0.0833
+Cream,Colours,GB,A/W,all,2,24,0.0833
+Camel,Colours,GB,A/W,all,3,24,0.125
+Red,Colours,GB,A/W,all,0,24,0.0
+Navy,Colours,GB,A/W,all,3,24,0.125
+Pink,Colours,GB,A/W,all,1,24,0.0417
+Green,Colours,GB,A/W,all,0,24,0.0
+Yellow,Colours,GB,A/W,all,0,24,0.0
+Silver,Colours,GB,A/W,all,0,24,0.0
+Polka dots,Colours,GB,A/W,all,0,24,0.0
+Casual,Styles,GB,A/W,all,0,24,0.0
+Evening wear,Styles,GB,A/W,all,0,24,0.0
+Formal / office,Styles,GB,A/W,all,1,24,0.0417
+Loungewear,Styles,GB,A/W,all,0,24,0.0
+Boho,Styles,GB,A/W,all,0,24,0.0
+Floral details,Runway details,GB,A/W,all,0,24,0.0
+Embroidery,Runway details,GB,A/W,all,0,24,0.0
+Sequins & beads,Runway details,GB,A/W,all,1,24,0.0417
+Pearls & crystals,Runway details,GB,A/W,all,0,24,0.0
+Studs & rivets,Runway details,GB,A/W,all,0,24,0.0
+Feathers,Runway details,GB,A/W,all,0,24,0.0
+Geometric motifs,Runway details,GB,A/W,all,0,24,0.0
+Animal motifs,Runway details,GB,A/W,all,0,24,0.0
+Dress,Garments,GB,A/W,2024,0,0,
+Trench coat,Garments,GB,A/W,2024,0,0,
+Blazer,Garments,GB,A/W,2024,0,0,
+Coat,Garments,GB,A/W,2024,0,0,
+Shirt,Garments,GB,A/W,2024,0,0,
+Sweater,Garments,GB,A/W,2024,0,0,
+Trousers,Garments,GB,A/W,2024,0,0,
+Jeans,Garments,GB,A/W,2024,0,0,
+Skirt,Garments,GB,A/W,2024,0,0,
+Shorts,Garments,GB,A/W,2024,0,0,
+Top,Garments,GB,A/W,2024,0,0,
+Turtleneck,Garments,GB,A/W,2024,0,0,
+Scarf,Garments,GB,A/W,2024,0,0,
+Hat,Garments,GB,A/W,2024,0,0,
+Tights,Garments,GB,A/W,2024,0,0,
+Bodycon dress,Garments,GB,A/W,2024,0,0,
+Bomber jacket,Garments,GB,A/W,2024,0,0,
+Cardigan,Garments,GB,A/W,2024,0,0,
+Slip dress,Garments,GB,A/W,2024,0,0,
+Wide-leg jeans,Garments,GB,A/W,2024,0,0,
+Cotton,Fabrics,GB,A/W,2024,0,0,
+Wool,Fabrics,GB,A/W,2024,0,0,
+Satin,Fabrics,GB,A/W,2024,0,0,
+Knit,Fabrics,GB,A/W,2024,0,0,
+Denim,Fabrics,GB,A/W,2024,0,0,
+Tweed,Fabrics,GB,A/W,2024,0,0,
+Leather,Fabrics,GB,A/W,2024,0,0,
+Lace,Fabrics,GB,A/W,2024,0,0,
+Cashmere,Fabrics,GB,A/W,2024,0,0,
+Fur,Fabrics,GB,A/W,2024,0,0,
+Jersey,Fabrics,GB,A/W,2024,0,0,
+Chiffon,Fabrics,GB,A/W,2024,0,0,
+Velvet,Fabrics,GB,A/W,2024,0,0,
+Suede,Fabrics,GB,A/W,2024,0,0,
+Tulle,Fabrics,GB,A/W,2024,0,0,
+Silk,Fabrics,GB,A/W,2024,0,0,
+Linen,Fabrics,GB,A/W,2024,0,0,
+Crepe,Fabrics,GB,A/W,2024,0,0,
+Mesh,Fabrics,GB,A/W,2024,0,0,
+Bouclé,Fabrics,GB,A/W,2024,0,0,
+Poplin,Fabrics,GB,A/W,2024,0,0,
+Twill,Fabrics,GB,A/W,2024,0,0,
+White,Colours,GB,A/W,2024,0,0,
+Black,Colours,GB,A/W,2024,0,0,
+Beige,Colours,GB,A/W,2024,0,0,
+Brown,Colours,GB,A/W,2024,0,0,
+Blue,Colours,GB,A/W,2024,0,0,
+Burgundy,Colours,GB,A/W,2024,0,0,
+Grey,Colours,GB,A/W,2024,0,0,
+Cream,Colours,GB,A/W,2024,0,0,
+Camel,Colours,GB,A/W,2024,0,0,
+Red,Colours,GB,A/W,2024,0,0,
+Navy,Colours,GB,A/W,2024,0,0,
+Pink,Colours,GB,A/W,2024,0,0,
+Green,Colours,GB,A/W,2024,0,0,
+Yellow,Colours,GB,A/W,2024,0,0,
+Silver,Colours,GB,A/W,2024,0,0,
+Polka dots,Colours,GB,A/W,2024,0,0,
+Casual,Styles,GB,A/W,2024,0,0,
+Evening wear,Styles,GB,A/W,2024,0,0,
+Formal / office,Styles,GB,A/W,2024,0,0,
+Loungewear,Styles,GB,A/W,2024,0,0,
+Boho,Styles,GB,A/W,2024,0,0,
+Floral details,Runway details,GB,A/W,2024,0,0,
+Embroidery,Runway details,GB,A/W,2024,0,0,
+Sequins & beads,Runway details,GB,A/W,2024,0,0,
+Pearls & crystals,Runway details,GB,A/W,2024,0,0,
+Studs & rivets,Runway details,GB,A/W,2024,0,0,
+Feathers,Runway details,GB,A/W,2024,0,0,
+Geometric motifs,Runway details,GB,A/W,2024,0,0,
+Animal motifs,Runway details,GB,A/W,2024,0,0,
+Dress,Garments,GB,A/W,2025,8,24,0.3333
+Trench coat,Garments,GB,A/W,2025,7,24,0.2917
+Blazer,Garments,GB,A/W,2025,5,24,0.2083
+Coat,Garments,GB,A/W,2025,4,24,0.1667
+Shirt,Garments,GB,A/W,2025,7,24,0.2917
+Sweater,Garments,GB,A/W,2025,6,24,0.25
+Trousers,Garments,GB,A/W,2025,7,24,0.2917
+Jeans,Garments,GB,A/W,2025,2,24,0.0833
+Skirt,Garments,GB,A/W,2025,1,24,0.0417
+Shorts,Garments,GB,A/W,2025,1,24,0.0417
+Top,Garments,GB,A/W,2025,0,24,0.0
+Turtleneck,Garments,GB,A/W,2025,2,24,0.0833
+Scarf,Garments,GB,A/W,2025,2,24,0.0833
+Hat,Garments,GB,A/W,2025,0,24,0.0
+Tights,Garments,GB,A/W,2025,3,24,0.125
+Bodycon dress,Garments,GB,A/W,2025,3,24,0.125
+Bomber jacket,Garments,GB,A/W,2025,1,24,0.0417
+Cardigan,Garments,GB,A/W,2025,0,24,0.0
+Slip dress,Garments,GB,A/W,2025,0,24,0.0
+Wide-leg jeans,Garments,GB,A/W,2025,0,24,0.0
+Cotton,Fabrics,GB,A/W,2025,3,24,0.125
+Wool,Fabrics,GB,A/W,2025,15,24,0.625
+Satin,Fabrics,GB,A/W,2025,3,24,0.125
+Knit,Fabrics,GB,A/W,2025,11,24,0.4583
+Denim,Fabrics,GB,A/W,2025,2,24,0.0833
+Tweed,Fabrics,GB,A/W,2025,5,24,0.2083
+Leather,Fabrics,GB,A/W,2025,3,24,0.125
+Lace,Fabrics,GB,A/W,2025,4,24,0.1667
+Cashmere,Fabrics,GB,A/W,2025,9,24,0.375
+Fur,Fabrics,GB,A/W,2025,3,24,0.125
+Jersey,Fabrics,GB,A/W,2025,0,24,0.0
+Chiffon,Fabrics,GB,A/W,2025,0,24,0.0
+Velvet,Fabrics,GB,A/W,2025,1,24,0.0417
+Suede,Fabrics,GB,A/W,2025,0,24,0.0
+Tulle,Fabrics,GB,A/W,2025,2,24,0.0833
+Silk,Fabrics,GB,A/W,2025,1,24,0.0417
+Linen,Fabrics,GB,A/W,2025,0,24,0.0
+Crepe,Fabrics,GB,A/W,2025,2,24,0.0833
+Mesh,Fabrics,GB,A/W,2025,0,24,0.0
+Bouclé,Fabrics,GB,A/W,2025,0,24,0.0
+Poplin,Fabrics,GB,A/W,2025,1,24,0.0417
+Twill,Fabrics,GB,A/W,2025,0,24,0.0
+White,Colours,GB,A/W,2025,13,24,0.5417
+Black,Colours,GB,A/W,2025,11,24,0.4583
+Beige,Colours,GB,A/W,2025,11,24,0.4583
+Brown,Colours,GB,A/W,2025,7,24,0.2917
+Blue,Colours,GB,A/W,2025,1,24,0.0417
+Burgundy,Colours,GB,A/W,2025,6,24,0.25
+Grey,Colours,GB,A/W,2025,2,24,0.0833
+Cream,Colours,GB,A/W,2025,2,24,0.0833
+Camel,Colours,GB,A/W,2025,3,24,0.125
+Red,Colours,GB,A/W,2025,0,24,0.0
+Navy,Colours,GB,A/W,2025,3,24,0.125
+Pink,Colours,GB,A/W,2025,1,24,0.0417
+Green,Colours,GB,A/W,2025,0,24,0.0
+Yellow,Colours,GB,A/W,2025,0,24,0.0
+Silver,Colours,GB,A/W,2025,0,24,0.0
+Polka dots,Colours,GB,A/W,2025,0,24,0.0
+Casual,Styles,GB,A/W,2025,0,24,0.0
+Evening wear,Styles,GB,A/W,2025,0,24,0.0
+Formal / office,Styles,GB,A/W,2025,1,24,0.0417
+Loungewear,Styles,GB,A/W,2025,0,24,0.0
+Boho,Styles,GB,A/W,2025,0,24,0.0
+Floral details,Runway details,GB,A/W,2025,0,24,0.0
+Embroidery,Runway details,GB,A/W,2025,0,24,0.0
+Sequins & beads,Runway details,GB,A/W,2025,1,24,0.0417
+Pearls & crystals,Runway details,GB,A/W,2025,0,24,0.0
+Studs & rivets,Runway details,GB,A/W,2025,0,24,0.0
+Feathers,Runway details,GB,A/W,2025,0,24,0.0
+Geometric motifs,Runway details,GB,A/W,2025,0,24,0.0
+Animal motifs,Runway details,GB,A/W,2025,0,24,0.0
+Dress,Garments,GB,S/S,all,24,35,0.6857
+Trench coat,Garments,GB,S/S,all,1,35,0.0286
+Blazer,Garments,GB,S/S,all,4,35,0.1143
+Coat,Garments,GB,S/S,all,1,35,0.0286
+Shirt,Garments,GB,S/S,all,1,35,0.0286
+Sweater,Garments,GB,S/S,all,0,35,0.0
+Trousers,Garments,GB,S/S,all,4,35,0.1143
+Jeans,Garments,GB,S/S,all,1,35,0.0286
+Skirt,Garments,GB,S/S,all,2,35,0.0571
+Shorts,Garments,GB,S/S,all,2,35,0.0571
+Top,Garments,GB,S/S,all,4,35,0.1143
+Turtleneck,Garments,GB,S/S,all,0,35,0.0
+Scarf,Garments,GB,S/S,all,2,35,0.0571
+Hat,Garments,GB,S/S,all,9,35,0.2571
+Tights,Garments,GB,S/S,all,0,35,0.0
+Bodycon dress,Garments,GB,S/S,all,0,35,0.0
+Bomber jacket,Garments,GB,S/S,all,0,35,0.0
+Cardigan,Garments,GB,S/S,all,0,35,0.0
+Slip dress,Garments,GB,S/S,all,0,35,0.0
+Wide-leg jeans,Garments,GB,S/S,all,0,35,0.0
+Cotton,Fabrics,GB,S/S,all,7,35,0.2
+Wool,Fabrics,GB,S/S,all,3,35,0.0857
+Satin,Fabrics,GB,S/S,all,9,35,0.2571
+Knit,Fabrics,GB,S/S,all,3,35,0.0857
+Denim,Fabrics,GB,S/S,all,2,35,0.0571
+Tweed,Fabrics,GB,S/S,all,4,35,0.1143
+Leather,Fabrics,GB,S/S,all,0,35,0.0
+Lace,Fabrics,GB,S/S,all,1,35,0.0286
+Cashmere,Fabrics,GB,S/S,all,0,35,0.0
+Fur,Fabrics,GB,S/S,all,0,35,0.0
+Jersey,Fabrics,GB,S/S,all,3,35,0.0857
+Chiffon,Fabrics,GB,S/S,all,2,35,0.0571
+Velvet,Fabrics,GB,S/S,all,1,35,0.0286
+Suede,Fabrics,GB,S/S,all,0,35,0.0
+Tulle,Fabrics,GB,S/S,all,0,35,0.0
+Silk,Fabrics,GB,S/S,all,5,35,0.1429
+Linen,Fabrics,GB,S/S,all,2,35,0.0571
+Crepe,Fabrics,GB,S/S,all,5,35,0.1429
+Mesh,Fabrics,GB,S/S,all,0,35,0.0
+Bouclé,Fabrics,GB,S/S,all,3,35,0.0857
+Poplin,Fabrics,GB,S/S,all,0,35,0.0
+Twill,Fabrics,GB,S/S,all,0,35,0.0
+White,Colours,GB,S/S,all,24,35,0.6857
+Black,Colours,GB,S/S,all,12,35,0.3429
+Beige,Colours,GB,S/S,all,4,35,0.1143
+Brown,Colours,GB,S/S,all,3,35,0.0857
+Blue,Colours,GB,S/S,all,4,35,0.1143
+Burgundy,Colours,GB,S/S,all,1,35,0.0286
+Grey,Colours,GB,S/S,all,1,35,0.0286
+Cream,Colours,GB,S/S,all,7,35,0.2
+Camel,Colours,GB,S/S,all,2,35,0.0571
+Red,Colours,GB,S/S,all,0,35,0.0
+Navy,Colours,GB,S/S,all,0,35,0.0
+Pink,Colours,GB,S/S,all,2,35,0.0571
+Green,Colours,GB,S/S,all,2,35,0.0571
+Yellow,Colours,GB,S/S,all,2,35,0.0571
+Silver,Colours,GB,S/S,all,0,35,0.0
+Polka dots,Colours,GB,S/S,all,0,35,0.0
+Casual,Styles,GB,S/S,all,0,35,0.0
+Evening wear,Styles,GB,S/S,all,0,35,0.0
+Formal / office,Styles,GB,S/S,all,0,35,0.0
+Loungewear,Styles,GB,S/S,all,1,35,0.0286
+Boho,Styles,GB,S/S,all,1,35,0.0286
+Floral details,Runway details,GB,S/S,all,0,35,0.0
+Embroidery,Runway details,GB,S/S,all,1,35,0.0286
+Sequins & beads,Runway details,GB,S/S,all,2,35,0.0571
+Pearls & crystals,Runway details,GB,S/S,all,0,35,0.0
+Studs & rivets,Runway details,GB,S/S,all,0,35,0.0
+Feathers,Runway details,GB,S/S,all,0,35,0.0
+Geometric motifs,Runway details,GB,S/S,all,0,35,0.0
+Animal motifs,Runway details,GB,S/S,all,0,35,0.0
+Dress,Garments,GB,S/S,2024,0,0,
+Trench coat,Garments,GB,S/S,2024,0,0,
+Blazer,Garments,GB,S/S,2024,0,0,
+Coat,Garments,GB,S/S,2024,0,0,
+Shirt,Garments,GB,S/S,2024,0,0,
+Sweater,Garments,GB,S/S,2024,0,0,
+Trousers,Garments,GB,S/S,2024,0,0,
+Jeans,Garments,GB,S/S,2024,0,0,
+Skirt,Garments,GB,S/S,2024,0,0,
+Shorts,Garments,GB,S/S,2024,0,0,
+Top,Garments,GB,S/S,2024,0,0,
+Turtleneck,Garments,GB,S/S,2024,0,0,
+Scarf,Garments,GB,S/S,2024,0,0,
+Hat,Garments,GB,S/S,2024,0,0,
+Tights,Garments,GB,S/S,2024,0,0,
+Bodycon dress,Garments,GB,S/S,2024,0,0,
+Bomber jacket,Garments,GB,S/S,2024,0,0,
+Cardigan,Garments,GB,S/S,2024,0,0,
+Slip dress,Garments,GB,S/S,2024,0,0,
+Wide-leg jeans,Garments,GB,S/S,2024,0,0,
+Cotton,Fabrics,GB,S/S,2024,0,0,
+Wool,Fabrics,GB,S/S,2024,0,0,
+Satin,Fabrics,GB,S/S,2024,0,0,
+Knit,Fabrics,GB,S/S,2024,0,0,
+Denim,Fabrics,GB,S/S,2024,0,0,
+Tweed,Fabrics,GB,S/S,2024,0,0,
+Leather,Fabrics,GB,S/S,2024,0,0,
+Lace,Fabrics,GB,S/S,2024,0,0,
+Cashmere,Fabrics,GB,S/S,2024,0,0,
+Fur,Fabrics,GB,S/S,2024,0,0,
+Jersey,Fabrics,GB,S/S,2024,0,0,
+Chiffon,Fabrics,GB,S/S,2024,0,0,
+Velvet,Fabrics,GB,S/S,2024,0,0,
+Suede,Fabrics,GB,S/S,2024,0,0,
+Tulle,Fabrics,GB,S/S,2024,0,0,
+Silk,Fabrics,GB,S/S,2024,0,0,
+Linen,Fabrics,GB,S/S,2024,0,0,
+Crepe,Fabrics,GB,S/S,2024,0,0,
+Mesh,Fabrics,GB,S/S,2024,0,0,
+Bouclé,Fabrics,GB,S/S,2024,0,0,
+Poplin,Fabrics,GB,S/S,2024,0,0,
+Twill,Fabrics,GB,S/S,2024,0,0,
+White,Colours,GB,S/S,2024,0,0,
+Black,Colours,GB,S/S,2024,0,0,
+Beige,Colours,GB,S/S,2024,0,0,
+Brown,Colours,GB,S/S,2024,0,0,
+Blue,Colours,GB,S/S,2024,0,0,
+Burgundy,Colours,GB,S/S,2024,0,0,
+Grey,Colours,GB,S/S,2024,0,0,
+Cream,Colours,GB,S/S,2024,0,0,
+Camel,Colours,GB,S/S,2024,0,0,
+Red,Colours,GB,S/S,2024,0,0,
+Navy,Colours,GB,S/S,2024,0,0,
+Pink,Colours,GB,S/S,2024,0,0,
+Green,Colours,GB,S/S,2024,0,0,
+Yellow,Colours,GB,S/S,2024,0,0,
+Silver,Colours,GB,S/S,2024,0,0,
+Polka dots,Colours,GB,S/S,2024,0,0,
+Casual,Styles,GB,S/S,2024,0,0,
+Evening wear,Styles,GB,S/S,2024,0,0,
+Formal / office,Styles,GB,S/S,2024,0,0,
+Loungewear,Styles,GB,S/S,2024,0,0,
+Boho,Styles,GB,S/S,2024,0,0,
+Floral details,Runway details,GB,S/S,2024,0,0,
+Embroidery,Runway details,GB,S/S,2024,0,0,
+Sequins & beads,Runway details,GB,S/S,2024,0,0,
+Pearls & crystals,Runway details,GB,S/S,2024,0,0,
+Studs & rivets,Runway details,GB,S/S,2024,0,0,
+Feathers,Runway details,GB,S/S,2024,0,0,
+Geometric motifs,Runway details,GB,S/S,2024,0,0,
+Animal motifs,Runway details,GB,S/S,2024,0,0,
+Dress,Garments,GB,S/S,2025,24,35,0.6857
+Trench coat,Garments,GB,S/S,2025,1,35,0.0286
+Blazer,Garments,GB,S/S,2025,4,35,0.1143
+Coat,Garments,GB,S/S,2025,1,35,0.0286
+Shirt,Garments,GB,S/S,2025,1,35,0.0286
+Sweater,Garments,GB,S/S,2025,0,35,0.0
+Trousers,Garments,GB,S/S,2025,4,35,0.1143
+Jeans,Garments,GB,S/S,2025,1,35,0.0286
+Skirt,Garments,GB,S/S,2025,2,35,0.0571
+Shorts,Garments,GB,S/S,2025,2,35,0.0571
+Top,Garments,GB,S/S,2025,4,35,0.1143
+Turtleneck,Garments,GB,S/S,2025,0,35,0.0
+Scarf,Garments,GB,S/S,2025,2,35,0.0571
+Hat,Garments,GB,S/S,2025,9,35,0.2571
+Tights,Garments,GB,S/S,2025,0,35,0.0
+Bodycon dress,Garments,GB,S/S,2025,0,35,0.0
+Bomber jacket,Garments,GB,S/S,2025,0,35,0.0
+Cardigan,Garments,GB,S/S,2025,0,35,0.0
+Slip dress,Garments,GB,S/S,2025,0,35,0.0
+Wide-leg jeans,Garments,GB,S/S,2025,0,35,0.0
+Cotton,Fabrics,GB,S/S,2025,7,35,0.2
+Wool,Fabrics,GB,S/S,2025,3,35,0.0857
+Satin,Fabrics,GB,S/S,2025,9,35,0.2571
+Knit,Fabrics,GB,S/S,2025,3,35,0.0857
+Denim,Fabrics,GB,S/S,2025,2,35,0.0571
+Tweed,Fabrics,GB,S/S,2025,4,35,0.1143
+Leather,Fabrics,GB,S/S,2025,0,35,0.0
+Lace,Fabrics,GB,S/S,2025,1,35,0.0286
+Cashmere,Fabrics,GB,S/S,2025,0,35,0.0
+Fur,Fabrics,GB,S/S,2025,0,35,0.0
+Jersey,Fabrics,GB,S/S,2025,3,35,0.0857
+Chiffon,Fabrics,GB,S/S,2025,2,35,0.0571
+Velvet,Fabrics,GB,S/S,2025,1,35,0.0286
+Suede,Fabrics,GB,S/S,2025,0,35,0.0
+Tulle,Fabrics,GB,S/S,2025,0,35,0.0
+Silk,Fabrics,GB,S/S,2025,5,35,0.1429
+Linen,Fabrics,GB,S/S,2025,2,35,0.0571
+Crepe,Fabrics,GB,S/S,2025,5,35,0.1429
+Mesh,Fabrics,GB,S/S,2025,0,35,0.0
+Bouclé,Fabrics,GB,S/S,2025,3,35,0.0857
+Poplin,Fabrics,GB,S/S,2025,0,35,0.0
+Twill,Fabrics,GB,S/S,2025,0,35,0.0
+White,Colours,GB,S/S,2025,24,35,0.6857
+Black,Colours,GB,S/S,2025,12,35,0.3429
+Beige,Colours,GB,S/S,2025,4,35,0.1143
+Brown,Colours,GB,S/S,2025,3,35,0.0857
+Blue,Colours,GB,S/S,2025,4,35,0.1143
+Burgundy,Colours,GB,S/S,2025,1,35,0.0286
+Grey,Colours,GB,S/S,2025,1,35,0.0286
+Cream,Colours,GB,S/S,2025,7,35,0.2
+Camel,Colours,GB,S/S,2025,2,35,0.0571
+Red,Colours,GB,S/S,2025,0,35,0.0
+Navy,Colours,GB,S/S,2025,0,35,0.0
+Pink,Colours,GB,S/S,2025,2,35,0.0571
+Green,Colours,GB,S/S,2025,2,35,0.0571
+Yellow,Colours,GB,S/S,2025,2,35,0.0571
+Silver,Colours,GB,S/S,2025,0,35,0.0
+Polka dots,Colours,GB,S/S,2025,0,35,0.0
+Casual,Styles,GB,S/S,2025,0,35,0.0
+Evening wear,Styles,GB,S/S,2025,0,35,0.0
+Formal / office,Styles,GB,S/S,2025,0,35,0.0
+Loungewear,Styles,GB,S/S,2025,1,35,0.0286
+Boho,Styles,GB,S/S,2025,1,35,0.0286
+Floral details,Runway details,GB,S/S,2025,0,35,0.0
+Embroidery,Runway details,GB,S/S,2025,1,35,0.0286
+Sequins & beads,Runway details,GB,S/S,2025,2,35,0.0571
+Pearls & crystals,Runway details,GB,S/S,2025,0,35,0.0
+Studs & rivets,Runway details,GB,S/S,2025,0,35,0.0
+Feathers,Runway details,GB,S/S,2025,0,35,0.0
+Geometric motifs,Runway details,GB,S/S,2025,0,35,0.0
+Animal motifs,Runway details,GB,S/S,2025,0,35,0.0
+Dress,Garments,FR,all,all,14,79,0.1772
+Trench coat,Garments,FR,all,all,0,79,0.0
+Blazer,Garments,FR,all,all,0,79,0.0
+Coat,Garments,FR,all,all,0,79,0.0
+Shirt,Garments,FR,all,all,0,79,0.0
+Sweater,Garments,FR,all,all,2,79,0.0253
+Trousers,Garments,FR,all,all,0,79,0.0
+Jeans,Garments,FR,all,all,2,79,0.0253
+Skirt,Garments,FR,all,all,1,79,0.0127
+Shorts,Garments,FR,all,all,0,79,0.0
+Top,Garments,FR,all,all,2,79,0.0253
+Turtleneck,Garments,FR,all,all,0,79,0.0
+Scarf,Garments,FR,all,all,0,79,0.0
+Hat,Garments,FR,all,all,0,79,0.0
+Tights,Garments,FR,all,all,0,79,0.0
+Bodycon dress,Garments,FR,all,all,0,79,0.0
+Bomber jacket,Garments,FR,all,all,0,79,0.0
+Cardigan,Garments,FR,all,all,0,79,0.0
+Slip dress,Garments,FR,all,all,0,79,0.0
+Wide-leg jeans,Garments,FR,all,all,0,79,0.0
+Cotton,Fabrics,FR,all,all,24,79,0.3038
+Wool,Fabrics,FR,all,all,5,79,0.0633
+Satin,Fabrics,FR,all,all,5,79,0.0633
+Knit,Fabrics,FR,all,all,4,79,0.0506
+Denim,Fabrics,FR,all,all,7,79,0.0886
+Tweed,Fabrics,FR,all,all,0,79,0.0
+Leather,Fabrics,FR,all,all,2,79,0.0253
+Lace,Fabrics,FR,all,all,1,79,0.0127
+Cashmere,Fabrics,FR,all,all,0,79,0.0
+Fur,Fabrics,FR,all,all,2,79,0.0253
+Jersey,Fabrics,FR,all,all,2,79,0.0253
+Chiffon,Fabrics,FR,all,all,0,79,0.0
+Velvet,Fabrics,FR,all,all,0,79,0.0
+Suede,Fabrics,FR,all,all,2,79,0.0253
+Tulle,Fabrics,FR,all,all,0,79,0.0
+Silk,Fabrics,FR,all,all,0,79,0.0
+Linen,Fabrics,FR,all,all,0,79,0.0
+Crepe,Fabrics,FR,all,all,1,79,0.0127
+Mesh,Fabrics,FR,all,all,1,79,0.0127
+Bouclé,Fabrics,FR,all,all,0,79,0.0
+Poplin,Fabrics,FR,all,all,0,79,0.0
+Twill,Fabrics,FR,all,all,4,79,0.0506
+White,Colours,FR,all,all,7,79,0.0886
+Black,Colours,FR,all,all,17,79,0.2152
+Beige,Colours,FR,all,all,2,79,0.0253
+Brown,Colours,FR,all,all,0,79,0.0
+Blue,Colours,FR,all,all,6,79,0.0759
+Burgundy,Colours,FR,all,all,0,79,0.0
+Grey,Colours,FR,all,all,1,79,0.0127
+Cream,Colours,FR,all,all,0,79,0.0
+Camel,Colours,FR,all,all,0,79,0.0
+Red,Colours,FR,all,all,3,79,0.038
+Navy,Colours,FR,all,all,0,79,0.0
+Pink,Colours,FR,all,all,2,79,0.0253
+Green,Colours,FR,all,all,0,79,0.0
+Yellow,Colours,FR,all,all,0,79,0.0
+Silver,Colours,FR,all,all,0,79,0.0
+Polka dots,Colours,FR,all,all,0,79,0.0
+Casual,Styles,FR,all,all,45,79,0.5696
+Evening wear,Styles,FR,all,all,5,79,0.0633
+Formal / office,Styles,FR,all,all,4,79,0.0506
+Loungewear,Styles,FR,all,all,1,79,0.0127
+Boho,Styles,FR,all,all,0,79,0.0
+Floral details,Runway details,FR,all,all,0,79,0.0
+Embroidery,Runway details,FR,all,all,0,79,0.0
+Sequins & beads,Runway details,FR,all,all,1,79,0.0127
+Pearls & crystals,Runway details,FR,all,all,0,79,0.0
+Studs & rivets,Runway details,FR,all,all,0,79,0.0
+Feathers,Runway details,FR,all,all,0,79,0.0
+Geometric motifs,Runway details,FR,all,all,0,79,0.0
+Animal motifs,Runway details,FR,all,all,0,79,0.0
+Dress,Garments,FR,all,2024,8,21,0.381
+Trench coat,Garments,FR,all,2024,0,21,0.0
+Blazer,Garments,FR,all,2024,0,21,0.0
+Coat,Garments,FR,all,2024,0,21,0.0
+Shirt,Garments,FR,all,2024,0,21,0.0
+Sweater,Garments,FR,all,2024,0,21,0.0
+Trousers,Garments,FR,all,2024,0,21,0.0
+Jeans,Garments,FR,all,2024,0,21,0.0
+Skirt,Garments,FR,all,2024,0,21,0.0
+Shorts,Garments,FR,all,2024,0,21,0.0
+Top,Garments,FR,all,2024,0,21,0.0
+Turtleneck,Garments,FR,all,2024,0,21,0.0
+Scarf,Garments,FR,all,2024,0,21,0.0
+Hat,Garments,FR,all,2024,0,21,0.0
+Tights,Garments,FR,all,2024,0,21,0.0
+Bodycon dress,Garments,FR,all,2024,0,21,0.0
+Bomber jacket,Garments,FR,all,2024,0,21,0.0
+Cardigan,Garments,FR,all,2024,0,21,0.0
+Slip dress,Garments,FR,all,2024,0,21,0.0
+Wide-leg jeans,Garments,FR,all,2024,0,21,0.0
+Cotton,Fabrics,FR,all,2024,0,21,0.0
+Wool,Fabrics,FR,all,2024,0,21,0.0
+Satin,Fabrics,FR,all,2024,0,21,0.0
+Knit,Fabrics,FR,all,2024,0,21,0.0
+Denim,Fabrics,FR,all,2024,0,21,0.0
+Tweed,Fabrics,FR,all,2024,0,21,0.0
+Leather,Fabrics,FR,all,2024,0,21,0.0
+Lace,Fabrics,FR,all,2024,0,21,0.0
+Cashmere,Fabrics,FR,all,2024,0,21,0.0
+Fur,Fabrics,FR,all,2024,0,21,0.0
+Jersey,Fabrics,FR,all,2024,0,21,0.0
+Chiffon,Fabrics,FR,all,2024,0,21,0.0
+Velvet,Fabrics,FR,all,2024,0,21,0.0
+Suede,Fabrics,FR,all,2024,0,21,0.0
+Tulle,Fabrics,FR,all,2024,0,21,0.0
+Silk,Fabrics,FR,all,2024,0,21,0.0
+Linen,Fabrics,FR,all,2024,0,21,0.0
+Crepe,Fabrics,FR,all,2024,0,21,0.0
+Mesh,Fabrics,FR,all,2024,0,21,0.0
+Bouclé,Fabrics,FR,all,2024,0,21,0.0
+Poplin,Fabrics,FR,all,2024,0,21,0.0
+Twill,Fabrics,FR,all,2024,0,21,0.0
+White,Colours,FR,all,2024,2,21,0.0952
+Black,Colours,FR,all,2024,3,21,0.1429
+Beige,Colours,FR,all,2024,0,21,0.0
+Brown,Colours,FR,all,2024,0,21,0.0
+Blue,Colours,FR,all,2024,0,21,0.0
+Burgundy,Colours,FR,all,2024,0,21,0.0
+Grey,Colours,FR,all,2024,1,21,0.0476
+Cream,Colours,FR,all,2024,0,21,0.0
+Camel,Colours,FR,all,2024,0,21,0.0
+Red,Colours,FR,all,2024,1,21,0.0476
+Navy,Colours,FR,all,2024,0,21,0.0
+Pink,Colours,FR,all,2024,0,21,0.0
+Green,Colours,FR,all,2024,0,21,0.0
+Yellow,Colours,FR,all,2024,0,21,0.0
+Silver,Colours,FR,all,2024,0,21,0.0
+Polka dots,Colours,FR,all,2024,0,21,0.0
+Casual,Styles,FR,all,2024,11,21,0.5238
+Evening wear,Styles,FR,all,2024,0,21,0.0
+Formal / office,Styles,FR,all,2024,0,21,0.0
+Loungewear,Styles,FR,all,2024,0,21,0.0
+Boho,Styles,FR,all,2024,0,21,0.0
+Floral details,Runway details,FR,all,2024,0,21,0.0
+Embroidery,Runway details,FR,all,2024,0,21,0.0
+Sequins & beads,Runway details,FR,all,2024,0,21,0.0
+Pearls & crystals,Runway details,FR,all,2024,0,21,0.0
+Studs & rivets,Runway details,FR,all,2024,0,21,0.0
+Feathers,Runway details,FR,all,2024,0,21,0.0
+Geometric motifs,Runway details,FR,all,2024,0,21,0.0
+Animal motifs,Runway details,FR,all,2024,0,21,0.0
+Dress,Garments,FR,all,2025,6,58,0.1034
+Trench coat,Garments,FR,all,2025,0,58,0.0
+Blazer,Garments,FR,all,2025,0,58,0.0
+Coat,Garments,FR,all,2025,0,58,0.0
+Shirt,Garments,FR,all,2025,0,58,0.0
+Sweater,Garments,FR,all,2025,2,58,0.0345
+Trousers,Garments,FR,all,2025,0,58,0.0
+Jeans,Garments,FR,all,2025,2,58,0.0345
+Skirt,Garments,FR,all,2025,1,58,0.0172
+Shorts,Garments,FR,all,2025,0,58,0.0
+Top,Garments,FR,all,2025,2,58,0.0345
+Turtleneck,Garments,FR,all,2025,0,58,0.0
+Scarf,Garments,FR,all,2025,0,58,0.0
+Hat,Garments,FR,all,2025,0,58,0.0
+Tights,Garments,FR,all,2025,0,58,0.0
+Bodycon dress,Garments,FR,all,2025,0,58,0.0
+Bomber jacket,Garments,FR,all,2025,0,58,0.0
+Cardigan,Garments,FR,all,2025,0,58,0.0
+Slip dress,Garments,FR,all,2025,0,58,0.0
+Wide-leg jeans,Garments,FR,all,2025,0,58,0.0
+Cotton,Fabrics,FR,all,2025,24,58,0.4138
+Wool,Fabrics,FR,all,2025,5,58,0.0862
+Satin,Fabrics,FR,all,2025,5,58,0.0862
+Knit,Fabrics,FR,all,2025,4,58,0.069
+Denim,Fabrics,FR,all,2025,7,58,0.1207
+Tweed,Fabrics,FR,all,2025,0,58,0.0
+Leather,Fabrics,FR,all,2025,2,58,0.0345
+Lace,Fabrics,FR,all,2025,1,58,0.0172
+Cashmere,Fabrics,FR,all,2025,0,58,0.0
+Fur,Fabrics,FR,all,2025,2,58,0.0345
+Jersey,Fabrics,FR,all,2025,2,58,0.0345
+Chiffon,Fabrics,FR,all,2025,0,58,0.0
+Velvet,Fabrics,FR,all,2025,0,58,0.0
+Suede,Fabrics,FR,all,2025,2,58,0.0345
+Tulle,Fabrics,FR,all,2025,0,58,0.0
+Silk,Fabrics,FR,all,2025,0,58,0.0
+Linen,Fabrics,FR,all,2025,0,58,0.0
+Crepe,Fabrics,FR,all,2025,1,58,0.0172
+Mesh,Fabrics,FR,all,2025,1,58,0.0172
+Bouclé,Fabrics,FR,all,2025,0,58,0.0
+Poplin,Fabrics,FR,all,2025,0,58,0.0
+Twill,Fabrics,FR,all,2025,4,58,0.069
+White,Colours,FR,all,2025,5,58,0.0862
+Black,Colours,FR,all,2025,14,58,0.2414
+Beige,Colours,FR,all,2025,2,58,0.0345
+Brown,Colours,FR,all,2025,0,58,0.0
+Blue,Colours,FR,all,2025,6,58,0.1034
+Burgundy,Colours,FR,all,2025,0,58,0.0
+Grey,Colours,FR,all,2025,0,58,0.0
+Cream,Colours,FR,all,2025,0,58,0.0
+Camel,Colours,FR,all,2025,0,58,0.0
+Red,Colours,FR,all,2025,2,58,0.0345
+Navy,Colours,FR,all,2025,0,58,0.0
+Pink,Colours,FR,all,2025,2,58,0.0345
+Green,Colours,FR,all,2025,0,58,0.0
+Yellow,Colours,FR,all,2025,0,58,0.0
+Silver,Colours,FR,all,2025,0,58,0.0
+Polka dots,Colours,FR,all,2025,0,58,0.0
+Casual,Styles,FR,all,2025,34,58,0.5862
+Evening wear,Styles,FR,all,2025,5,58,0.0862
+Formal / office,Styles,FR,all,2025,4,58,0.069
+Loungewear,Styles,FR,all,2025,1,58,0.0172
+Boho,Styles,FR,all,2025,0,58,0.0
+Floral details,Runway details,FR,all,2025,0,58,0.0
+Embroidery,Runway details,FR,all,2025,0,58,0.0
+Sequins & beads,Runway details,FR,all,2025,1,58,0.0172
+Pearls & crystals,Runway details,FR,all,2025,0,58,0.0
+Studs & rivets,Runway details,FR,all,2025,0,58,0.0
+Feathers,Runway details,FR,all,2025,0,58,0.0
+Geometric motifs,Runway details,FR,all,2025,0,58,0.0
+Animal motifs,Runway details,FR,all,2025,0,58,0.0
+Dress,Garments,FR,A/W,all,9,37,0.2432
+Trench coat,Garments,FR,A/W,all,0,37,0.0
+Blazer,Garments,FR,A/W,all,0,37,0.0
+Coat,Garments,FR,A/W,all,0,37,0.0
+Shirt,Garments,FR,A/W,all,0,37,0.0
+Sweater,Garments,FR,A/W,all,2,37,0.0541
+Trousers,Garments,FR,A/W,all,0,37,0.0
+Jeans,Garments,FR,A/W,all,1,37,0.027
+Skirt,Garments,FR,A/W,all,0,37,0.0
+Shorts,Garments,FR,A/W,all,0,37,0.0
+Top,Garments,FR,A/W,all,2,37,0.0541
+Turtleneck,Garments,FR,A/W,all,0,37,0.0
+Scarf,Garments,FR,A/W,all,0,37,0.0
+Hat,Garments,FR,A/W,all,0,37,0.0
+Tights,Garments,FR,A/W,all,0,37,0.0
+Bodycon dress,Garments,FR,A/W,all,0,37,0.0
+Bomber jacket,Garments,FR,A/W,all,0,37,0.0
+Cardigan,Garments,FR,A/W,all,0,37,0.0
+Slip dress,Garments,FR,A/W,all,0,37,0.0
+Wide-leg jeans,Garments,FR,A/W,all,0,37,0.0
+Cotton,Fabrics,FR,A/W,all,6,37,0.1622
+Wool,Fabrics,FR,A/W,all,1,37,0.027
+Satin,Fabrics,FR,A/W,all,2,37,0.0541
+Knit,Fabrics,FR,A/W,all,0,37,0.0
+Denim,Fabrics,FR,A/W,all,3,37,0.0811
+Tweed,Fabrics,FR,A/W,all,0,37,0.0
+Leather,Fabrics,FR,A/W,all,1,37,0.027
+Lace,Fabrics,FR,A/W,all,1,37,0.027
+Cashmere,Fabrics,FR,A/W,all,0,37,0.0
+Fur,Fabrics,FR,A/W,all,1,37,0.027
+Jersey,Fabrics,FR,A/W,all,0,37,0.0
+Chiffon,Fabrics,FR,A/W,all,0,37,0.0
+Velvet,Fabrics,FR,A/W,all,0,37,0.0
+Suede,Fabrics,FR,A/W,all,0,37,0.0
+Tulle,Fabrics,FR,A/W,all,0,37,0.0
+Silk,Fabrics,FR,A/W,all,0,37,0.0
+Linen,Fabrics,FR,A/W,all,0,37,0.0
+Crepe,Fabrics,FR,A/W,all,1,37,0.027
+Mesh,Fabrics,FR,A/W,all,1,37,0.027
+Bouclé,Fabrics,FR,A/W,all,0,37,0.0
+Poplin,Fabrics,FR,A/W,all,0,37,0.0
+Twill,Fabrics,FR,A/W,all,2,37,0.0541
+White,Colours,FR,A/W,all,6,37,0.1622
+Black,Colours,FR,A/W,all,9,37,0.2432
+Beige,Colours,FR,A/W,all,1,37,0.027
+Brown,Colours,FR,A/W,all,0,37,0.0
+Blue,Colours,FR,A/W,all,3,37,0.0811
+Burgundy,Colours,FR,A/W,all,0,37,0.0
+Grey,Colours,FR,A/W,all,0,37,0.0
+Cream,Colours,FR,A/W,all,0,37,0.0
+Camel,Colours,FR,A/W,all,0,37,0.0
+Red,Colours,FR,A/W,all,3,37,0.0811
+Navy,Colours,FR,A/W,all,0,37,0.0
+Pink,Colours,FR,A/W,all,1,37,0.027
+Green,Colours,FR,A/W,all,0,37,0.0
+Yellow,Colours,FR,A/W,all,0,37,0.0
+Silver,Colours,FR,A/W,all,0,37,0.0
+Polka dots,Colours,FR,A/W,all,0,37,0.0
+Casual,Styles,FR,A/W,all,15,37,0.4054
+Evening wear,Styles,FR,A/W,all,2,37,0.0541
+Formal / office,Styles,FR,A/W,all,2,37,0.0541
+Loungewear,Styles,FR,A/W,all,1,37,0.027
+Boho,Styles,FR,A/W,all,0,37,0.0
+Floral details,Runway details,FR,A/W,all,0,37,0.0
+Embroidery,Runway details,FR,A/W,all,0,37,0.0
+Sequins & beads,Runway details,FR,A/W,all,0,37,0.0
+Pearls & crystals,Runway details,FR,A/W,all,0,37,0.0
+Studs & rivets,Runway details,FR,A/W,all,0,37,0.0
+Feathers,Runway details,FR,A/W,all,0,37,0.0
+Geometric motifs,Runway details,FR,A/W,all,0,37,0.0
+Animal motifs,Runway details,FR,A/W,all,0,37,0.0
+Dress,Garments,FR,A/W,2024,6,12,0.5
+Trench coat,Garments,FR,A/W,2024,0,12,0.0
+Blazer,Garments,FR,A/W,2024,0,12,0.0
+Coat,Garments,FR,A/W,2024,0,12,0.0
+Shirt,Garments,FR,A/W,2024,0,12,0.0
+Sweater,Garments,FR,A/W,2024,0,12,0.0
+Trousers,Garments,FR,A/W,2024,0,12,0.0
+Jeans,Garments,FR,A/W,2024,0,12,0.0
+Skirt,Garments,FR,A/W,2024,0,12,0.0
+Shorts,Garments,FR,A/W,2024,0,12,0.0
+Top,Garments,FR,A/W,2024,0,12,0.0
+Turtleneck,Garments,FR,A/W,2024,0,12,0.0
+Scarf,Garments,FR,A/W,2024,0,12,0.0
+Hat,Garments,FR,A/W,2024,0,12,0.0
+Tights,Garments,FR,A/W,2024,0,12,0.0
+Bodycon dress,Garments,FR,A/W,2024,0,12,0.0
+Bomber jacket,Garments,FR,A/W,2024,0,12,0.0
+Cardigan,Garments,FR,A/W,2024,0,12,0.0
+Slip dress,Garments,FR,A/W,2024,0,12,0.0
+Wide-leg jeans,Garments,FR,A/W,2024,0,12,0.0
+Cotton,Fabrics,FR,A/W,2024,0,12,0.0
+Wool,Fabrics,FR,A/W,2024,0,12,0.0
+Satin,Fabrics,FR,A/W,2024,0,12,0.0
+Knit,Fabrics,FR,A/W,2024,0,12,0.0
+Denim,Fabrics,FR,A/W,2024,0,12,0.0
+Tweed,Fabrics,FR,A/W,2024,0,12,0.0
+Leather,Fabrics,FR,A/W,2024,0,12,0.0
+Lace,Fabrics,FR,A/W,2024,0,12,0.0
+Cashmere,Fabrics,FR,A/W,2024,0,12,0.0
+Fur,Fabrics,FR,A/W,2024,0,12,0.0
+Jersey,Fabrics,FR,A/W,2024,0,12,0.0
+Chiffon,Fabrics,FR,A/W,2024,0,12,0.0
+Velvet,Fabrics,FR,A/W,2024,0,12,0.0
+Suede,Fabrics,FR,A/W,2024,0,12,0.0
+Tulle,Fabrics,FR,A/W,2024,0,12,0.0
+Silk,Fabrics,FR,A/W,2024,0,12,0.0
+Linen,Fabrics,FR,A/W,2024,0,12,0.0
+Crepe,Fabrics,FR,A/W,2024,0,12,0.0
+Mesh,Fabrics,FR,A/W,2024,0,12,0.0
+Bouclé,Fabrics,FR,A/W,2024,0,12,0.0
+Poplin,Fabrics,FR,A/W,2024,0,12,0.0
+Twill,Fabrics,FR,A/W,2024,0,12,0.0
+White,Colours,FR,A/W,2024,2,12,0.1667
+Black,Colours,FR,A/W,2024,2,12,0.1667
+Beige,Colours,FR,A/W,2024,0,12,0.0
+Brown,Colours,FR,A/W,2024,0,12,0.0
+Blue,Colours,FR,A/W,2024,0,12,0.0
+Burgundy,Colours,FR,A/W,2024,0,12,0.0
+Grey,Colours,FR,A/W,2024,0,12,0.0
+Cream,Colours,FR,A/W,2024,0,12,0.0
+Camel,Colours,FR,A/W,2024,0,12,0.0
+Red,Colours,FR,A/W,2024,1,12,0.0833
+Navy,Colours,FR,A/W,2024,0,12,0.0
+Pink,Colours,FR,A/W,2024,0,12,0.0
+Green,Colours,FR,A/W,2024,0,12,0.0
+Yellow,Colours,FR,A/W,2024,0,12,0.0
+Silver,Colours,FR,A/W,2024,0,12,0.0
+Polka dots,Colours,FR,A/W,2024,0,12,0.0
+Casual,Styles,FR,A/W,2024,4,12,0.3333
+Evening wear,Styles,FR,A/W,2024,0,12,0.0
+Formal / office,Styles,FR,A/W,2024,0,12,0.0
+Loungewear,Styles,FR,A/W,2024,0,12,0.0
+Boho,Styles,FR,A/W,2024,0,12,0.0
+Floral details,Runway details,FR,A/W,2024,0,12,0.0
+Embroidery,Runway details,FR,A/W,2024,0,12,0.0
+Sequins & beads,Runway details,FR,A/W,2024,0,12,0.0
+Pearls & crystals,Runway details,FR,A/W,2024,0,12,0.0
+Studs & rivets,Runway details,FR,A/W,2024,0,12,0.0
+Feathers,Runway details,FR,A/W,2024,0,12,0.0
+Geometric motifs,Runway details,FR,A/W,2024,0,12,0.0
+Animal motifs,Runway details,FR,A/W,2024,0,12,0.0
+Dress,Garments,FR,A/W,2025,3,25,0.12
+Trench coat,Garments,FR,A/W,2025,0,25,0.0
+Blazer,Garments,FR,A/W,2025,0,25,0.0
+Coat,Garments,FR,A/W,2025,0,25,0.0
+Shirt,Garments,FR,A/W,2025,0,25,0.0
+Sweater,Garments,FR,A/W,2025,2,25,0.08
+Trousers,Garments,FR,A/W,2025,0,25,0.0
+Jeans,Garments,FR,A/W,2025,1,25,0.04
+Skirt,Garments,FR,A/W,2025,0,25,0.0
+Shorts,Garments,FR,A/W,2025,0,25,0.0
+Top,Garments,FR,A/W,2025,2,25,0.08
+Turtleneck,Garments,FR,A/W,2025,0,25,0.0
+Scarf,Garments,FR,A/W,2025,0,25,0.0
+Hat,Garments,FR,A/W,2025,0,25,0.0
+Tights,Garments,FR,A/W,2025,0,25,0.0
+Bodycon dress,Garments,FR,A/W,2025,0,25,0.0
+Bomber jacket,Garments,FR,A/W,2025,0,25,0.0
+Cardigan,Garments,FR,A/W,2025,0,25,0.0
+Slip dress,Garments,FR,A/W,2025,0,25,0.0
+Wide-leg jeans,Garments,FR,A/W,2025,0,25,0.0
+Cotton,Fabrics,FR,A/W,2025,6,25,0.24
+Wool,Fabrics,FR,A/W,2025,1,25,0.04
+Satin,Fabrics,FR,A/W,2025,2,25,0.08
+Knit,Fabrics,FR,A/W,2025,0,25,0.0
+Denim,Fabrics,FR,A/W,2025,3,25,0.12
+Tweed,Fabrics,FR,A/W,2025,0,25,0.0
+Leather,Fabrics,FR,A/W,2025,1,25,0.04
+Lace,Fabrics,FR,A/W,2025,1,25,0.04
+Cashmere,Fabrics,FR,A/W,2025,0,25,0.0
+Fur,Fabrics,FR,A/W,2025,1,25,0.04
+Jersey,Fabrics,FR,A/W,2025,0,25,0.0
+Chiffon,Fabrics,FR,A/W,2025,0,25,0.0
+Velvet,Fabrics,FR,A/W,2025,0,25,0.0
+Suede,Fabrics,FR,A/W,2025,0,25,0.0
+Tulle,Fabrics,FR,A/W,2025,0,25,0.0
+Silk,Fabrics,FR,A/W,2025,0,25,0.0
+Linen,Fabrics,FR,A/W,2025,0,25,0.0
+Crepe,Fabrics,FR,A/W,2025,1,25,0.04
+Mesh,Fabrics,FR,A/W,2025,1,25,0.04
+Bouclé,Fabrics,FR,A/W,2025,0,25,0.0
+Poplin,Fabrics,FR,A/W,2025,0,25,0.0
+Twill,Fabrics,FR,A/W,2025,2,25,0.08
+White,Colours,FR,A/W,2025,4,25,0.16
+Black,Colours,FR,A/W,2025,7,25,0.28
+Beige,Colours,FR,A/W,2025,1,25,0.04
+Brown,Colours,FR,A/W,2025,0,25,0.0
+Blue,Colours,FR,A/W,2025,3,25,0.12
+Burgundy,Colours,FR,A/W,2025,0,25,0.0
+Grey,Colours,FR,A/W,2025,0,25,0.0
+Cream,Colours,FR,A/W,2025,0,25,0.0
+Camel,Colours,FR,A/W,2025,0,25,0.0
+Red,Colours,FR,A/W,2025,2,25,0.08
+Navy,Colours,FR,A/W,2025,0,25,0.0
+Pink,Colours,FR,A/W,2025,1,25,0.04
+Green,Colours,FR,A/W,2025,0,25,0.0
+Yellow,Colours,FR,A/W,2025,0,25,0.0
+Silver,Colours,FR,A/W,2025,0,25,0.0
+Polka dots,Colours,FR,A/W,2025,0,25,0.0
+Casual,Styles,FR,A/W,2025,11,25,0.44
+Evening wear,Styles,FR,A/W,2025,2,25,0.08
+Formal / office,Styles,FR,A/W,2025,2,25,0.08
+Loungewear,Styles,FR,A/W,2025,1,25,0.04
+Boho,Styles,FR,A/W,2025,0,25,0.0
+Floral details,Runway details,FR,A/W,2025,0,25,0.0
+Embroidery,Runway details,FR,A/W,2025,0,25,0.0
+Sequins & beads,Runway details,FR,A/W,2025,0,25,0.0
+Pearls & crystals,Runway details,FR,A/W,2025,0,25,0.0
+Studs & rivets,Runway details,FR,A/W,2025,0,25,0.0
+Feathers,Runway details,FR,A/W,2025,0,25,0.0
+Geometric motifs,Runway details,FR,A/W,2025,0,25,0.0
+Animal motifs,Runway details,FR,A/W,2025,0,25,0.0
+Dress,Garments,FR,S/S,all,5,41,0.122
+Trench coat,Garments,FR,S/S,all,0,41,0.0
+Blazer,Garments,FR,S/S,all,0,41,0.0
+Coat,Garments,FR,S/S,all,0,41,0.0
+Shirt,Garments,FR,S/S,all,0,41,0.0
+Sweater,Garments,FR,S/S,all,0,41,0.0
+Trousers,Garments,FR,S/S,all,0,41,0.0
+Jeans,Garments,FR,S/S,all,1,41,0.0244
+Skirt,Garments,FR,S/S,all,1,41,0.0244
+Shorts,Garments,FR,S/S,all,0,41,0.0
+Top,Garments,FR,S/S,all,0,41,0.0
+Turtleneck,Garments,FR,S/S,all,0,41,0.0
+Scarf,Garments,FR,S/S,all,0,41,0.0
+Hat,Garments,FR,S/S,all,0,41,0.0
+Tights,Garments,FR,S/S,all,0,41,0.0
+Bodycon dress,Garments,FR,S/S,all,0,41,0.0
+Bomber jacket,Garments,FR,S/S,all,0,41,0.0
+Cardigan,Garments,FR,S/S,all,0,41,0.0
+Slip dress,Garments,FR,S/S,all,0,41,0.0
+Wide-leg jeans,Garments,FR,S/S,all,0,41,0.0
+Cotton,Fabrics,FR,S/S,all,18,41,0.439
+Wool,Fabrics,FR,S/S,all,4,41,0.0976
+Satin,Fabrics,FR,S/S,all,3,41,0.0732
+Knit,Fabrics,FR,S/S,all,4,41,0.0976
+Denim,Fabrics,FR,S/S,all,4,41,0.0976
+Tweed,Fabrics,FR,S/S,all,0,41,0.0
+Leather,Fabrics,FR,S/S,all,1,41,0.0244
+Lace,Fabrics,FR,S/S,all,0,41,0.0
+Cashmere,Fabrics,FR,S/S,all,0,41,0.0
+Fur,Fabrics,FR,S/S,all,1,41,0.0244
+Jersey,Fabrics,FR,S/S,all,2,41,0.0488
+Chiffon,Fabrics,FR,S/S,all,0,41,0.0
+Velvet,Fabrics,FR,S/S,all,0,41,0.0
+Suede,Fabrics,FR,S/S,all,2,41,0.0488
+Tulle,Fabrics,FR,S/S,all,0,41,0.0
+Silk,Fabrics,FR,S/S,all,0,41,0.0
+Linen,Fabrics,FR,S/S,all,0,41,0.0
+Crepe,Fabrics,FR,S/S,all,0,41,0.0
+Mesh,Fabrics,FR,S/S,all,0,41,0.0
+Bouclé,Fabrics,FR,S/S,all,0,41,0.0
+Poplin,Fabrics,FR,S/S,all,0,41,0.0
+Twill,Fabrics,FR,S/S,all,2,41,0.0488
+White,Colours,FR,S/S,all,1,41,0.0244
+Black,Colours,FR,S/S,all,8,41,0.1951
+Beige,Colours,FR,S/S,all,1,41,0.0244
+Brown,Colours,FR,S/S,all,0,41,0.0
+Blue,Colours,FR,S/S,all,3,41,0.0732
+Burgundy,Colours,FR,S/S,all,0,41,0.0
+Grey,Colours,FR,S/S,all,1,41,0.0244
+Cream,Colours,FR,S/S,all,0,41,0.0
+Camel,Colours,FR,S/S,all,0,41,0.0
+Red,Colours,FR,S/S,all,0,41,0.0
+Navy,Colours,FR,S/S,all,0,41,0.0
+Pink,Colours,FR,S/S,all,1,41,0.0244
+Green,Colours,FR,S/S,all,0,41,0.0
+Yellow,Colours,FR,S/S,all,0,41,0.0
+Silver,Colours,FR,S/S,all,0,41,0.0
+Polka dots,Colours,FR,S/S,all,0,41,0.0
+Casual,Styles,FR,S/S,all,29,41,0.7073
+Evening wear,Styles,FR,S/S,all,3,41,0.0732
+Formal / office,Styles,FR,S/S,all,2,41,0.0488
+Loungewear,Styles,FR,S/S,all,0,41,0.0
+Boho,Styles,FR,S/S,all,0,41,0.0
+Floral details,Runway details,FR,S/S,all,0,41,0.0
+Embroidery,Runway details,FR,S/S,all,0,41,0.0
+Sequins & beads,Runway details,FR,S/S,all,1,41,0.0244
+Pearls & crystals,Runway details,FR,S/S,all,0,41,0.0
+Studs & rivets,Runway details,FR,S/S,all,0,41,0.0
+Feathers,Runway details,FR,S/S,all,0,41,0.0
+Geometric motifs,Runway details,FR,S/S,all,0,41,0.0
+Animal motifs,Runway details,FR,S/S,all,0,41,0.0
+Dress,Garments,FR,S/S,2024,2,8,0.25
+Trench coat,Garments,FR,S/S,2024,0,8,0.0
+Blazer,Garments,FR,S/S,2024,0,8,0.0
+Coat,Garments,FR,S/S,2024,0,8,0.0
+Shirt,Garments,FR,S/S,2024,0,8,0.0
+Sweater,Garments,FR,S/S,2024,0,8,0.0
+Trousers,Garments,FR,S/S,2024,0,8,0.0
+Jeans,Garments,FR,S/S,2024,0,8,0.0
+Skirt,Garments,FR,S/S,2024,0,8,0.0
+Shorts,Garments,FR,S/S,2024,0,8,0.0
+Top,Garments,FR,S/S,2024,0,8,0.0
+Turtleneck,Garments,FR,S/S,2024,0,8,0.0
+Scarf,Garments,FR,S/S,2024,0,8,0.0
+Hat,Garments,FR,S/S,2024,0,8,0.0
+Tights,Garments,FR,S/S,2024,0,8,0.0
+Bodycon dress,Garments,FR,S/S,2024,0,8,0.0
+Bomber jacket,Garments,FR,S/S,2024,0,8,0.0
+Cardigan,Garments,FR,S/S,2024,0,8,0.0
+Slip dress,Garments,FR,S/S,2024,0,8,0.0
+Wide-leg jeans,Garments,FR,S/S,2024,0,8,0.0
+Cotton,Fabrics,FR,S/S,2024,0,8,0.0
+Wool,Fabrics,FR,S/S,2024,0,8,0.0
+Satin,Fabrics,FR,S/S,2024,0,8,0.0
+Knit,Fabrics,FR,S/S,2024,0,8,0.0
+Denim,Fabrics,FR,S/S,2024,0,8,0.0
+Tweed,Fabrics,FR,S/S,2024,0,8,0.0
+Leather,Fabrics,FR,S/S,2024,0,8,0.0
+Lace,Fabrics,FR,S/S,2024,0,8,0.0
+Cashmere,Fabrics,FR,S/S,2024,0,8,0.0
+Fur,Fabrics,FR,S/S,2024,0,8,0.0
+Jersey,Fabrics,FR,S/S,2024,0,8,0.0
+Chiffon,Fabrics,FR,S/S,2024,0,8,0.0
+Velvet,Fabrics,FR,S/S,2024,0,8,0.0
+Suede,Fabrics,FR,S/S,2024,0,8,0.0
+Tulle,Fabrics,FR,S/S,2024,0,8,0.0
+Silk,Fabrics,FR,S/S,2024,0,8,0.0
+Linen,Fabrics,FR,S/S,2024,0,8,0.0
+Crepe,Fabrics,FR,S/S,2024,0,8,0.0
+Mesh,Fabrics,FR,S/S,2024,0,8,0.0
+Bouclé,Fabrics,FR,S/S,2024,0,8,0.0
+Poplin,Fabrics,FR,S/S,2024,0,8,0.0
+Twill,Fabrics,FR,S/S,2024,0,8,0.0
+White,Colours,FR,S/S,2024,0,8,0.0
+Black,Colours,FR,S/S,2024,1,8,0.125
+Beige,Colours,FR,S/S,2024,0,8,0.0
+Brown,Colours,FR,S/S,2024,0,8,0.0
+Blue,Colours,FR,S/S,2024,0,8,0.0
+Burgundy,Colours,FR,S/S,2024,0,8,0.0
+Grey,Colours,FR,S/S,2024,1,8,0.125
+Cream,Colours,FR,S/S,2024,0,8,0.0
+Camel,Colours,FR,S/S,2024,0,8,0.0
+Red,Colours,FR,S/S,2024,0,8,0.0
+Navy,Colours,FR,S/S,2024,0,8,0.0
+Pink,Colours,FR,S/S,2024,0,8,0.0
+Green,Colours,FR,S/S,2024,0,8,0.0
+Yellow,Colours,FR,S/S,2024,0,8,0.0
+Silver,Colours,FR,S/S,2024,0,8,0.0
+Polka dots,Colours,FR,S/S,2024,0,8,0.0
+Casual,Styles,FR,S/S,2024,6,8,0.75
+Evening wear,Styles,FR,S/S,2024,0,8,0.0
+Formal / office,Styles,FR,S/S,2024,0,8,0.0
+Loungewear,Styles,FR,S/S,2024,0,8,0.0
+Boho,Styles,FR,S/S,2024,0,8,0.0
+Floral details,Runway details,FR,S/S,2024,0,8,0.0
+Embroidery,Runway details,FR,S/S,2024,0,8,0.0
+Sequins & beads,Runway details,FR,S/S,2024,0,8,0.0
+Pearls & crystals,Runway details,FR,S/S,2024,0,8,0.0
+Studs & rivets,Runway details,FR,S/S,2024,0,8,0.0
+Feathers,Runway details,FR,S/S,2024,0,8,0.0
+Geometric motifs,Runway details,FR,S/S,2024,0,8,0.0
+Animal motifs,Runway details,FR,S/S,2024,0,8,0.0
+Dress,Garments,FR,S/S,2025,3,33,0.0909
+Trench coat,Garments,FR,S/S,2025,0,33,0.0
+Blazer,Garments,FR,S/S,2025,0,33,0.0
+Coat,Garments,FR,S/S,2025,0,33,0.0
+Shirt,Garments,FR,S/S,2025,0,33,0.0
+Sweater,Garments,FR,S/S,2025,0,33,0.0
+Trousers,Garments,FR,S/S,2025,0,33,0.0
+Jeans,Garments,FR,S/S,2025,1,33,0.0303
+Skirt,Garments,FR,S/S,2025,1,33,0.0303
+Shorts,Garments,FR,S/S,2025,0,33,0.0
+Top,Garments,FR,S/S,2025,0,33,0.0
+Turtleneck,Garments,FR,S/S,2025,0,33,0.0
+Scarf,Garments,FR,S/S,2025,0,33,0.0
+Hat,Garments,FR,S/S,2025,0,33,0.0
+Tights,Garments,FR,S/S,2025,0,33,0.0
+Bodycon dress,Garments,FR,S/S,2025,0,33,0.0
+Bomber jacket,Garments,FR,S/S,2025,0,33,0.0
+Cardigan,Garments,FR,S/S,2025,0,33,0.0
+Slip dress,Garments,FR,S/S,2025,0,33,0.0
+Wide-leg jeans,Garments,FR,S/S,2025,0,33,0.0
+Cotton,Fabrics,FR,S/S,2025,18,33,0.5455
+Wool,Fabrics,FR,S/S,2025,4,33,0.1212
+Satin,Fabrics,FR,S/S,2025,3,33,0.0909
+Knit,Fabrics,FR,S/S,2025,4,33,0.1212
+Denim,Fabrics,FR,S/S,2025,4,33,0.1212
+Tweed,Fabrics,FR,S/S,2025,0,33,0.0
+Leather,Fabrics,FR,S/S,2025,1,33,0.0303
+Lace,Fabrics,FR,S/S,2025,0,33,0.0
+Cashmere,Fabrics,FR,S/S,2025,0,33,0.0
+Fur,Fabrics,FR,S/S,2025,1,33,0.0303
+Jersey,Fabrics,FR,S/S,2025,2,33,0.0606
+Chiffon,Fabrics,FR,S/S,2025,0,33,0.0
+Velvet,Fabrics,FR,S/S,2025,0,33,0.0
+Suede,Fabrics,FR,S/S,2025,2,33,0.0606
+Tulle,Fabrics,FR,S/S,2025,0,33,0.0
+Silk,Fabrics,FR,S/S,2025,0,33,0.0
+Linen,Fabrics,FR,S/S,2025,0,33,0.0
+Crepe,Fabrics,FR,S/S,2025,0,33,0.0
+Mesh,Fabrics,FR,S/S,2025,0,33,0.0
+Bouclé,Fabrics,FR,S/S,2025,0,33,0.0
+Poplin,Fabrics,FR,S/S,2025,0,33,0.0
+Twill,Fabrics,FR,S/S,2025,2,33,0.0606
+White,Colours,FR,S/S,2025,1,33,0.0303
+Black,Colours,FR,S/S,2025,7,33,0.2121
+Beige,Colours,FR,S/S,2025,1,33,0.0303
+Brown,Colours,FR,S/S,2025,0,33,0.0
+Blue,Colours,FR,S/S,2025,3,33,0.0909
+Burgundy,Colours,FR,S/S,2025,0,33,0.0
+Grey,Colours,FR,S/S,2025,0,33,0.0
+Cream,Colours,FR,S/S,2025,0,33,0.0
+Camel,Colours,FR,S/S,2025,0,33,0.0
+Red,Colours,FR,S/S,2025,0,33,0.0
+Navy,Colours,FR,S/S,2025,0,33,0.0
+Pink,Colours,FR,S/S,2025,1,33,0.0303
+Green,Colours,FR,S/S,2025,0,33,0.0
+Yellow,Colours,FR,S/S,2025,0,33,0.0
+Silver,Colours,FR,S/S,2025,0,33,0.0
+Polka dots,Colours,FR,S/S,2025,0,33,0.0
+Casual,Styles,FR,S/S,2025,23,33,0.697
+Evening wear,Styles,FR,S/S,2025,3,33,0.0909
+Formal / office,Styles,FR,S/S,2025,2,33,0.0606
+Loungewear,Styles,FR,S/S,2025,0,33,0.0
+Boho,Styles,FR,S/S,2025,0,33,0.0
+Floral details,Runway details,FR,S/S,2025,0,33,0.0
+Embroidery,Runway details,FR,S/S,2025,0,33,0.0
+Sequins & beads,Runway details,FR,S/S,2025,1,33,0.0303
+Pearls & crystals,Runway details,FR,S/S,2025,0,33,0.0
+Studs & rivets,Runway details,FR,S/S,2025,0,33,0.0
+Feathers,Runway details,FR,S/S,2025,0,33,0.0
+Geometric motifs,Runway details,FR,S/S,2025,0,33,0.0
+Animal motifs,Runway details,FR,S/S,2025,0,33,0.0
+Dress,Garments,DK,all,all,0,64,0.0
+Trench coat,Garments,DK,all,all,0,64,0.0
+Blazer,Garments,DK,all,all,0,64,0.0
+Coat,Garments,DK,all,all,0,64,0.0
+Shirt,Garments,DK,all,all,0,64,0.0
+Sweater,Garments,DK,all,all,0,64,0.0
+Trousers,Garments,DK,all,all,0,64,0.0
+Jeans,Garments,DK,all,all,0,64,0.0
+Skirt,Garments,DK,all,all,0,64,0.0
+Shorts,Garments,DK,all,all,0,64,0.0
+Top,Garments,DK,all,all,0,64,0.0
+Turtleneck,Garments,DK,all,all,0,64,0.0
+Scarf,Garments,DK,all,all,0,64,0.0
+Hat,Garments,DK,all,all,0,64,0.0
+Tights,Garments,DK,all,all,0,64,0.0
+Bodycon dress,Garments,DK,all,all,0,64,0.0
+Bomber jacket,Garments,DK,all,all,0,64,0.0
+Cardigan,Garments,DK,all,all,0,64,0.0
+Slip dress,Garments,DK,all,all,0,64,0.0
+Wide-leg jeans,Garments,DK,all,all,0,64,0.0
+Cotton,Fabrics,DK,all,all,8,64,0.125
+Wool,Fabrics,DK,all,all,11,64,0.1719
+Satin,Fabrics,DK,all,all,10,64,0.1562
+Knit,Fabrics,DK,all,all,9,64,0.1406
+Denim,Fabrics,DK,all,all,2,64,0.0312
+Tweed,Fabrics,DK,all,all,5,64,0.0781
+Leather,Fabrics,DK,all,all,4,64,0.0625
+Lace,Fabrics,DK,all,all,3,64,0.0469
+Cashmere,Fabrics,DK,all,all,0,64,0.0
+Fur,Fabrics,DK,all,all,1,64,0.0156
+Jersey,Fabrics,DK,all,all,3,64,0.0469
+Chiffon,Fabrics,DK,all,all,2,64,0.0312
+Velvet,Fabrics,DK,all,all,1,64,0.0156
+Suede,Fabrics,DK,all,all,2,64,0.0312
+Tulle,Fabrics,DK,all,all,1,64,0.0156
+Silk,Fabrics,DK,all,all,2,64,0.0312
+Linen,Fabrics,DK,all,all,0,64,0.0
+Crepe,Fabrics,DK,all,all,2,64,0.0312
+Mesh,Fabrics,DK,all,all,1,64,0.0156
+Bouclé,Fabrics,DK,all,all,1,64,0.0156
+Poplin,Fabrics,DK,all,all,3,64,0.0469
+Twill,Fabrics,DK,all,all,2,64,0.0312
+White,Colours,DK,all,all,12,64,0.1875
+Black,Colours,DK,all,all,14,64,0.2188
+Beige,Colours,DK,all,all,0,64,0.0
+Brown,Colours,DK,all,all,3,64,0.0469
+Blue,Colours,DK,all,all,2,64,0.0312
+Burgundy,Colours,DK,all,all,0,64,0.0
+Grey,Colours,DK,all,all,3,64,0.0469
+Cream,Colours,DK,all,all,1,64,0.0156
+Camel,Colours,DK,all,all,0,64,0.0
+Red,Colours,DK,all,all,4,64,0.0625
+Navy,Colours,DK,all,all,0,64,0.0
+Pink,Colours,DK,all,all,2,64,0.0312
+Green,Colours,DK,all,all,4,64,0.0625
+Yellow,Colours,DK,all,all,2,64,0.0312
+Silver,Colours,DK,all,all,2,64,0.0312
+Polka dots,Colours,DK,all,all,0,64,0.0
+Casual,Styles,DK,all,all,30,64,0.4688
+Evening wear,Styles,DK,all,all,17,64,0.2656
+Formal / office,Styles,DK,all,all,8,64,0.125
+Loungewear,Styles,DK,all,all,0,64,0.0
+Boho,Styles,DK,all,all,0,64,0.0
+Floral details,Runway details,DK,all,all,1,64,0.0156
+Embroidery,Runway details,DK,all,all,0,64,0.0
+Sequins & beads,Runway details,DK,all,all,1,64,0.0156
+Pearls & crystals,Runway details,DK,all,all,1,64,0.0156
+Studs & rivets,Runway details,DK,all,all,0,64,0.0
+Feathers,Runway details,DK,all,all,0,64,0.0
+Geometric motifs,Runway details,DK,all,all,0,64,0.0
+Animal motifs,Runway details,DK,all,all,2,64,0.0312
+Dress,Garments,DK,all,2024,0,0,
+Trench coat,Garments,DK,all,2024,0,0,
+Blazer,Garments,DK,all,2024,0,0,
+Coat,Garments,DK,all,2024,0,0,
+Shirt,Garments,DK,all,2024,0,0,
+Sweater,Garments,DK,all,2024,0,0,
+Trousers,Garments,DK,all,2024,0,0,
+Jeans,Garments,DK,all,2024,0,0,
+Skirt,Garments,DK,all,2024,0,0,
+Shorts,Garments,DK,all,2024,0,0,
+Top,Garments,DK,all,2024,0,0,
+Turtleneck,Garments,DK,all,2024,0,0,
+Scarf,Garments,DK,all,2024,0,0,
+Hat,Garments,DK,all,2024,0,0,
+Tights,Garments,DK,all,2024,0,0,
+Bodycon dress,Garments,DK,all,2024,0,0,
+Bomber jacket,Garments,DK,all,2024,0,0,
+Cardigan,Garments,DK,all,2024,0,0,
+Slip dress,Garments,DK,all,2024,0,0,
+Wide-leg jeans,Garments,DK,all,2024,0,0,
+Cotton,Fabrics,DK,all,2024,0,0,
+Wool,Fabrics,DK,all,2024,0,0,
+Satin,Fabrics,DK,all,2024,0,0,
+Knit,Fabrics,DK,all,2024,0,0,
+Denim,Fabrics,DK,all,2024,0,0,
+Tweed,Fabrics,DK,all,2024,0,0,
+Leather,Fabrics,DK,all,2024,0,0,
+Lace,Fabrics,DK,all,2024,0,0,
+Cashmere,Fabrics,DK,all,2024,0,0,
+Fur,Fabrics,DK,all,2024,0,0,
+Jersey,Fabrics,DK,all,2024,0,0,
+Chiffon,Fabrics,DK,all,2024,0,0,
+Velvet,Fabrics,DK,all,2024,0,0,
+Suede,Fabrics,DK,all,2024,0,0,
+Tulle,Fabrics,DK,all,2024,0,0,
+Silk,Fabrics,DK,all,2024,0,0,
+Linen,Fabrics,DK,all,2024,0,0,
+Crepe,Fabrics,DK,all,2024,0,0,
+Mesh,Fabrics,DK,all,2024,0,0,
+Bouclé,Fabrics,DK,all,2024,0,0,
+Poplin,Fabrics,DK,all,2024,0,0,
+Twill,Fabrics,DK,all,2024,0,0,
+White,Colours,DK,all,2024,0,0,
+Black,Colours,DK,all,2024,0,0,
+Beige,Colours,DK,all,2024,0,0,
+Brown,Colours,DK,all,2024,0,0,
+Blue,Colours,DK,all,2024,0,0,
+Burgundy,Colours,DK,all,2024,0,0,
+Grey,Colours,DK,all,2024,0,0,
+Cream,Colours,DK,all,2024,0,0,
+Camel,Colours,DK,all,2024,0,0,
+Red,Colours,DK,all,2024,0,0,
+Navy,Colours,DK,all,2024,0,0,
+Pink,Colours,DK,all,2024,0,0,
+Green,Colours,DK,all,2024,0,0,
+Yellow,Colours,DK,all,2024,0,0,
+Silver,Colours,DK,all,2024,0,0,
+Polka dots,Colours,DK,all,2024,0,0,
+Casual,Styles,DK,all,2024,0,0,
+Evening wear,Styles,DK,all,2024,0,0,
+Formal / office,Styles,DK,all,2024,0,0,
+Loungewear,Styles,DK,all,2024,0,0,
+Boho,Styles,DK,all,2024,0,0,
+Floral details,Runway details,DK,all,2024,0,0,
+Embroidery,Runway details,DK,all,2024,0,0,
+Sequins & beads,Runway details,DK,all,2024,0,0,
+Pearls & crystals,Runway details,DK,all,2024,0,0,
+Studs & rivets,Runway details,DK,all,2024,0,0,
+Feathers,Runway details,DK,all,2024,0,0,
+Geometric motifs,Runway details,DK,all,2024,0,0,
+Animal motifs,Runway details,DK,all,2024,0,0,
+Dress,Garments,DK,all,2025,0,38,0.0
+Trench coat,Garments,DK,all,2025,0,38,0.0
+Blazer,Garments,DK,all,2025,0,38,0.0
+Coat,Garments,DK,all,2025,0,38,0.0
+Shirt,Garments,DK,all,2025,0,38,0.0
+Sweater,Garments,DK,all,2025,0,38,0.0
+Trousers,Garments,DK,all,2025,0,38,0.0
+Jeans,Garments,DK,all,2025,0,38,0.0
+Skirt,Garments,DK,all,2025,0,38,0.0
+Shorts,Garments,DK,all,2025,0,38,0.0
+Top,Garments,DK,all,2025,0,38,0.0
+Turtleneck,Garments,DK,all,2025,0,38,0.0
+Scarf,Garments,DK,all,2025,0,38,0.0
+Hat,Garments,DK,all,2025,0,38,0.0
+Tights,Garments,DK,all,2025,0,38,0.0
+Bodycon dress,Garments,DK,all,2025,0,38,0.0
+Bomber jacket,Garments,DK,all,2025,0,38,0.0
+Cardigan,Garments,DK,all,2025,0,38,0.0
+Slip dress,Garments,DK,all,2025,0,38,0.0
+Wide-leg jeans,Garments,DK,all,2025,0,38,0.0
+Cotton,Fabrics,DK,all,2025,4,38,0.1053
+Wool,Fabrics,DK,all,2025,9,38,0.2368
+Satin,Fabrics,DK,all,2025,7,38,0.1842
+Knit,Fabrics,DK,all,2025,3,38,0.0789
+Denim,Fabrics,DK,all,2025,1,38,0.0263
+Tweed,Fabrics,DK,all,2025,4,38,0.1053
+Leather,Fabrics,DK,all,2025,3,38,0.0789
+Lace,Fabrics,DK,all,2025,1,38,0.0263
+Cashmere,Fabrics,DK,all,2025,0,38,0.0
+Fur,Fabrics,DK,all,2025,1,38,0.0263
+Jersey,Fabrics,DK,all,2025,0,38,0.0
+Chiffon,Fabrics,DK,all,2025,2,38,0.0526
+Velvet,Fabrics,DK,all,2025,0,38,0.0
+Suede,Fabrics,DK,all,2025,1,38,0.0263
+Tulle,Fabrics,DK,all,2025,0,38,0.0
+Silk,Fabrics,DK,all,2025,1,38,0.0263
+Linen,Fabrics,DK,all,2025,0,38,0.0
+Crepe,Fabrics,DK,all,2025,2,38,0.0526
+Mesh,Fabrics,DK,all,2025,0,38,0.0
+Bouclé,Fabrics,DK,all,2025,0,38,0.0
+Poplin,Fabrics,DK,all,2025,1,38,0.0263
+Twill,Fabrics,DK,all,2025,1,38,0.0263
+White,Colours,DK,all,2025,7,38,0.1842
+Black,Colours,DK,all,2025,10,38,0.2632
+Beige,Colours,DK,all,2025,0,38,0.0
+Brown,Colours,DK,all,2025,2,38,0.0526
+Blue,Colours,DK,all,2025,1,38,0.0263
+Burgundy,Colours,DK,all,2025,0,38,0.0
+Grey,Colours,DK,all,2025,2,38,0.0526
+Cream,Colours,DK,all,2025,1,38,0.0263
+Camel,Colours,DK,all,2025,0,38,0.0
+Red,Colours,DK,all,2025,1,38,0.0263
+Navy,Colours,DK,all,2025,0,38,0.0
+Pink,Colours,DK,all,2025,0,38,0.0
+Green,Colours,DK,all,2025,2,38,0.0526
+Yellow,Colours,DK,all,2025,1,38,0.0263
+Silver,Colours,DK,all,2025,0,38,0.0
+Polka dots,Colours,DK,all,2025,0,38,0.0
+Casual,Styles,DK,all,2025,15,38,0.3947
+Evening wear,Styles,DK,all,2025,11,38,0.2895
+Formal / office,Styles,DK,all,2025,5,38,0.1316
+Loungewear,Styles,DK,all,2025,0,38,0.0
+Boho,Styles,DK,all,2025,0,38,0.0
+Floral details,Runway details,DK,all,2025,0,38,0.0
+Embroidery,Runway details,DK,all,2025,0,38,0.0
+Sequins & beads,Runway details,DK,all,2025,0,38,0.0
+Pearls & crystals,Runway details,DK,all,2025,0,38,0.0
+Studs & rivets,Runway details,DK,all,2025,0,38,0.0
+Feathers,Runway details,DK,all,2025,0,38,0.0
+Geometric motifs,Runway details,DK,all,2025,0,38,0.0
+Animal motifs,Runway details,DK,all,2025,0,38,0.0
+Dress,Garments,DK,A/W,all,0,18,0.0
+Trench coat,Garments,DK,A/W,all,0,18,0.0
+Blazer,Garments,DK,A/W,all,0,18,0.0
+Coat,Garments,DK,A/W,all,0,18,0.0
+Shirt,Garments,DK,A/W,all,0,18,0.0
+Sweater,Garments,DK,A/W,all,0,18,0.0
+Trousers,Garments,DK,A/W,all,0,18,0.0
+Jeans,Garments,DK,A/W,all,0,18,0.0
+Skirt,Garments,DK,A/W,all,0,18,0.0
+Shorts,Garments,DK,A/W,all,0,18,0.0
+Top,Garments,DK,A/W,all,0,18,0.0
+Turtleneck,Garments,DK,A/W,all,0,18,0.0
+Scarf,Garments,DK,A/W,all,0,18,0.0
+Hat,Garments,DK,A/W,all,0,18,0.0
+Tights,Garments,DK,A/W,all,0,18,0.0
+Bodycon dress,Garments,DK,A/W,all,0,18,0.0
+Bomber jacket,Garments,DK,A/W,all,0,18,0.0
+Cardigan,Garments,DK,A/W,all,0,18,0.0
+Slip dress,Garments,DK,A/W,all,0,18,0.0
+Wide-leg jeans,Garments,DK,A/W,all,0,18,0.0
+Cotton,Fabrics,DK,A/W,all,0,18,0.0
+Wool,Fabrics,DK,A/W,all,5,18,0.2778
+Satin,Fabrics,DK,A/W,all,2,18,0.1111
+Knit,Fabrics,DK,A/W,all,2,18,0.1111
+Denim,Fabrics,DK,A/W,all,0,18,0.0
+Tweed,Fabrics,DK,A/W,all,2,18,0.1111
+Leather,Fabrics,DK,A/W,all,2,18,0.1111
+Lace,Fabrics,DK,A/W,all,0,18,0.0
+Cashmere,Fabrics,DK,A/W,all,0,18,0.0
+Fur,Fabrics,DK,A/W,all,1,18,0.0556
+Jersey,Fabrics,DK,A/W,all,0,18,0.0
+Chiffon,Fabrics,DK,A/W,all,0,18,0.0
+Velvet,Fabrics,DK,A/W,all,0,18,0.0
+Suede,Fabrics,DK,A/W,all,1,18,0.0556
+Tulle,Fabrics,DK,A/W,all,0,18,0.0
+Silk,Fabrics,DK,A/W,all,0,18,0.0
+Linen,Fabrics,DK,A/W,all,0,18,0.0
+Crepe,Fabrics,DK,A/W,all,1,18,0.0556
+Mesh,Fabrics,DK,A/W,all,0,18,0.0
+Bouclé,Fabrics,DK,A/W,all,0,18,0.0
+Poplin,Fabrics,DK,A/W,all,0,18,0.0
+Twill,Fabrics,DK,A/W,all,0,18,0.0
+White,Colours,DK,A/W,all,0,18,0.0
+Black,Colours,DK,A/W,all,9,18,0.5
+Beige,Colours,DK,A/W,all,0,18,0.0
+Brown,Colours,DK,A/W,all,2,18,0.1111
+Blue,Colours,DK,A/W,all,0,18,0.0
+Burgundy,Colours,DK,A/W,all,0,18,0.0
+Grey,Colours,DK,A/W,all,0,18,0.0
+Cream,Colours,DK,A/W,all,0,18,0.0
+Camel,Colours,DK,A/W,all,0,18,0.0
+Red,Colours,DK,A/W,all,1,18,0.0556
+Navy,Colours,DK,A/W,all,0,18,0.0
+Pink,Colours,DK,A/W,all,0,18,0.0
+Green,Colours,DK,A/W,all,0,18,0.0
+Yellow,Colours,DK,A/W,all,0,18,0.0
+Silver,Colours,DK,A/W,all,0,18,0.0
+Polka dots,Colours,DK,A/W,all,0,18,0.0
+Casual,Styles,DK,A/W,all,7,18,0.3889
+Evening wear,Styles,DK,A/W,all,4,18,0.2222
+Formal / office,Styles,DK,A/W,all,4,18,0.2222
+Loungewear,Styles,DK,A/W,all,0,18,0.0
+Boho,Styles,DK,A/W,all,0,18,0.0
+Floral details,Runway details,DK,A/W,all,0,18,0.0
+Embroidery,Runway details,DK,A/W,all,0,18,0.0
+Sequins & beads,Runway details,DK,A/W,all,0,18,0.0
+Pearls & crystals,Runway details,DK,A/W,all,0,18,0.0
+Studs & rivets,Runway details,DK,A/W,all,0,18,0.0
+Feathers,Runway details,DK,A/W,all,0,18,0.0
+Geometric motifs,Runway details,DK,A/W,all,0,18,0.0
+Animal motifs,Runway details,DK,A/W,all,0,18,0.0
+Dress,Garments,DK,A/W,2024,0,0,
+Trench coat,Garments,DK,A/W,2024,0,0,
+Blazer,Garments,DK,A/W,2024,0,0,
+Coat,Garments,DK,A/W,2024,0,0,
+Shirt,Garments,DK,A/W,2024,0,0,
+Sweater,Garments,DK,A/W,2024,0,0,
+Trousers,Garments,DK,A/W,2024,0,0,
+Jeans,Garments,DK,A/W,2024,0,0,
+Skirt,Garments,DK,A/W,2024,0,0,
+Shorts,Garments,DK,A/W,2024,0,0,
+Top,Garments,DK,A/W,2024,0,0,
+Turtleneck,Garments,DK,A/W,2024,0,0,
+Scarf,Garments,DK,A/W,2024,0,0,
+Hat,Garments,DK,A/W,2024,0,0,
+Tights,Garments,DK,A/W,2024,0,0,
+Bodycon dress,Garments,DK,A/W,2024,0,0,
+Bomber jacket,Garments,DK,A/W,2024,0,0,
+Cardigan,Garments,DK,A/W,2024,0,0,
+Slip dress,Garments,DK,A/W,2024,0,0,
+Wide-leg jeans,Garments,DK,A/W,2024,0,0,
+Cotton,Fabrics,DK,A/W,2024,0,0,
+Wool,Fabrics,DK,A/W,2024,0,0,
+Satin,Fabrics,DK,A/W,2024,0,0,
+Knit,Fabrics,DK,A/W,2024,0,0,
+Denim,Fabrics,DK,A/W,2024,0,0,
+Tweed,Fabrics,DK,A/W,2024,0,0,
+Leather,Fabrics,DK,A/W,2024,0,0,
+Lace,Fabrics,DK,A/W,2024,0,0,
+Cashmere,Fabrics,DK,A/W,2024,0,0,
+Fur,Fabrics,DK,A/W,2024,0,0,
+Jersey,Fabrics,DK,A/W,2024,0,0,
+Chiffon,Fabrics,DK,A/W,2024,0,0,
+Velvet,Fabrics,DK,A/W,2024,0,0,
+Suede,Fabrics,DK,A/W,2024,0,0,
+Tulle,Fabrics,DK,A/W,2024,0,0,
+Silk,Fabrics,DK,A/W,2024,0,0,
+Linen,Fabrics,DK,A/W,2024,0,0,
+Crepe,Fabrics,DK,A/W,2024,0,0,
+Mesh,Fabrics,DK,A/W,2024,0,0,
+Bouclé,Fabrics,DK,A/W,2024,0,0,
+Poplin,Fabrics,DK,A/W,2024,0,0,
+Twill,Fabrics,DK,A/W,2024,0,0,
+White,Colours,DK,A/W,2024,0,0,
+Black,Colours,DK,A/W,2024,0,0,
+Beige,Colours,DK,A/W,2024,0,0,
+Brown,Colours,DK,A/W,2024,0,0,
+Blue,Colours,DK,A/W,2024,0,0,
+Burgundy,Colours,DK,A/W,2024,0,0,
+Grey,Colours,DK,A/W,2024,0,0,
+Cream,Colours,DK,A/W,2024,0,0,
+Camel,Colours,DK,A/W,2024,0,0,
+Red,Colours,DK,A/W,2024,0,0,
+Navy,Colours,DK,A/W,2024,0,0,
+Pink,Colours,DK,A/W,2024,0,0,
+Green,Colours,DK,A/W,2024,0,0,
+Yellow,Colours,DK,A/W,2024,0,0,
+Silver,Colours,DK,A/W,2024,0,0,
+Polka dots,Colours,DK,A/W,2024,0,0,
+Casual,Styles,DK,A/W,2024,0,0,
+Evening wear,Styles,DK,A/W,2024,0,0,
+Formal / office,Styles,DK,A/W,2024,0,0,
+Loungewear,Styles,DK,A/W,2024,0,0,
+Boho,Styles,DK,A/W,2024,0,0,
+Floral details,Runway details,DK,A/W,2024,0,0,
+Embroidery,Runway details,DK,A/W,2024,0,0,
+Sequins & beads,Runway details,DK,A/W,2024,0,0,
+Pearls & crystals,Runway details,DK,A/W,2024,0,0,
+Studs & rivets,Runway details,DK,A/W,2024,0,0,
+Feathers,Runway details,DK,A/W,2024,0,0,
+Geometric motifs,Runway details,DK,A/W,2024,0,0,
+Animal motifs,Runway details,DK,A/W,2024,0,0,
+Dress,Garments,DK,A/W,2025,0,18,0.0
+Trench coat,Garments,DK,A/W,2025,0,18,0.0
+Blazer,Garments,DK,A/W,2025,0,18,0.0
+Coat,Garments,DK,A/W,2025,0,18,0.0
+Shirt,Garments,DK,A/W,2025,0,18,0.0
+Sweater,Garments,DK,A/W,2025,0,18,0.0
+Trousers,Garments,DK,A/W,2025,0,18,0.0
+Jeans,Garments,DK,A/W,2025,0,18,0.0
+Skirt,Garments,DK,A/W,2025,0,18,0.0
+Shorts,Garments,DK,A/W,2025,0,18,0.0
+Top,Garments,DK,A/W,2025,0,18,0.0
+Turtleneck,Garments,DK,A/W,2025,0,18,0.0
+Scarf,Garments,DK,A/W,2025,0,18,0.0
+Hat,Garments,DK,A/W,2025,0,18,0.0
+Tights,Garments,DK,A/W,2025,0,18,0.0
+Bodycon dress,Garments,DK,A/W,2025,0,18,0.0
+Bomber jacket,Garments,DK,A/W,2025,0,18,0.0
+Cardigan,Garments,DK,A/W,2025,0,18,0.0
+Slip dress,Garments,DK,A/W,2025,0,18,0.0
+Wide-leg jeans,Garments,DK,A/W,2025,0,18,0.0
+Cotton,Fabrics,DK,A/W,2025,0,18,0.0
+Wool,Fabrics,DK,A/W,2025,5,18,0.2778
+Satin,Fabrics,DK,A/W,2025,2,18,0.1111
+Knit,Fabrics,DK,A/W,2025,2,18,0.1111
+Denim,Fabrics,DK,A/W,2025,0,18,0.0
+Tweed,Fabrics,DK,A/W,2025,2,18,0.1111
+Leather,Fabrics,DK,A/W,2025,2,18,0.1111
+Lace,Fabrics,DK,A/W,2025,0,18,0.0
+Cashmere,Fabrics,DK,A/W,2025,0,18,0.0
+Fur,Fabrics,DK,A/W,2025,1,18,0.0556
+Jersey,Fabrics,DK,A/W,2025,0,18,0.0
+Chiffon,Fabrics,DK,A/W,2025,0,18,0.0
+Velvet,Fabrics,DK,A/W,2025,0,18,0.0
+Suede,Fabrics,DK,A/W,2025,1,18,0.0556
+Tulle,Fabrics,DK,A/W,2025,0,18,0.0
+Silk,Fabrics,DK,A/W,2025,0,18,0.0
+Linen,Fabrics,DK,A/W,2025,0,18,0.0
+Crepe,Fabrics,DK,A/W,2025,1,18,0.0556
+Mesh,Fabrics,DK,A/W,2025,0,18,0.0
+Bouclé,Fabrics,DK,A/W,2025,0,18,0.0
+Poplin,Fabrics,DK,A/W,2025,0,18,0.0
+Twill,Fabrics,DK,A/W,2025,0,18,0.0
+White,Colours,DK,A/W,2025,0,18,0.0
+Black,Colours,DK,A/W,2025,9,18,0.5
+Beige,Colours,DK,A/W,2025,0,18,0.0
+Brown,Colours,DK,A/W,2025,2,18,0.1111
+Blue,Colours,DK,A/W,2025,0,18,0.0
+Burgundy,Colours,DK,A/W,2025,0,18,0.0
+Grey,Colours,DK,A/W,2025,0,18,0.0
+Cream,Colours,DK,A/W,2025,0,18,0.0
+Camel,Colours,DK,A/W,2025,0,18,0.0
+Red,Colours,DK,A/W,2025,1,18,0.0556
+Navy,Colours,DK,A/W,2025,0,18,0.0
+Pink,Colours,DK,A/W,2025,0,18,0.0
+Green,Colours,DK,A/W,2025,0,18,0.0
+Yellow,Colours,DK,A/W,2025,0,18,0.0
+Silver,Colours,DK,A/W,2025,0,18,0.0
+Polka dots,Colours,DK,A/W,2025,0,18,0.0
+Casual,Styles,DK,A/W,2025,7,18,0.3889
+Evening wear,Styles,DK,A/W,2025,4,18,0.2222
+Formal / office,Styles,DK,A/W,2025,4,18,0.2222
+Loungewear,Styles,DK,A/W,2025,0,18,0.0
+Boho,Styles,DK,A/W,2025,0,18,0.0
+Floral details,Runway details,DK,A/W,2025,0,18,0.0
+Embroidery,Runway details,DK,A/W,2025,0,18,0.0
+Sequins & beads,Runway details,DK,A/W,2025,0,18,0.0
+Pearls & crystals,Runway details,DK,A/W,2025,0,18,0.0
+Studs & rivets,Runway details,DK,A/W,2025,0,18,0.0
+Feathers,Runway details,DK,A/W,2025,0,18,0.0
+Geometric motifs,Runway details,DK,A/W,2025,0,18,0.0
+Animal motifs,Runway details,DK,A/W,2025,0,18,0.0
+Dress,Garments,DK,S/S,all,0,12,0.0
+Trench coat,Garments,DK,S/S,all,0,12,0.0
+Blazer,Garments,DK,S/S,all,0,12,0.0
+Coat,Garments,DK,S/S,all,0,12,0.0
+Shirt,Garments,DK,S/S,all,0,12,0.0
+Sweater,Garments,DK,S/S,all,0,12,0.0
+Trousers,Garments,DK,S/S,all,0,12,0.0
+Jeans,Garments,DK,S/S,all,0,12,0.0
+Skirt,Garments,DK,S/S,all,0,12,0.0
+Shorts,Garments,DK,S/S,all,0,12,0.0
+Top,Garments,DK,S/S,all,0,12,0.0
+Turtleneck,Garments,DK,S/S,all,0,12,0.0
+Scarf,Garments,DK,S/S,all,0,12,0.0
+Hat,Garments,DK,S/S,all,0,12,0.0
+Tights,Garments,DK,S/S,all,0,12,0.0
+Bodycon dress,Garments,DK,S/S,all,0,12,0.0
+Bomber jacket,Garments,DK,S/S,all,0,12,0.0
+Cardigan,Garments,DK,S/S,all,0,12,0.0
+Slip dress,Garments,DK,S/S,all,0,12,0.0
+Wide-leg jeans,Garments,DK,S/S,all,0,12,0.0
+Cotton,Fabrics,DK,S/S,all,3,12,0.25
+Wool,Fabrics,DK,S/S,all,4,12,0.3333
+Satin,Fabrics,DK,S/S,all,3,12,0.25
+Knit,Fabrics,DK,S/S,all,0,12,0.0
+Denim,Fabrics,DK,S/S,all,1,12,0.0833
+Tweed,Fabrics,DK,S/S,all,2,12,0.1667
+Leather,Fabrics,DK,S/S,all,1,12,0.0833
+Lace,Fabrics,DK,S/S,all,0,12,0.0
+Cashmere,Fabrics,DK,S/S,all,0,12,0.0
+Fur,Fabrics,DK,S/S,all,0,12,0.0
+Jersey,Fabrics,DK,S/S,all,0,12,0.0
+Chiffon,Fabrics,DK,S/S,all,2,12,0.1667
+Velvet,Fabrics,DK,S/S,all,0,12,0.0
+Suede,Fabrics,DK,S/S,all,0,12,0.0
+Tulle,Fabrics,DK,S/S,all,0,12,0.0
+Silk,Fabrics,DK,S/S,all,1,12,0.0833
+Linen,Fabrics,DK,S/S,all,0,12,0.0
+Crepe,Fabrics,DK,S/S,all,0,12,0.0
+Mesh,Fabrics,DK,S/S,all,0,12,0.0
+Bouclé,Fabrics,DK,S/S,all,0,12,0.0
+Poplin,Fabrics,DK,S/S,all,0,12,0.0
+Twill,Fabrics,DK,S/S,all,1,12,0.0833
+White,Colours,DK,S/S,all,5,12,0.4167
+Black,Colours,DK,S/S,all,1,12,0.0833
+Beige,Colours,DK,S/S,all,0,12,0.0
+Brown,Colours,DK,S/S,all,0,12,0.0
+Blue,Colours,DK,S/S,all,0,12,0.0
+Burgundy,Colours,DK,S/S,all,0,12,0.0
+Grey,Colours,DK,S/S,all,1,12,0.0833
+Cream,Colours,DK,S/S,all,0,12,0.0
+Camel,Colours,DK,S/S,all,0,12,0.0
+Red,Colours,DK,S/S,all,0,12,0.0
+Navy,Colours,DK,S/S,all,0,12,0.0
+Pink,Colours,DK,S/S,all,0,12,0.0
+Green,Colours,DK,S/S,all,0,12,0.0
+Yellow,Colours,DK,S/S,all,1,12,0.0833
+Silver,Colours,DK,S/S,all,0,12,0.0
+Polka dots,Colours,DK,S/S,all,0,12,0.0
+Casual,Styles,DK,S/S,all,3,12,0.25
+Evening wear,Styles,DK,S/S,all,6,12,0.5
+Formal / office,Styles,DK,S/S,all,1,12,0.0833
+Loungewear,Styles,DK,S/S,all,0,12,0.0
+Boho,Styles,DK,S/S,all,0,12,0.0
+Floral details,Runway details,DK,S/S,all,0,12,0.0
+Embroidery,Runway details,DK,S/S,all,0,12,0.0
+Sequins & beads,Runway details,DK,S/S,all,0,12,0.0
+Pearls & crystals,Runway details,DK,S/S,all,0,12,0.0
+Studs & rivets,Runway details,DK,S/S,all,0,12,0.0
+Feathers,Runway details,DK,S/S,all,0,12,0.0
+Geometric motifs,Runway details,DK,S/S,all,0,12,0.0
+Animal motifs,Runway details,DK,S/S,all,0,12,0.0
+Dress,Garments,DK,S/S,2024,0,0,
+Trench coat,Garments,DK,S/S,2024,0,0,
+Blazer,Garments,DK,S/S,2024,0,0,
+Coat,Garments,DK,S/S,2024,0,0,
+Shirt,Garments,DK,S/S,2024,0,0,
+Sweater,Garments,DK,S/S,2024,0,0,
+Trousers,Garments,DK,S/S,2024,0,0,
+Jeans,Garments,DK,S/S,2024,0,0,
+Skirt,Garments,DK,S/S,2024,0,0,
+Shorts,Garments,DK,S/S,2024,0,0,
+Top,Garments,DK,S/S,2024,0,0,
+Turtleneck,Garments,DK,S/S,2024,0,0,
+Scarf,Garments,DK,S/S,2024,0,0,
+Hat,Garments,DK,S/S,2024,0,0,
+Tights,Garments,DK,S/S,2024,0,0,
+Bodycon dress,Garments,DK,S/S,2024,0,0,
+Bomber jacket,Garments,DK,S/S,2024,0,0,
+Cardigan,Garments,DK,S/S,2024,0,0,
+Slip dress,Garments,DK,S/S,2024,0,0,
+Wide-leg jeans,Garments,DK,S/S,2024,0,0,
+Cotton,Fabrics,DK,S/S,2024,0,0,
+Wool,Fabrics,DK,S/S,2024,0,0,
+Satin,Fabrics,DK,S/S,2024,0,0,
+Knit,Fabrics,DK,S/S,2024,0,0,
+Denim,Fabrics,DK,S/S,2024,0,0,
+Tweed,Fabrics,DK,S/S,2024,0,0,
+Leather,Fabrics,DK,S/S,2024,0,0,
+Lace,Fabrics,DK,S/S,2024,0,0,
+Cashmere,Fabrics,DK,S/S,2024,0,0,
+Fur,Fabrics,DK,S/S,2024,0,0,
+Jersey,Fabrics,DK,S/S,2024,0,0,
+Chiffon,Fabrics,DK,S/S,2024,0,0,
+Velvet,Fabrics,DK,S/S,2024,0,0,
+Suede,Fabrics,DK,S/S,2024,0,0,
+Tulle,Fabrics,DK,S/S,2024,0,0,
+Silk,Fabrics,DK,S/S,2024,0,0,
+Linen,Fabrics,DK,S/S,2024,0,0,
+Crepe,Fabrics,DK,S/S,2024,0,0,
+Mesh,Fabrics,DK,S/S,2024,0,0,
+Bouclé,Fabrics,DK,S/S,2024,0,0,
+Poplin,Fabrics,DK,S/S,2024,0,0,
+Twill,Fabrics,DK,S/S,2024,0,0,
+White,Colours,DK,S/S,2024,0,0,
+Black,Colours,DK,S/S,2024,0,0,
+Beige,Colours,DK,S/S,2024,0,0,
+Brown,Colours,DK,S/S,2024,0,0,
+Blue,Colours,DK,S/S,2024,0,0,
+Burgundy,Colours,DK,S/S,2024,0,0,
+Grey,Colours,DK,S/S,2024,0,0,
+Cream,Colours,DK,S/S,2024,0,0,
+Camel,Colours,DK,S/S,2024,0,0,
+Red,Colours,DK,S/S,2024,0,0,
+Navy,Colours,DK,S/S,2024,0,0,
+Pink,Colours,DK,S/S,2024,0,0,
+Green,Colours,DK,S/S,2024,0,0,
+Yellow,Colours,DK,S/S,2024,0,0,
+Silver,Colours,DK,S/S,2024,0,0,
+Polka dots,Colours,DK,S/S,2024,0,0,
+Casual,Styles,DK,S/S,2024,0,0,
+Evening wear,Styles,DK,S/S,2024,0,0,
+Formal / office,Styles,DK,S/S,2024,0,0,
+Loungewear,Styles,DK,S/S,2024,0,0,
+Boho,Styles,DK,S/S,2024,0,0,
+Floral details,Runway details,DK,S/S,2024,0,0,
+Embroidery,Runway details,DK,S/S,2024,0,0,
+Sequins & beads,Runway details,DK,S/S,2024,0,0,
+Pearls & crystals,Runway details,DK,S/S,2024,0,0,
+Studs & rivets,Runway details,DK,S/S,2024,0,0,
+Feathers,Runway details,DK,S/S,2024,0,0,
+Geometric motifs,Runway details,DK,S/S,2024,0,0,
+Animal motifs,Runway details,DK,S/S,2024,0,0,
+Dress,Garments,DK,S/S,2025,0,12,0.0
+Trench coat,Garments,DK,S/S,2025,0,12,0.0
+Blazer,Garments,DK,S/S,2025,0,12,0.0
+Coat,Garments,DK,S/S,2025,0,12,0.0
+Shirt,Garments,DK,S/S,2025,0,12,0.0
+Sweater,Garments,DK,S/S,2025,0,12,0.0
+Trousers,Garments,DK,S/S,2025,0,12,0.0
+Jeans,Garments,DK,S/S,2025,0,12,0.0
+Skirt,Garments,DK,S/S,2025,0,12,0.0
+Shorts,Garments,DK,S/S,2025,0,12,0.0
+Top,Garments,DK,S/S,2025,0,12,0.0
+Turtleneck,Garments,DK,S/S,2025,0,12,0.0
+Scarf,Garments,DK,S/S,2025,0,12,0.0
+Hat,Garments,DK,S/S,2025,0,12,0.0
+Tights,Garments,DK,S/S,2025,0,12,0.0
+Bodycon dress,Garments,DK,S/S,2025,0,12,0.0
+Bomber jacket,Garments,DK,S/S,2025,0,12,0.0
+Cardigan,Garments,DK,S/S,2025,0,12,0.0
+Slip dress,Garments,DK,S/S,2025,0,12,0.0
+Wide-leg jeans,Garments,DK,S/S,2025,0,12,0.0
+Cotton,Fabrics,DK,S/S,2025,3,12,0.25
+Wool,Fabrics,DK,S/S,2025,4,12,0.3333
+Satin,Fabrics,DK,S/S,2025,3,12,0.25
+Knit,Fabrics,DK,S/S,2025,0,12,0.0
+Denim,Fabrics,DK,S/S,2025,1,12,0.0833
+Tweed,Fabrics,DK,S/S,2025,2,12,0.1667
+Leather,Fabrics,DK,S/S,2025,1,12,0.0833
+Lace,Fabrics,DK,S/S,2025,0,12,0.0
+Cashmere,Fabrics,DK,S/S,2025,0,12,0.0
+Fur,Fabrics,DK,S/S,2025,0,12,0.0
+Jersey,Fabrics,DK,S/S,2025,0,12,0.0
+Chiffon,Fabrics,DK,S/S,2025,2,12,0.1667
+Velvet,Fabrics,DK,S/S,2025,0,12,0.0
+Suede,Fabrics,DK,S/S,2025,0,12,0.0
+Tulle,Fabrics,DK,S/S,2025,0,12,0.0
+Silk,Fabrics,DK,S/S,2025,1,12,0.0833
+Linen,Fabrics,DK,S/S,2025,0,12,0.0
+Crepe,Fabrics,DK,S/S,2025,0,12,0.0
+Mesh,Fabrics,DK,S/S,2025,0,12,0.0
+Bouclé,Fabrics,DK,S/S,2025,0,12,0.0
+Poplin,Fabrics,DK,S/S,2025,0,12,0.0
+Twill,Fabrics,DK,S/S,2025,1,12,0.0833
+White,Colours,DK,S/S,2025,5,12,0.4167
+Black,Colours,DK,S/S,2025,1,12,0.0833
+Beige,Colours,DK,S/S,2025,0,12,0.0
+Brown,Colours,DK,S/S,2025,0,12,0.0
+Blue,Colours,DK,S/S,2025,0,12,0.0
+Burgundy,Colours,DK,S/S,2025,0,12,0.0
+Grey,Colours,DK,S/S,2025,1,12,0.0833
+Cream,Colours,DK,S/S,2025,0,12,0.0
+Camel,Colours,DK,S/S,2025,0,12,0.0
+Red,Colours,DK,S/S,2025,0,12,0.0
+Navy,Colours,DK,S/S,2025,0,12,0.0
+Pink,Colours,DK,S/S,2025,0,12,0.0
+Green,Colours,DK,S/S,2025,0,12,0.0
+Yellow,Colours,DK,S/S,2025,1,12,0.0833
+Silver,Colours,DK,S/S,2025,0,12,0.0
+Polka dots,Colours,DK,S/S,2025,0,12,0.0
+Casual,Styles,DK,S/S,2025,3,12,0.25
+Evening wear,Styles,DK,S/S,2025,6,12,0.5
+Formal / office,Styles,DK,S/S,2025,1,12,0.0833
+Loungewear,Styles,DK,S/S,2025,0,12,0.0
+Boho,Styles,DK,S/S,2025,0,12,0.0
+Floral details,Runway details,DK,S/S,2025,0,12,0.0
+Embroidery,Runway details,DK,S/S,2025,0,12,0.0
+Sequins & beads,Runway details,DK,S/S,2025,0,12,0.0
+Pearls & crystals,Runway details,DK,S/S,2025,0,12,0.0
+Studs & rivets,Runway details,DK,S/S,2025,0,12,0.0
+Feathers,Runway details,DK,S/S,2025,0,12,0.0
+Geometric motifs,Runway details,DK,S/S,2025,0,12,0.0
+Animal motifs,Runway details,DK,S/S,2025,0,12,0.0

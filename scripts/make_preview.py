@@ -24,7 +24,7 @@ proof = json.loads((FC / 'validation.json').read_text())['3']
 fig = plt.figure(figsize=(12, 6.3), dpi=100)
 fig.patch.set_facecolor('white')
 fig.text(0.05, 0.9, 'Fashion Trend Forecast', fontsize=30, weight='bold', color='#111827')
-fig.text(0.05, 0.84, 'Search interest in outfit items, England · France · Denmark — 3 and 6 months ahead',
+fig.text(0.05, 0.84, 'Garments, fabrics, colours and styles · England · France · Denmark · 3 and 6 months ahead',
          fontsize=14, color='#4b5563')
 ax = fig.add_axes([0.05, 0.14, 0.62, 0.62])
 for key, name, col in SHOW:

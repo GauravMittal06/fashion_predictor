@@ -1,0 +1,169 @@
+key,country,country_name,attribute,type,term,source,category,file,dev_mean,empty_share,note
+GB|dress,GB,England,Dress,Garments,dress,local term,68,data/google_trends/v2/GB_c68_01.csv,75.52,0.0,"counts every kind of dress, including bodycon and lace dresses; 'frock' merged"
+FR|robe,FR,France,Dress,Garments,robe,local term,68,data/google_trends/v2/FR_c68_01.csv,60.43,0.0,"counts every kind of dress, including bodycon and lace dresses; 'frock' merged"
+DK|kjole,DK,Denmark,Dress,Garments,kjole,local term,68,data/google_trends/v2/DK_c68_01.csv,56.07,0.0,"counts every kind of dress, including bodycon and lace dresses; 'frock' merged"
+GB|trench coat,GB,England,Trench coat,Garments,trench coat,site item,0,data/google_trends/GB_1_outerwear.csv,35.33,0.0,
+FR|trench,FR,France,Trench coat,Garments,trench,site item,0,data/google_trends/FR_1_outerwear.csv,40.78,0.0,
+DK|trenchcoat,DK,Denmark,Trench coat,Garments,trenchcoat,site item,0,data/google_trends/DK_1_outerwear.csv,12.96,0.0,
+GB|blazer,GB,England,Blazer,Garments,blazer,site item,0,data/google_trends/GB_3_pieces.csv,51.48,0.0,
+FR|blazer,FR,France,Blazer,Garments,blazer,site item,0,data/google_trends/FR_3_pieces.csv,58.13,0.0,
+DK|blazer,DK,Denmark,Blazer,Garments,blazer,site item,0,data/google_trends/DK_1_outerwear.csv,58.17,0.0,
+GB|coat,GB,England,Coat,Garments,coat,local term,68,data/google_trends/v2/GB_c68_01.csv,29.3,0.0,'maxi coat' merged; trench coats counted separately
+FR|manteau,FR,France,Coat,Garments,manteau,local term,68,data/google_trends/v2/FR_c68_01.csv,14.74,0.0,'maxi coat' merged; trench coats counted separately
+DK|frakke,DK,Denmark,Coat,Garments,frakke,local term,68,data/google_trends/v2/DK_c68_01.csv,6.3,0.0,'maxi coat' merged; trench coats counted separately
+GB|shirt,GB,England,Shirt,Garments,shirt,local term,68,data/google_trends/v2/GB_c68_01.csv,46.65,0.0,T-shirts are counted under Top
+FR|chemise,FR,France,Shirt,Garments,chemise,local term,68,data/google_trends/v2/FR_c68_01.csv,16.52,0.0,T-shirts are counted under Top
+DK|skjorte,DK,Denmark,Shirt,Garments,skjorte,local term,68,data/google_trends/v2/DK_c68_02.csv,58.13,0.0,T-shirts are counted under Top
+GB|jumper,GB,England,Sweater,Garments,jumper,local term,68,data/google_trends/v2/GB_c68_01.csv,15.8,0.0,'jumper' and 'knitwear' merged
+FR|pull,FR,France,Sweater,Garments,pull,local term,68,data/google_trends/v2/FR_c68_01.csv,30.11,0.0,'jumper' and 'knitwear' merged
+DK|sweater,DK,Denmark,Sweater,Garments,sweater,local term,68,data/google_trends/v2/DK_c68_02.csv,33.98,0.0,'jumper' and 'knitwear' merged
+GB|trousers,GB,England,Trousers,Garments,trousers,local term,68,data/google_trends/v2/GB_c68_01.csv,25.22,0.0,'trouser' and 'pants' merged
+FR|pantalon,FR,France,Trousers,Garments,pantalon,local term,68,data/google_trends/v2/FR_c68_01.csv,27.8,0.0,'trouser' and 'pants' merged
+DK|bukser,DK,Denmark,Trousers,Garments,bukser,local term,68,data/google_trends/v2/DK_c68_03.csv,67.93,0.0,'trouser' and 'pants' merged
+GB|jeans,GB,England,Jeans,Garments,jeans,local term,68,data/google_trends/v2/GB_c68_02.csv,40.72,0.0,wide-leg jeans also has its own item
+FR|jean,FR,France,Jeans,Garments,jean,local term,68,data/google_trends/v2/FR_c68_02.csv,63.59,0.0,wide-leg jeans also has its own item
+DK|jeans,DK,Denmark,Jeans,Garments,jeans,local term,68,data/google_trends/v2/DK_c68_03.csv,46.11,0.0,wide-leg jeans also has its own item
+GB|skirt,GB,England,Skirt,Garments,skirt,local term,68,data/google_trends/v2/GB_c68_02.csv,20.91,0.0,
+FR|jupe,FR,France,Skirt,Garments,jupe,local term,68,data/google_trends/v2/FR_c68_02.csv,27.91,0.0,
+DK|nederdel,DK,Denmark,Skirt,Garments,nederdel,local term,68,data/google_trends/v2/DK_c68_03.csv,19.26,0.0,
+GB|shorts,GB,England,Shorts,Garments,shorts,local term,68,data/google_trends/v2/GB_c68_02.csv,40.87,0.0,
+FR|short,FR,France,Shorts,Garments,short,local term,68,data/google_trends/v2/FR_c68_02.csv,37.65,0.0,
+DK|shorts,DK,Denmark,Shorts,Garments,shorts,local term,68,data/google_trends/v2/DK_c68_04.csv,29.54,0.0,
+GB|top,GB,England,Top,Garments,top,local term,68,data/google_trends/v2/GB_c68_02.csv,38.13,0.0,"tank, off-shoulder and T-shirt tops merged"
+FR|top,FR,France,Top,Garments,top,local term,68,data/google_trends/v2/FR_c68_02.csv,18.11,0.0,"tank, off-shoulder and T-shirt tops merged"
+DK|top,DK,Denmark,Top,Garments,top,local term,68,data/google_trends/v2/DK_c68_04.csv,24.0,0.0,"tank, off-shoulder and T-shirt tops merged"
+GB|turtleneck,GB,England,Turtleneck,Garments,turtleneck,local term,68,data/google_trends/v2/retry_GB_c68_01.csv,42.46,0.0,
+FR|col roulé,FR,France,Turtleneck,Garments,col roulé,local term,68,data/google_trends/v2/FR_c68_02.csv,4.09,0.012,
+DK|rullekrave,DK,Denmark,Turtleneck,Garments,rullekrave,local term,68,data/google_trends/v2/retry_DK_c68_01.csv,34.92,0.036,
+GB|scarf,GB,England,Scarf,Garments,scarf,local term,68,data/google_trends/v2/GB_c68_03.csv,32.24,0.0,bandanas merged (spelt 'bandhana'/'badhana' in the sheet)
+FR|écharpe,FR,France,Scarf,Garments,écharpe,local term,68,data/google_trends/v2/FR_c68_03.csv,10.15,0.0,bandanas merged (spelt 'bandhana'/'badhana' in the sheet)
+DK|tørklæde,DK,Denmark,Scarf,Garments,tørklæde,local term,68,data/google_trends/v2/DK_c68_05.csv,46.93,0.0,bandanas merged (spelt 'bandhana'/'badhana' in the sheet)
+GB|hat,GB,England,Hat,Garments,hat,local term,68,data/google_trends/v2/GB_c68_03.csv,59.41,0.0,caps merged
+FR|chapeau,FR,France,Hat,Garments,chapeau,local term,68,data/google_trends/v2/FR_c68_03.csv,66.41,0.0,caps merged
+DK|hat,DK,Denmark,Hat,Garments,hat,local term,68,data/google_trends/v2/DK_c68_05.csv,52.02,0.0,caps merged
+GB|tights,GB,England,Tights,Garments,tights,local term,68,data/google_trends/v2/GB_c68_03.csv,25.48,0.0,'stockings' (spelt 'stalkings') merged
+FR|collants,FR,France,Tights,Garments,collants,local term,68,data/google_trends/v2/FR_c68_03.csv,8.96,0.0,'stockings' (spelt 'stalkings') merged
+DK|strømpebukser,DK,Denmark,Tights,Garments,strømpebukser,local term,68,data/google_trends/v2/DK_c68_05.csv,41.07,0.0,'stockings' (spelt 'stalkings') merged
+GB|bodycon dress,GB,England,Bodycon dress,Garments,bodycon dress,site item,0,data/google_trends/GB_2_dresses.csv,18.02,0.0,
+FR|robe moulante,FR,France,Bodycon dress,Garments,robe moulante,site item,0,data/google_trends/FR_2_dresses.csv,35.04,0.0,
+GB|bomber jacket,GB,England,Bomber jacket,Garments,bomber jacket,site item,0,data/google_trends/GB_1_outerwear.csv,33.5,0.0,
+FR|bomber,FR,France,Bomber jacket,Garments,bomber,site item,0,data/google_trends/FR_1_outerwear.csv,20.48,0.0,
+GB|cardigan,GB,England,Cardigan,Garments,cardigan,site item,0,data/google_trends/GB_3_pieces.csv,65.2,0.0,
+FR|cardigan,FR,France,Cardigan,Garments,cardigan,site item,0,data/google_trends/FR_3_pieces.csv,21.46,0.0,
+DK|cardigan,DK,Denmark,Cardigan,Garments,cardigan,site item,0,data/google_trends/DK_1_outerwear.csv,65.17,0.0,
+GB|slip dress,GB,England,Slip dress,Garments,slip dress,site item,0,data/google_trends/GB_2_dresses.csv,12.04,0.0,
+FR|robe nuisette,FR,France,Slip dress,Garments,robe nuisette,site item,0,data/google_trends/FR_2_dresses.csv,5.74,0.0,
+GB|wide leg jeans,GB,England,Wide-leg jeans,Garments,wide leg jeans,site item,0,data/google_trends/GB_3_pieces.csv,5.65,0.0,
+FR|jean large,FR,France,Wide-leg jeans,Garments,jean large,site item,0,data/google_trends/FR_3_pieces.csv,8.24,0.0,
+GB|cotton dress,GB,England,Cotton,Fabrics,cotton dress,local term,0,data/google_trends/v2/GB_c0_01.csv,17.67,0.0,'corton' typo merged
+FR|robe en coton,FR,France,Cotton,Fabrics,robe en coton,local term,0,data/google_trends/v2/FR_c0_01.csv,6.2,0.0,'corton' typo merged
+GB|wool coat,GB,England,Wool,Fabrics,wool coat,site item,0,data/google_trends/GB_1_outerwear.csv,18.3,0.0,
+FR|manteau en laine,FR,France,Wool,Fabrics,manteau en laine,site item,0,data/google_trends/FR_1_outerwear.csv,3.35,0.071,
+DK|uldfrakke,DK,Denmark,Wool,Fabrics,uldfrakke,site item,0,data/google_trends/DK_2_other.csv,7.28,0.036,
+GB|satin dress,GB,England,Satin,Fabrics,satin dress,site item,0,data/google_trends/GB_2_dresses.csv,33.46,0.0,
+FR|robe en satin,FR,France,Satin,Fabrics,robe en satin,site item,0,data/google_trends/FR_2_dresses.csv,12.48,0.0,
+DK|satin kjole,DK,Denmark,Satin,Fabrics,satin kjole,site item,0,data/google_trends/DK_2_other.csv,6.3,0.0,
+GB|knit dress,GB,England,Knit,Fabrics,knit dress,local term,0,data/google_trends/v2/GB_c0_01.csv,15.04,0.0,ribbed and cable knits merged
+FR|robe en maille,FR,France,Knit,Fabrics,robe en maille,local term,0,data/google_trends/v2/FR_c0_01.csv,5.87,0.0,ribbed and cable knits merged
+DK|strikkjole,DK,Denmark,Knit,Fabrics,strikkjole,local term,0,data/google_trends/v2/DK_c0_01.csv,29.98,0.071,ribbed and cable knits merged
+GB|denim jacket,GB,England,Denim,Fabrics,denim jacket,local term,0,data/google_trends/v2/GB_c0_01.csv,55.87,0.0,
+FR|veste en jean,FR,France,Denim,Fabrics,veste en jean,local term,0,data/google_trends/v2/FR_c0_01.csv,55.87,0.0,
+DK|cowboyjakke,DK,Denmark,Denim,Fabrics,cowboyjakke,local term,0,data/google_trends/v2/DK_c0_02.csv,43.96,0.0,
+GB|tweed jacket,GB,England,Tweed,Fabrics,tweed jacket,site item,0,data/google_trends/GB_3_pieces.csv,3.22,0.0,bouclé tweed also counted under Bouclé
+FR|veste en tweed,FR,France,Tweed,Fabrics,veste en tweed,site item,0,data/google_trends/v2/retry_FR_c0_01.csv,21.46,0.0,bouclé tweed also counted under Bouclé
+GB|leather jacket,GB,England,Leather,Fabrics,leather jacket,site item,0,data/google_trends/GB_1_outerwear.csv,59.07,0.0,faux leather included
+FR|veste en cuir,FR,France,Leather,Fabrics,veste en cuir,site item,0,data/google_trends/FR_1_outerwear.csv,14.78,0.0,faux leather included
+DK|læderjakke,DK,Denmark,Leather,Fabrics,læderjakke,site item,0,data/google_trends/DK_1_outerwear.csv,8.13,0.0,faux leather included
+GB|lace dress,GB,England,Lace,Fabrics,lace dress,site item,0,data/google_trends/GB_2_dresses.csv,28.3,0.0,
+FR|robe en dentelle,FR,France,Lace,Fabrics,robe en dentelle,site item,0,data/google_trends/FR_2_dresses.csv,9.5,0.0,
+DK|blondekjole,DK,Denmark,Lace,Fabrics,blondekjole,local term,0,data/google_trends/v2/DK_c0_03.csv,16.26,0.0,
+GB|cashmere jumper,GB,England,Cashmere,Fabrics,cashmere jumper,site item,0,data/google_trends/v2/retry_GB_c0_02.csv,35.39,0.0,
+FR|pull en cachemire,FR,France,Cashmere,Fabrics,pull en cachemire,site item,0,data/google_trends/v2/retry_FR_c0_02.csv,7.57,0.0,
+GB|faux fur coat,GB,England,Fur,Fabrics,faux fur coat,local term,0,data/google_trends/v2/GB_c0_01.csv,10.93,0.0,faux fur included
+FR|manteau fausse fourrure,FR,France,Fur,Fabrics,manteau fausse fourrure,local term,0,data/google_trends/v2/FR_c0_01.csv,7.11,0.036,faux fur included
+GB|jersey dress,GB,England,Jersey,Fabrics,jersey dress,local term,0,data/google_trends/v2/GB_c0_01.csv,11.54,0.0,
+FR|robe en jersey,FR,France,Jersey,Fabrics,robe en jersey,local term,0,data/google_trends/v2/retry_FR_c0_01.csv,6.7,0.0,
+GB|chiffon dress,GB,England,Chiffon,Fabrics,chiffon dress,local term,0,data/google_trends/v2/GB_c0_02.csv,8.8,0.0,
+GB|velvet dress,GB,England,Velvet,Fabrics,velvet dress,local term,0,data/google_trends/v2/GB_c0_02.csv,21.74,0.0,
+FR|robe en velours,FR,France,Velvet,Fabrics,robe en velours,local term,0,data/google_trends/v2/retry_FR_c0_03.csv,22.46,0.024,
+GB|suede jacket,GB,England,Suede,Fabrics,suede jacket,site item,0,data/google_trends/GB_1_outerwear.csv,8.52,0.0,
+FR|veste en daim,FR,France,Suede,Fabrics,veste en daim,site item,0,data/google_trends/v2/retry_FR_c0_01.csv,33.85,0.0,
+GB|tulle skirt,GB,England,Tulle,Fabrics,tulle skirt,local term,0,data/google_trends/v2/GB_c0_02.csv,3.8,0.0,'net' merged
+FR|jupe en tulle,FR,France,Tulle,Fabrics,jupe en tulle,local term,0,data/google_trends/v2/FR_c0_02.csv,3.87,0.0,'net' merged
+DK|tylskørt,DK,Denmark,Tulle,Fabrics,tylskørt,local term,0,data/google_trends/v2/DK_c0_06.csv,33.17,0.06,'net' merged
+GB|silk dress,GB,England,Silk,Fabrics,silk dress,local term,0,data/google_trends/v2/GB_c0_02.csv,20.17,0.0,
+FR|robe en soie,FR,France,Silk,Fabrics,robe en soie,local term,0,data/google_trends/v2/FR_c0_02.csv,7.74,0.0,
+DK|silkekjole,DK,Denmark,Silk,Fabrics,silkekjole,local term,0,data/google_trends/v2/DK_c0_06.csv,47.9,0.024,
+GB|linen trousers,GB,England,Linen,Fabrics,linen trousers,local term,0,data/google_trends/v2/GB_c0_02.csv,33.63,0.0,
+FR|pantalon en lin,FR,France,Linen,Fabrics,pantalon en lin,local term,0,data/google_trends/v2/FR_c0_02.csv,30.2,0.0,
+DK|hørbukser,DK,Denmark,Linen,Fabrics,hørbukser,local term,0,data/google_trends/v2/DK_c0_07.csv,31.78,0.036,
+GB|crepe dress,GB,England,Crepe,Fabrics,crepe dress,local term,0,data/google_trends/v2/retry_GB_c0_01.csv,43.54,0.0,"plain word also means the pancake, so the garment form is the safer test"
+GB|mesh top,GB,England,Mesh,Fabrics,mesh top,local term,0,data/google_trends/v2/GB_c0_03.csv,4.57,0.0,
+DK|mesh top,DK,Denmark,Mesh,Fabrics,mesh top,local term,0,data/google_trends/v2/DK_c0_07.csv,3.28,0.024,
+GB|boucle jacket,GB,England,Bouclé,Fabrics,boucle jacket,local term,0,data/google_trends/v2/retry_GB_c0_01.csv,54.61,0.0,
+GB|poplin shirt,GB,England,Poplin,Fabrics,poplin shirt,local term,0,data/google_trends/v2/retry_GB_c0_01.csv,38.72,0.0,
+GB|white dress,GB,England,White,Colours,white dress,local term,0,data/google_trends/v2/GB_c0_03.csv,57.41,0.0,'off white' counted under Cream
+FR|robe blanche,FR,France,White,Colours,robe blanche,local term,0,data/google_trends/v2/FR_c0_03.csv,52.65,0.0,'off white' counted under Cream
+DK|hvid kjole,DK,Denmark,White,Colours,hvid kjole,local term,0,data/google_trends/v2/DK_c0_09.csv,46.89,0.0,'off white' counted under Cream
+GB|black dress,GB,England,Black,Colours,black dress,local term,0,data/google_trends/v2/GB_c0_04.csv,58.5,0.0,
+FR|robe noire,FR,France,Black,Colours,robe noire,local term,0,data/google_trends/v2/FR_c0_04.csv,35.15,0.0,
+DK|sort kjole,DK,Denmark,Black,Colours,sort kjole,local term,0,data/google_trends/v2/DK_c0_09.csv,58.26,0.0,
+GB|beige dress,GB,England,Beige,Colours,beige dress,local term,0,data/google_trends/v2/retry_GB_c0_02.csv,35.41,0.0,
+FR|robe beige,FR,France,Beige,Colours,robe beige,local term,0,data/google_trends/v2/FR_c0_04.csv,8.93,0.0,
+DK|beige kjole,DK,Denmark,Beige,Colours,beige kjole,local term,0,data/google_trends/v2/DK_c0_10.csv,15.09,0.012,
+GB|brown dress,GB,England,Brown,Colours,brown dress,site item,0,data/google_trends/GB_4_colours_prints.csv,32.83,0.0,"light, dark and chocolate brown merged"
+FR|robe marron,FR,France,Brown,Colours,robe marron,site item,0,data/google_trends/FR_4_colours_prints.csv,18.67,0.0,"light, dark and chocolate brown merged"
+DK|brun kjole,DK,Denmark,Brown,Colours,brun kjole,local term,0,data/google_trends/v2/DK_c0_10.csv,26.67,0.0,"light, dark and chocolate brown merged"
+GB|blue dress,GB,England,Blue,Colours,blue dress,local term,0,data/google_trends/v2/GB_c0_04.csv,27.72,0.0,"light, dark and pastel blue merged; navy counted separately"
+FR|robe bleue,FR,France,Blue,Colours,robe bleue,local term,0,data/google_trends/v2/FR_c0_04.csv,6.7,0.0,"light, dark and pastel blue merged; navy counted separately"
+DK|blå kjole,DK,Denmark,Blue,Colours,blå kjole,local term,0,data/google_trends/v2/DK_c0_11.csv,55.93,0.0,"light, dark and pastel blue merged; navy counted separately"
+GB|burgundy dress,GB,England,Burgundy,Colours,burgundy dress,site item,0,data/google_trends/GB_4_colours_prints.csv,10.98,0.0,
+FR|robe bordeaux,FR,France,Burgundy,Colours,robe bordeaux,site item,0,data/google_trends/FR_4_colours_prints.csv,17.7,0.0,
+GB|grey dress,GB,England,Grey,Colours,grey dress,local term,0,data/google_trends/v2/GB_c0_04.csv,3.91,0.0,
+FR|robe grise,FR,France,Grey,Colours,robe grise,local term,0,data/google_trends/v2/retry_FR_c0_02.csv,5.78,0.0,
+DK|grå kjole,DK,Denmark,Grey,Colours,grå kjole,local term,0,data/google_trends/v2/DK_c0_12.csv,59.35,0.012,
+GB|cream dress,GB,England,Cream,Colours,cream dress,local term,0,data/google_trends/v2/GB_c0_04.csv,5.54,0.0,"'creme', 'off white' and 'ivory' merged"
+GB|camel coat,GB,England,Camel,Colours,camel coat,local term,0,data/google_trends/v2/GB_c0_05.csv,4.39,0.0,searched with 'coat': a camel dress is rare and 'camel' alone is the animal
+FR|manteau camel,FR,France,Camel,Colours,manteau camel,local term,0,data/google_trends/v2/FR_c0_05.csv,4.97,0.071,searched with 'coat': a camel dress is rare and 'camel' alone is the animal
+GB|red dress,GB,England,Red,Colours,red dress,local term,0,data/google_trends/v2/GB_c0_05.csv,54.74,0.0,'cherry red' (spelt 'cheery'/'chery') merged
+FR|robe rouge,FR,France,Red,Colours,robe rouge,local term,0,data/google_trends/v2/FR_c0_05.csv,52.22,0.0,'cherry red' (spelt 'cheery'/'chery') merged
+DK|rød kjole,DK,Denmark,Red,Colours,rød kjole,local term,0,data/google_trends/v2/DK_c0_13.csv,51.98,0.0,'cherry red' (spelt 'cheery'/'chery') merged
+GB|navy dress,GB,England,Navy,Colours,navy dress,local term,0,data/google_trends/v2/GB_c0_05.csv,21.78,0.0,
+FR|robe bleu marine,FR,France,Navy,Colours,robe bleu marine,local term,0,data/google_trends/v2/FR_c0_05.csv,11.65,0.0,
+DK|navy dress,DK,Denmark,Navy,Colours,navy dress,English term,0,data/google_trends/v2/DK_c0_14.csv,9.89,0.095,
+GB|pink dress,GB,England,Pink,Colours,pink dress,local term,0,data/google_trends/v2/GB_c0_05.csv,61.52,0.0,"blush, pastel and rose merged"
+FR|robe rose,FR,France,Pink,Colours,robe rose,local term,0,data/google_trends/v2/FR_c0_05.csv,58.76,0.0,"blush, pastel and rose merged"
+DK|lyserød kjole,DK,Denmark,Pink,Colours,lyserød kjole,local term,0,data/google_trends/v2/DK_c0_14.csv,55.74,0.0,"blush, pastel and rose merged"
+GB|green dress,GB,England,Green,Colours,green dress,local term,0,data/google_trends/v2/GB_c0_05.csv,64.33,0.0,
+FR|robe verte,FR,France,Green,Colours,robe verte,local term,0,data/google_trends/v2/FR_c0_05.csv,38.85,0.0,
+DK|grøn kjole,DK,Denmark,Green,Colours,grøn kjole,local term,0,data/google_trends/v2/DK_c0_15.csv,45.52,0.0,
+GB|yellow dress,GB,England,Yellow,Colours,yellow dress,site item,0,data/google_trends/GB_4_colours_prints.csv,34.35,0.0,'butter' and 'buttermilk yellow' merged
+FR|robe jaune,FR,France,Yellow,Colours,robe jaune,site item,0,data/google_trends/FR_4_colours_prints.csv,25.46,0.0,'butter' and 'buttermilk yellow' merged
+DK|gul kjole,DK,Denmark,Yellow,Colours,gul kjole,local term,0,data/google_trends/v2/DK_c0_15.csv,22.63,0.0,'butter' and 'buttermilk yellow' merged
+GB|silver dress,GB,England,Silver,Colours,silver dress,local term,0,data/google_trends/v2/GB_c0_06.csv,10.76,0.0,
+FR|robe argentée,FR,France,Silver,Colours,robe argentée,local term,0,data/google_trends/v2/retry_FR_c0_01.csv,10.15,0.012,
+GB|polka dot dress,GB,England,Polka dots,Colours,polka dot dress,site item,0,data/google_trends/GB_4_colours_prints.csv,15.13,0.0,"a print, grouped with colours"
+FR|robe à pois,FR,France,Polka dots,Colours,robe à pois,site item,0,data/google_trends/v2/retry_FR_c0_03.csv,25.09,0.0,"a print, grouped with colours"
+GB|casual outfit,GB,England,Casual,Styles,casual outfit,local term,0,data/google_trends/v2/GB_c0_06.csv,3.65,0.0,
+FR|tenue décontractée,FR,France,Casual,Styles,tenue décontractée,local term,0,data/google_trends/v2/retry_FR_c0_01.csv,12.83,0.0,
+GB|evening dress,GB,England,Evening wear,Styles,evening dress,local term,0,data/google_trends/v2/GB_c0_06.csv,15.35,0.0,
+FR|robe de soirée,FR,France,Evening wear,Styles,robe de soirée,local term,0,data/google_trends/v2/FR_c0_06.csv,51.52,0.0,
+DK|festkjole,DK,Denmark,Evening wear,Styles,festkjole,local term,0,data/google_trends/v2/DK_c0_16.csv,58.02,0.0,
+GB|office outfit,GB,England,Formal / office,Styles,office outfit,local term,0,data/google_trends/v2/retry_GB_c0_01.csv,23.98,0.0,'corpcore' merged
+GB|loungewear,GB,England,Loungewear,Styles,loungewear,local term,0,data/google_trends/v2/GB_c0_06.csv,14.85,0.0,'night wear' left out: in the sheet it is used both for evening and for at-home looks
+DK|loungewear,DK,Denmark,Loungewear,Styles,loungewear,local term,0,data/google_trends/v2/DK_c0_17.csv,30.95,0.024,'night wear' left out: in the sheet it is used both for evening and for at-home looks
+GB|boho dress,GB,England,Boho,Styles,boho dress,site item,0,data/google_trends/GB_2_dresses.csv,5.7,0.0,
+FR|robe bohème,FR,France,Boho,Styles,robe bohème,site item,0,data/google_trends/FR_2_dresses.csv,40.74,0.0,
+GB|floral dress,GB,England,Floral details,Runway details,floral dress,local term,0,data/google_trends/v2/GB_c0_07.csv,44.78,0.0,
+FR|robe fleurie,FR,France,Floral details,Runway details,robe fleurie,local term,0,data/google_trends/v2/FR_c0_07.csv,27.59,0.0,
+DK|blomstret kjole,DK,Denmark,Floral details,Runway details,blomstret kjole,local term,0,data/google_trends/v2/DK_c0_17.csv,24.74,0.083,
+GB|embroidered dress,GB,England,Embroidery,Runway details,embroidered dress,local term,0,data/google_trends/v2/GB_c0_07.csv,6.78,0.0,
+FR|robe brodée,FR,France,Embroidery,Runway details,robe brodée,local term,0,data/google_trends/v2/retry_FR_c0_03.csv,18.05,0.024,
+GB|sequin dress,GB,England,Sequins & beads,Runway details,sequin dress,local term,0,data/google_trends/v2/GB_c0_07.csv,32.83,0.0,
+GB|pearl embellished,GB,England,Pearls & crystals,Runway details,pearl embellished,local term,0,data/google_trends/v2/retry_GB_c0_01.csv,12.48,0.0,
+GB|gold buttons,GB,England,Gold hardware,Runway details,gold buttons,local term,0,data/google_trends/v2/GB_c0_07.csv,3.54,0.0,"trim entries whose colour includes gold (buttons, zips, rivets, embroidery)"
+GB|studded jacket,GB,England,Studs & rivets,Runway details,studded jacket,local term,0,data/google_trends/v2/GB_c0_08.csv,3.3,0.0,
+GB|geometric print,GB,England,Geometric motifs,Runway details,geometric print,local term,0,data/google_trends/v2/GB_c0_08.csv,5.7,0.0,
+GB|leopard print dress,GB,England,Animal motifs,Runway details,leopard print dress,site item,0,data/google_trends/GB_4_colours_prints.csv,10.52,0.0,"leopard print in posts; animal, bird, insect and butterfly motifs on the runway"
+FR|robe léopard,FR,France,Animal motifs,Runway details,robe léopard,site item,0,data/google_trends/v2/retry_FR_c0_03.csv,22.39,0.0,"leopard print in posts; animal, bird, insect and butterfly motifs on the runway"
+DK|leopard kjole,DK,Denmark,Animal motifs,Runway details,leopard kjole,local term,0,data/google_trends/v2/DK_c0_21.csv,32.76,0.0,"leopard print in posts; animal, bird, insect and butterfly motifs on the runway"

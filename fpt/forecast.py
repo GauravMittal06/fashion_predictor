@@ -81,6 +81,33 @@ def chronos2(Y, h):
     return np.sort(q, axis=2)                     # low <= mid <= high
 
 
+def chronos2_long_cross_factory(YL, offset, country_of):
+    """Chronos-2 with (a) the history from Nov 2019, not just Jan 2022, and (b) cross-learning: the items of one
+    country are forecast together, so the model can see when searches for everything are moving.
+
+    YL: (n_series, n_months) full history from Nov 2019; offset: months in YL before the first month of Y (Jan 2022);
+    country_of: country code per series. The returned f(Ys, h) is called with Ys = Y[:, :t] and reads YL only up to
+    the same month (offset + t), so a forecast never sees later months."""
+    YL = np.asarray(YL, float)
+    country_of = np.asarray(country_of)
+
+    def f(Ys, h):
+        YLt = YL[:, :offset + Ys.shape[1]]
+        if _chronos2 is None:
+            chronos2(YLt[:1], 1)
+        out = np.zeros((len(YLt), h, 3))
+        stamps = pd.date_range('2000-01-01', periods=YLt.shape[1], freq='MS')
+        for c in np.unique(country_of):
+            idx = np.where(country_of == c)[0]
+            df = pd.concat([pd.DataFrame({'item_id': i, 'timestamp': stamps, 'target': YLt[i]}) for i in idx],
+                           ignore_index=True)
+            p = _chronos2.predict_df(df, prediction_length=h, quantile_levels=C.QUANTILES, freq='MS',
+                                     cross_learning=True).sort_values(['item_id', 'timestamp'])
+            out[idx] = np.sort(p[[str(q) for q in C.QUANTILES]].to_numpy().reshape(len(idx), h, 3), axis=2)
+        return out
+    return f
+
+
 # ---------------- Plan C: quantile LSTM trained across many series ----------------
 class QuantileLSTM(nn.Module):
     """12 months in -> LSTM(64) -> Dense(18) -> 6 months x (low, middle, high)."""

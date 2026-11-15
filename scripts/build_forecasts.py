@@ -1,17 +1,18 @@
 """Forecast Google search interest in outfit items in England, France and Denmark, 3 and 6 months ahead, and test how
 good those forecasts are.
 
-Data: data/google_trends/{GB,FR,DK}_*.csv, monthly Google Trends (Nov 2019 - Oct 2026), saved from the Google Trends
-website; terms.csv names each item in English. Scores and the choice of method use Jan 2022 onwards (Google changed
-how it counts on 1 Jan 2022); the improved Chronos-2 also reads the earlier months as background.
+Data: data/google_trends/selected_series.csv and selected_items.csv (made by scripts/select_series.py from the saved
+Google Trends downloads, Nov 2019 - Oct 2026, after the quality checks in fpt/quality.py). Scores and the choice of
+method use Jan 2022 onwards (Google changed how it counts on 1 Jan 2022); the improved Chronos-2 also reads the
+earlier months as background.
 
 Fairness rule: the last 12 months (Nov 2025 - Oct 2026) are LOCKED. The forecaster is chosen on earlier months only;
 the locked months are then forecast once, as the final test. Finally the chosen forecaster predicts Nov 2026 - Apr 2027.
 
     python scripts/build_forecasts.py   ->  outputs/forecast/*.csv, meta.json
 """
-import glob
 import json
+import os
 import sys
 from pathlib import Path
 import numpy as np
@@ -30,23 +31,24 @@ MIN_MEAN = 3.0           # items averaging under 3 (out of 100) before the locke
 HORIZONS = (3, 6)
 COUNTRY = {'GB': 'England', 'FR': 'France', 'DK': 'Denmark'}
 
-# 1. Read the saved Google Trends tables ('<1' means under 1 -> 0.5)
-terms = pd.read_csv(SRC / 'terms.csv').fillna('')
-cols = []
-for f in sorted(glob.glob(str(SRC / '*_*.csv'))):
-    code = Path(f).name.split('_')[0]
-    if code not in COUNTRY:
-        continue
-    d = pd.read_csv(f, dtype=str).set_index('month').replace('<1', '0.5').astype(float)
-    d.columns = [f'{code}|{c}' for c in d.columns]
-    cols.append(d)
-wide = pd.concat(cols, axis=1)
-wide = wide.loc[:, ~wide.columns.duplicated()]
+# 1. Read the selected Google Trends series (scripts/select_series.py; '<1' means under 1 -> 0.5)
+terms = pd.read_csv(SRC / 'selected_items.csv').fillna('').set_index('key')
+wide = pd.read_csv(SRC / 'selected_series.csv', dtype=str).set_index('month').replace('<1', '0.5').astype(float)
 wide.index = pd.to_datetime(wide.index)
+assert list(wide.columns) == list(terms.index), 'selected_series.csv and selected_items.csv disagree'
+# Google's UK data for Feb 2026 jumps for most clothing searches at once (median 1.5x the Jan/Mar average, against
+# about 1.0x in every other year; France and Denmark are normal). That month is replaced by the average of Jan and
+# Mar 2026 for UK series. The raw files are left untouched; FPT_RAW_FEB2026=1 runs without the fix (for comparison).
+RAW_FEB = os.environ.get('FPT_RAW_FEB2026') == '1'
+if not RAW_FEB:
+    gb = [c for c in wide.columns if c.startswith('GB|')]
+    wide.loc['2026-02-01', gb] = (wide.loc['2026-01-01', gb] + wide.loc['2026-03-01', gb]) / 2
+    OUT = C.OUT / 'forecast'
+else:
+    OUT = C.OUT / 'forecast_raw_feb2026'
+    OUT.mkdir(parents=True, exist_ok=True)
 full = wide.copy()                         # from Nov 2019: longer memory for the improved Chronos-2
 wide = wide[wide.index >= START]
-terms['key'] = terms.country + '|' + terms.term
-terms = terms[terms.key.isin(wide.columns)].set_index('key')
 n = len(wide)
 dev = n - LOCKED
 dev_mean = wide.iloc[:dev].mean()
@@ -65,22 +67,7 @@ OFFSET = YL.shape[1] - Y.shape[1]          # months before Jan 2022
 country_of = np.array([k[:2] for k in keep])
 
 
-def chronos2_long_cross(Ys, h):
-    """Chronos-2 with (a) the history from Nov 2019, not just Jan 2022, and (b) cross-learning: the items of one
-    country are forecast together, so the model can see when searches for everything are moving."""
-    YLt = YL[:, :OFFSET + Ys.shape[1]]
-    if F._chronos2 is None:
-        F.chronos2(YLt[:1], 1)
-    out = np.zeros((len(YLt), h, 3))
-    stamps = pd.date_range('2000-01-01', periods=YLt.shape[1], freq='MS')
-    for c in np.unique(country_of):
-        idx = np.where(country_of == c)[0]
-        df = pd.concat([pd.DataFrame({'item_id': i, 'timestamp': stamps, 'target': YLt[i]}) for i in idx],
-                       ignore_index=True)
-        p = F._chronos2.predict_df(df, prediction_length=h, quantile_levels=C.QUANTILES, freq='MS',
-                                   cross_learning=True).sort_values(['item_id', 'timestamp'])
-        out[idx] = np.sort(p[[str(q) for q in C.QUANTILES]].to_numpy().reshape(len(idx), h, 3), axis=2)
-    return out
+chronos2_long_cross = F.chronos2_long_cross_factory(YL, OFFSET, country_of)   # see fpt/forecast.py
 
 
 # 2. Every forecaster, from every start month (each forecast sees only earlier months)
@@ -188,7 +175,8 @@ pd.DataFrame(calls).to_csv(OUT / 'calls.csv', index=False)
 hist = wide.copy()
 hist.index = hist.index.strftime('%Y-%m')
 hist.to_csv(OUT / 'history.csv')
-items = terms.assign(country_name=terms.country.map(COUNTRY))[['country', 'country_name', 'term', 'english', 'group', 'note']]
+items = terms.rename(columns={'attribute': 'english', 'type': 'group'})[
+    ['country', 'country_name', 'term', 'english', 'group', 'source', 'category', 'note']]
 items.to_csv(OUT / 'items.csv')
 
 # 7. Validation: every past forecast (backtest) and every label it gave, scored with the same rule as the app
@@ -246,6 +234,7 @@ for h in HORIZONS:
 (OUT / 'validation.json').write_text(json.dumps(proof, indent=1, default=float))
 meta = {'months': [hist.index[0], hist.index[-1]], 'locked_from': hist.index[dev],
         'chosen': {str(h): chosen[h] for h in HORIZONS}, 'kept': len(keep), 'dropped_sparse': dropped,
+        'uk_feb_2026_fixed': not RAW_FEB,
         'future': [future[0].strftime('%Y-%m'), future[-1].strftime('%Y-%m')],
         'rule': {str(h): RULE[h] for h in HORIZONS}}
 (OUT / 'meta.json').write_text(json.dumps(meta, indent=1, default=float))

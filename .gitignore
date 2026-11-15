@@ -5,3 +5,5 @@ venv/
 .streamlit/secrets.toml
 .DS_Store
 Thumbs.db
+outputs/forecast_raw_feb2026/
+.pytest_cache/

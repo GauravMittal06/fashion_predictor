@@ -1,0 +1,258 @@
+geo,term,file,passes,empty_share,dev_mean,reason
+DK,læderjakke,data/google_trends/DK_1_outerwear.csv,True,0.0,8.13,
+DK,trenchcoat,data/google_trends/DK_1_outerwear.csv,True,0.0,12.96,
+DK,bomberjakke,data/google_trends/v2/retry_DK_c68_01.csv,False,0.667,2.83,67% empty months; average 2.8 < 3
+DK,blazer,data/google_trends/DK_1_outerwear.csv,True,0.0,58.17,
+DK,cardigan,data/google_trends/DK_1_outerwear.csv,True,0.0,65.17,
+DK,uldfrakke,data/google_trends/DK_2_other.csv,True,0.036,7.28,
+DK,ruskindsjakke,data/google_trends/v2/retry_DK_c0_01.csv,False,0.131,26.46,13% empty months
+DK,satin kjole,data/google_trends/DK_2_other.csv,True,0.0,6.3,
+DK,leopard,data/google_trends/DK_2_other.csv,True,0.0,53.7,
+DK,bordeaux,data/google_trends/DK_2_other.csv,True,0.0,33.89,
+FR,veste en cuir,data/google_trends/FR_1_outerwear.csv,True,0.0,14.78,
+FR,trench,data/google_trends/FR_1_outerwear.csv,True,0.0,40.78,
+FR,bomber,data/google_trends/FR_1_outerwear.csv,True,0.0,20.48,
+FR,veste en daim,data/google_trends/v2/retry_FR_c0_01.csv,True,0.0,33.85,
+FR,manteau en laine,data/google_trends/FR_1_outerwear.csv,True,0.071,3.35,
+FR,robe en satin,data/google_trends/FR_2_dresses.csv,True,0.0,12.48,
+FR,robe en dentelle,data/google_trends/FR_2_dresses.csv,True,0.0,9.5,
+FR,robe moulante,data/google_trends/FR_2_dresses.csv,True,0.0,35.04,
+FR,robe nuisette,data/google_trends/FR_2_dresses.csv,True,0.0,5.74,
+FR,robe bohème,data/google_trends/FR_2_dresses.csv,True,0.0,40.74,
+FR,blazer,data/google_trends/FR_3_pieces.csv,True,0.0,58.13,
+FR,cardigan,data/google_trends/FR_3_pieces.csv,True,0.0,21.46,
+FR,pull en cachemire,data/google_trends/v2/retry_FR_c0_02.csv,True,0.0,7.57,
+FR,jean large,data/google_trends/FR_3_pieces.csv,True,0.0,8.24,
+FR,veste en tweed,data/google_trends/v2/retry_FR_c0_01.csv,True,0.0,21.46,
+FR,robe bordeaux,data/google_trends/FR_4_colours_prints.csv,True,0.0,17.7,
+FR,robe léopard,data/google_trends/v2/retry_FR_c0_03.csv,True,0.0,22.39,
+FR,robe à pois,data/google_trends/v2/retry_FR_c0_03.csv,True,0.0,25.09,
+FR,robe marron,data/google_trends/FR_4_colours_prints.csv,True,0.0,18.67,
+FR,robe jaune,data/google_trends/FR_4_colours_prints.csv,True,0.0,25.46,
+GB,leather jacket,data/google_trends/GB_1_outerwear.csv,True,0.0,59.07,
+GB,trench coat,data/google_trends/GB_1_outerwear.csv,True,0.0,35.33,
+GB,bomber jacket,data/google_trends/GB_1_outerwear.csv,True,0.0,33.5,
+GB,suede jacket,data/google_trends/GB_1_outerwear.csv,True,0.0,8.52,
+GB,wool coat,data/google_trends/GB_1_outerwear.csv,True,0.0,18.3,
+GB,satin dress,data/google_trends/GB_2_dresses.csv,True,0.0,33.46,
+GB,lace dress,data/google_trends/GB_2_dresses.csv,True,0.0,28.3,
+GB,bodycon dress,data/google_trends/GB_2_dresses.csv,True,0.0,18.02,
+GB,slip dress,data/google_trends/GB_2_dresses.csv,True,0.0,12.04,
+GB,boho dress,data/google_trends/GB_2_dresses.csv,True,0.0,5.7,
+GB,blazer,data/google_trends/GB_3_pieces.csv,True,0.0,51.48,
+GB,cardigan,data/google_trends/GB_3_pieces.csv,True,0.0,65.2,
+GB,cashmere jumper,data/google_trends/v2/retry_GB_c0_02.csv,True,0.0,35.39,
+GB,wide leg jeans,data/google_trends/GB_3_pieces.csv,True,0.0,5.65,
+GB,tweed jacket,data/google_trends/GB_3_pieces.csv,True,0.0,3.22,
+GB,burgundy dress,data/google_trends/GB_4_colours_prints.csv,True,0.0,10.98,
+GB,leopard print dress,data/google_trends/GB_4_colours_prints.csv,True,0.0,10.52,
+GB,polka dot dress,data/google_trends/GB_4_colours_prints.csv,True,0.0,15.13,
+GB,brown dress,data/google_trends/GB_4_colours_prints.csv,True,0.0,32.83,
+GB,yellow dress,data/google_trends/GB_4_colours_prints.csv,True,0.0,34.35,
+DK,bomuldskjole,data/google_trends/v2/DK_c0_01.csv,False,0.786,1.93,79% empty months; average 1.9 < 3
+DK,cotton dress,data/google_trends/v2/DK_c0_01.csv,False,0.143,10.87,14% empty months
+DK,strikkjole,data/google_trends/v2/DK_c0_01.csv,True,0.071,29.98,
+DK,knit dress,data/google_trends/v2/DK_c0_01.csv,True,0.036,18.11,
+DK,cowboyjakke,data/google_trends/v2/DK_c0_02.csv,True,0.0,43.96,
+DK,denim jacket,data/google_trends/v2/DK_c0_02.csv,True,0.0,57.72,
+DK,tweed jakke,data/google_trends/v2/DK_c0_02.csv,False,0.214,10.1,21% empty months
+DK,tweed jacket,data/google_trends/v2/DK_c0_02.csv,False,0.476,5.6,48% empty months
+DK,blondekjole,data/google_trends/v2/DK_c0_03.csv,True,0.0,16.26,
+DK,lace dress,data/google_trends/v2/DK_c0_03.csv,True,0.0,22.26,
+DK,kashmir sweater,data/google_trends/v2/DK_c0_03.csv,False,0.964,0.74,96% empty months; average 0.7 < 3
+DK,cashmere jumper,data/google_trends/v2/DK_c0_03.csv,False,0.869,1.77,87% empty months; average 1.8 < 3
+DK,pelsjakke,data/google_trends/v2/DK_c0_04.csv,False,0.286,18.96,29% empty months
+DK,faux fur coat,data/google_trends/v2/DK_c0_04.csv,False,0.726,4.26,73% empty months
+DK,jerseykjole,data/google_trends/v2/DK_c0_04.csv,False,0.964,0.75,96% empty months; average 0.8 < 3
+DK,jersey dress,data/google_trends/v2/DK_c0_04.csv,False,0.417,11.79,42% empty months
+DK,chiffonkjole,data/google_trends/v2/DK_c0_05.csv,False,0.988,0.9,99% empty months; average 0.9 < 3
+DK,chiffon dress,data/google_trends/v2/DK_c0_05.csv,False,0.536,12.58,54% empty months
+DK,fløjlskjole,data/google_trends/v2/DK_c0_05.csv,False,0.548,20.4,55% empty months
+DK,velvet dress,data/google_trends/v2/DK_c0_05.csv,False,0.655,9.49,65% empty months
+DK,tylskørt,data/google_trends/v2/DK_c0_06.csv,True,0.06,33.17,
+DK,tulle skirt,data/google_trends/v2/DK_c0_06.csv,False,0.94,1.09,94% empty months; average 1.1 < 3
+DK,silkekjole,data/google_trends/v2/DK_c0_06.csv,True,0.024,47.9,
+DK,silk dress,data/google_trends/v2/DK_c0_06.csv,True,0.0,54.93,
+DK,hørbukser,data/google_trends/v2/DK_c0_07.csv,True,0.036,31.78,
+DK,linen trousers,data/google_trends/v2/DK_c0_07.csv,False,0.583,1.23,58% empty months; average 1.2 < 3
+DK,crepe kjole,data/google_trends/v2/DK_c0_07.csv,False,0.833,0.55,83% empty months; average 0.6 < 3
+DK,crepe dress,data/google_trends/v2/DK_c0_07.csv,False,0.726,0.59,73% empty months; average 0.6 < 3
+DK,mesh top,data/google_trends/v2/DK_c0_07.csv,True,0.024,3.28,
+DK,bouclé jakke,data/google_trends/v2/DK_c0_08.csv,False,1.0,0.5,100% empty months; average 0.5 < 3
+DK,boucle jacket,data/google_trends/v2/DK_c0_08.csv,False,0.857,6.34,86% empty months
+DK,poplin skjorte,data/google_trends/v2/DK_c0_08.csv,False,0.476,28.45,48% empty months
+DK,poplin shirt,data/google_trends/v2/DK_c0_08.csv,False,0.333,36.54,33% empty months
+DK,hvid kjole,data/google_trends/v2/DK_c0_09.csv,True,0.0,46.89,
+DK,white dress,data/google_trends/v2/DK_c0_09.csv,True,0.0,21.35,
+DK,sort kjole,data/google_trends/v2/DK_c0_09.csv,True,0.0,58.26,
+DK,black dress,data/google_trends/v2/DK_c0_09.csv,True,0.0,29.09,
+DK,beige kjole,data/google_trends/v2/DK_c0_10.csv,True,0.012,15.09,
+DK,beige dress,data/google_trends/v2/DK_c0_10.csv,False,0.167,6.43,17% empty months
+DK,brun kjole,data/google_trends/v2/DK_c0_10.csv,True,0.0,26.67,
+DK,brown dress,data/google_trends/v2/DK_c0_10.csv,True,0.06,8.62,
+DK,blå kjole,data/google_trends/v2/DK_c0_11.csv,True,0.0,55.93,
+DK,blue dress,data/google_trends/v2/DK_c0_11.csv,True,0.0,25.35,
+DK,bordeaux kjole,data/google_trends/v2/DK_c0_11.csv,False,0.619,1.48,62% empty months; average 1.5 < 3
+DK,burgundy dress,data/google_trends/v2/DK_c0_11.csv,False,0.869,0.73,87% empty months; average 0.7 < 3
+DK,grå kjole,data/google_trends/v2/DK_c0_12.csv,True,0.012,59.35,
+DK,grey dress,data/google_trends/v2/DK_c0_12.csv,False,0.238,37.34,24% empty months
+DK,creme kjole,data/google_trends/v2/DK_c0_12.csv,False,0.226,44.35,23% empty months
+DK,cream dress,data/google_trends/v2/DK_c0_12.csv,False,0.667,9.28,67% empty months
+DK,camel frakke,data/google_trends/v2/DK_c0_13.csv,False,0.94,0.67,94% empty months; average 0.7 < 3
+DK,camel coat,data/google_trends/v2/DK_c0_13.csv,False,0.774,1.23,77% empty months; average 1.2 < 3
+DK,rød kjole,data/google_trends/v2/DK_c0_13.csv,True,0.0,51.98,
+DK,red dress,data/google_trends/v2/DK_c0_13.csv,True,0.0,28.07,
+DK,marineblå kjole,data/google_trends/v2/DK_c0_14.csv,False,0.964,0.88,96% empty months; average 0.9 < 3
+DK,navy dress,data/google_trends/v2/DK_c0_14.csv,True,0.095,9.89,
+DK,lyserød kjole,data/google_trends/v2/DK_c0_14.csv,True,0.0,55.74,
+DK,pink dress,data/google_trends/v2/DK_c0_14.csv,True,0.0,44.67,
+DK,grøn kjole,data/google_trends/v2/DK_c0_15.csv,True,0.0,45.52,
+DK,green dress,data/google_trends/v2/DK_c0_15.csv,True,0.0,17.89,
+DK,gul kjole,data/google_trends/v2/DK_c0_15.csv,True,0.0,22.63,
+DK,yellow dress,data/google_trends/v2/DK_c0_15.csv,True,0.06,9.68,
+DK,sølv kjole,data/google_trends/v2/DK_c0_16.csv,False,0.167,11.6,17% empty months
+DK,silver dress,data/google_trends/v2/DK_c0_16.csv,False,0.524,5.34,52% empty months
+DK,casual outfit,data/google_trends/v2/DK_c0_16.csv,False,0.75,2.01,75% empty months; average 2.0 < 3
+DK,festkjole,data/google_trends/v2/DK_c0_16.csv,True,0.0,58.02,
+DK,evening dress,data/google_trends/v2/DK_c0_16.csv,False,0.786,2.05,79% empty months; average 2.1 < 3
+DK,kontortøj,data/google_trends/v2/DK_c0_17.csv,False,0.976,0.66,98% empty months; average 0.7 < 3
+DK,office outfit,data/google_trends/v2/DK_c0_17.csv,False,0.988,0.5,99% empty months; average 0.5 < 3
+DK,loungewear,data/google_trends/v2/DK_c0_17.csv,True,0.024,30.95,
+DK,blomstret kjole,data/google_trends/v2/DK_c0_17.csv,True,0.083,24.74,
+DK,floral dress,data/google_trends/v2/DK_c0_17.csv,True,0.012,25.33,
+DK,broderet kjole,data/google_trends/v2/DK_c0_18.csv,False,0.964,1.68,96% empty months; average 1.7 < 3
+DK,embroidered dress,data/google_trends/v2/DK_c0_18.csv,False,0.94,0.5,94% empty months; average 0.5 < 3
+DK,pailletkjole,data/google_trends/v2/DK_c0_18.csv,False,0.762,8.64,76% empty months
+DK,sequin dress,data/google_trends/v2/DK_c0_18.csv,False,0.226,28.55,23% empty months
+DK,perler kjole,data/google_trends/v2/DK_c0_19.csv,False,0.833,8.71,83% empty months
+DK,pearl embellished,data/google_trends/v2/DK_c0_19.csv,False,1.0,0.5,100% empty months; average 0.5 < 3
+DK,guldknapper,data/google_trends/v2/DK_c0_19.csv,False,0.333,38.51,33% empty months
+DK,gold buttons,data/google_trends/v2/DK_c0_19.csv,False,0.988,0.5,99% empty months; average 0.5 < 3
+DK,nitter jakke,data/google_trends/v2/DK_c0_20.csv,False,0.976,0.5,98% empty months; average 0.5 < 3
+DK,studded jacket,data/google_trends/v2/DK_c0_20.csv,False,1.0,0.5,100% empty months; average 0.5 < 3
+DK,geometrisk print,data/google_trends/v2/DK_c0_20.csv,False,1.0,0.5,100% empty months; average 0.5 < 3
+DK,geometric print,data/google_trends/v2/DK_c0_20.csv,False,0.988,0.5,99% empty months; average 0.5 < 3
+DK,leopard kjole,data/google_trends/v2/DK_c0_21.csv,True,0.0,32.76,
+DK,leopard print dress,data/google_trends/v2/DK_c0_21.csv,False,0.94,0.74,94% empty months; average 0.7 < 3
+DK,kjole,data/google_trends/v2/DK_c68_01.csv,True,0.0,56.07,
+DK,dress,data/google_trends/v2/DK_c68_01.csv,True,0.0,20.28,
+DK,frakke,data/google_trends/v2/DK_c68_01.csv,True,0.0,6.3,
+DK,coat,data/google_trends/v2/DK_c68_01.csv,True,0.0,6.04,
+DK,skjorte,data/google_trends/v2/DK_c68_02.csv,True,0.0,58.13,
+DK,shirt,data/google_trends/v2/DK_c68_02.csv,True,0.0,68.57,
+DK,sweater,data/google_trends/v2/DK_c68_02.csv,True,0.0,33.98,
+DK,jumper,data/google_trends/v2/DK_c68_02.csv,False,0.036,1.76,average 1.8 < 3
+DK,bukser,data/google_trends/v2/DK_c68_03.csv,True,0.0,67.93,
+DK,trousers,data/google_trends/v2/DK_c68_03.csv,True,0.0,3.78,
+DK,jeans,data/google_trends/v2/DK_c68_03.csv,True,0.0,46.11,
+DK,nederdel,data/google_trends/v2/DK_c68_03.csv,True,0.0,19.26,
+DK,skirt,data/google_trends/v2/DK_c68_03.csv,True,0.0,6.87,
+DK,shorts,data/google_trends/v2/DK_c68_04.csv,True,0.0,29.54,
+DK,top,data/google_trends/v2/DK_c68_04.csv,True,0.0,24.0,
+DK,rullekrave,data/google_trends/v2/retry_DK_c68_01.csv,True,0.036,34.92,
+DK,turtleneck,data/google_trends/v2/retry_DK_c68_01.csv,True,0.0,31.98,
+DK,tørklæde,data/google_trends/v2/DK_c68_05.csv,True,0.0,46.93,
+DK,scarf,data/google_trends/v2/DK_c68_05.csv,True,0.0,38.63,
+DK,hat,data/google_trends/v2/DK_c68_05.csv,True,0.0,52.02,
+DK,strømpebukser,data/google_trends/v2/DK_c68_05.csv,True,0.0,41.07,
+DK,tights,data/google_trends/v2/DK_c68_05.csv,True,0.0,49.8,
+FR,robe en coton,data/google_trends/v2/FR_c0_01.csv,True,0.0,6.2,
+FR,robe en maille,data/google_trends/v2/FR_c0_01.csv,True,0.0,5.87,
+FR,veste en jean,data/google_trends/v2/FR_c0_01.csv,True,0.0,55.87,
+FR,manteau fausse fourrure,data/google_trends/v2/FR_c0_01.csv,True,0.036,7.11,
+FR,robe en jersey,data/google_trends/v2/retry_FR_c0_01.csv,True,0.0,6.7,
+FR,robe en mousseline,data/google_trends/v2/retry_FR_c0_02.csv,False,0.012,1.52,average 1.5 < 3
+FR,robe en velours,data/google_trends/v2/retry_FR_c0_03.csv,True,0.024,22.46,
+FR,jupe en tulle,data/google_trends/v2/FR_c0_02.csv,True,0.0,3.87,
+FR,robe en soie,data/google_trends/v2/FR_c0_02.csv,True,0.0,7.74,
+FR,pantalon en lin,data/google_trends/v2/FR_c0_02.csv,True,0.0,30.2,
+FR,robe en crêpe,data/google_trends/v2/FR_c0_03.csv,False,1.0,0.42,100% empty months; average 0.4 < 3
+FR,top en résille,data/google_trends/v2/FR_c0_03.csv,False,1.0,0.5,100% empty months; average 0.5 < 3
+FR,veste bouclette,data/google_trends/v2/FR_c0_03.csv,False,0.643,0.75,64% empty months; average 0.8 < 3
+FR,chemise en popeline,data/google_trends/v2/FR_c0_03.csv,False,0.893,0.12,89% empty months; average 0.1 < 3
+FR,robe blanche,data/google_trends/v2/FR_c0_03.csv,True,0.0,52.65,
+FR,robe noire,data/google_trends/v2/FR_c0_04.csv,True,0.0,35.15,
+FR,robe beige,data/google_trends/v2/FR_c0_04.csv,True,0.0,8.93,
+FR,robe bleue,data/google_trends/v2/FR_c0_04.csv,True,0.0,6.7,
+FR,robe grise,data/google_trends/v2/retry_FR_c0_02.csv,True,0.0,5.78,
+FR,robe crème,data/google_trends/v2/FR_c0_04.csv,False,0.714,0.33,71% empty months; average 0.3 < 3
+FR,manteau camel,data/google_trends/v2/FR_c0_05.csv,True,0.071,4.97,
+FR,robe rouge,data/google_trends/v2/FR_c0_05.csv,True,0.0,52.22,
+FR,robe bleu marine,data/google_trends/v2/FR_c0_05.csv,True,0.0,11.65,
+FR,robe rose,data/google_trends/v2/FR_c0_05.csv,True,0.0,58.76,
+FR,robe verte,data/google_trends/v2/FR_c0_05.csv,True,0.0,38.85,
+FR,robe argentée,data/google_trends/v2/retry_FR_c0_01.csv,True,0.012,10.15,
+FR,tenue décontractée,data/google_trends/v2/retry_FR_c0_01.csv,True,0.0,12.83,
+FR,robe de soirée,data/google_trends/v2/FR_c0_06.csv,True,0.0,51.52,
+FR,tenue de bureau,data/google_trends/v2/FR_c0_06.csv,False,0.417,0.6,42% empty months; average 0.6 < 3
+FR,homewear,data/google_trends/v2/retry_FR_c0_02.csv,False,0.0,2.61,average 2.6 < 3
+FR,robe fleurie,data/google_trends/v2/FR_c0_07.csv,True,0.0,27.59,
+FR,robe brodée,data/google_trends/v2/retry_FR_c0_03.csv,True,0.024,18.05,
+FR,robe à sequins,data/google_trends/v2/FR_c0_07.csv,False,0.44,1.05,44% empty months; average 1.1 < 3
+FR,perles brodées,data/google_trends/v2/FR_c0_07.csv,False,0.976,0.52,98% empty months; average 0.5 < 3
+FR,boutons dorés,data/google_trends/v2/retry_FR_c0_02.csv,False,0.083,1.43,average 1.4 < 3
+FR,veste cloutée,data/google_trends/v2/FR_c0_08.csv,False,0.988,0.5,99% empty months; average 0.5 < 3
+FR,imprimé géométrique,data/google_trends/v2/FR_c0_08.csv,False,0.952,2.66,95% empty months; average 2.7 < 3
+FR,robe,data/google_trends/v2/FR_c68_01.csv,True,0.0,60.43,
+FR,manteau,data/google_trends/v2/FR_c68_01.csv,True,0.0,14.74,
+FR,chemise,data/google_trends/v2/FR_c68_01.csv,True,0.0,16.52,
+FR,pull,data/google_trends/v2/FR_c68_01.csv,True,0.0,30.11,
+FR,pantalon,data/google_trends/v2/FR_c68_01.csv,True,0.0,27.8,
+FR,jean,data/google_trends/v2/FR_c68_02.csv,True,0.0,63.59,
+FR,jupe,data/google_trends/v2/FR_c68_02.csv,True,0.0,27.91,
+FR,short,data/google_trends/v2/FR_c68_02.csv,True,0.0,37.65,
+FR,top,data/google_trends/v2/FR_c68_02.csv,True,0.0,18.11,
+FR,col roulé,data/google_trends/v2/FR_c68_02.csv,True,0.012,4.09,
+FR,écharpe,data/google_trends/v2/FR_c68_03.csv,True,0.0,10.15,
+FR,chapeau,data/google_trends/v2/FR_c68_03.csv,True,0.0,66.41,
+FR,collants,data/google_trends/v2/FR_c68_03.csv,True,0.0,8.96,
+GB,cotton dress,data/google_trends/v2/GB_c0_01.csv,True,0.0,17.67,
+GB,knit dress,data/google_trends/v2/GB_c0_01.csv,True,0.0,15.04,
+GB,denim jacket,data/google_trends/v2/GB_c0_01.csv,True,0.0,55.87,
+GB,faux fur coat,data/google_trends/v2/GB_c0_01.csv,True,0.0,10.93,
+GB,jersey dress,data/google_trends/v2/GB_c0_01.csv,True,0.0,11.54,
+GB,chiffon dress,data/google_trends/v2/GB_c0_02.csv,True,0.0,8.8,
+GB,velvet dress,data/google_trends/v2/GB_c0_02.csv,True,0.0,21.74,
+GB,tulle skirt,data/google_trends/v2/GB_c0_02.csv,True,0.0,3.8,
+GB,silk dress,data/google_trends/v2/GB_c0_02.csv,True,0.0,20.17,
+GB,linen trousers,data/google_trends/v2/GB_c0_02.csv,True,0.0,33.63,
+GB,crepe dress,data/google_trends/v2/retry_GB_c0_01.csv,True,0.0,43.54,
+GB,mesh top,data/google_trends/v2/GB_c0_03.csv,True,0.0,4.57,
+GB,boucle jacket,data/google_trends/v2/retry_GB_c0_01.csv,True,0.0,54.61,
+GB,poplin shirt,data/google_trends/v2/retry_GB_c0_01.csv,True,0.0,38.72,
+GB,white dress,data/google_trends/v2/GB_c0_03.csv,True,0.0,57.41,
+GB,black dress,data/google_trends/v2/GB_c0_04.csv,True,0.0,58.5,
+GB,beige dress,data/google_trends/v2/retry_GB_c0_02.csv,True,0.0,35.41,
+GB,blue dress,data/google_trends/v2/GB_c0_04.csv,True,0.0,27.72,
+GB,grey dress,data/google_trends/v2/GB_c0_04.csv,True,0.0,3.91,
+GB,cream dress,data/google_trends/v2/GB_c0_04.csv,True,0.0,5.54,
+GB,camel coat,data/google_trends/v2/GB_c0_05.csv,True,0.0,4.39,
+GB,red dress,data/google_trends/v2/GB_c0_05.csv,True,0.0,54.74,
+GB,navy dress,data/google_trends/v2/GB_c0_05.csv,True,0.0,21.78,
+GB,pink dress,data/google_trends/v2/GB_c0_05.csv,True,0.0,61.52,
+GB,green dress,data/google_trends/v2/GB_c0_05.csv,True,0.0,64.33,
+GB,silver dress,data/google_trends/v2/GB_c0_06.csv,True,0.0,10.76,
+GB,casual outfit,data/google_trends/v2/GB_c0_06.csv,True,0.0,3.65,
+GB,evening dress,data/google_trends/v2/GB_c0_06.csv,True,0.0,15.35,
+GB,office outfit,data/google_trends/v2/retry_GB_c0_01.csv,True,0.0,23.98,
+GB,loungewear,data/google_trends/v2/GB_c0_06.csv,True,0.0,14.85,
+GB,floral dress,data/google_trends/v2/GB_c0_07.csv,True,0.0,44.78,
+GB,embroidered dress,data/google_trends/v2/GB_c0_07.csv,True,0.0,6.78,
+GB,sequin dress,data/google_trends/v2/GB_c0_07.csv,True,0.0,32.83,
+GB,pearl embellished,data/google_trends/v2/retry_GB_c0_01.csv,True,0.0,12.48,
+GB,gold buttons,data/google_trends/v2/GB_c0_07.csv,True,0.0,3.54,
+GB,studded jacket,data/google_trends/v2/GB_c0_08.csv,True,0.0,3.3,
+GB,geometric print,data/google_trends/v2/GB_c0_08.csv,True,0.0,5.7,
+GB,dress,data/google_trends/v2/GB_c68_01.csv,True,0.0,75.52,
+GB,coat,data/google_trends/v2/GB_c68_01.csv,True,0.0,29.3,
+GB,shirt,data/google_trends/v2/GB_c68_01.csv,True,0.0,46.65,
+GB,jumper,data/google_trends/v2/GB_c68_01.csv,True,0.0,15.8,
+GB,trousers,data/google_trends/v2/GB_c68_01.csv,True,0.0,25.22,
+GB,jeans,data/google_trends/v2/GB_c68_02.csv,True,0.0,40.72,
+GB,skirt,data/google_trends/v2/GB_c68_02.csv,True,0.0,20.91,
+GB,shorts,data/google_trends/v2/GB_c68_02.csv,True,0.0,40.87,
+GB,top,data/google_trends/v2/GB_c68_02.csv,True,0.0,38.13,
+GB,turtleneck,data/google_trends/v2/retry_GB_c68_01.csv,True,0.0,42.46,
+GB,scarf,data/google_trends/v2/GB_c68_03.csv,True,0.0,32.24,
+GB,hat,data/google_trends/v2/GB_c68_03.csv,True,0.0,59.41,
+GB,tights,data/google_trends/v2/GB_c68_03.csv,True,0.0,25.48,

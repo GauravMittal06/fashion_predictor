@@ -1,0 +1,52 @@
+country,attribute,type,reason
+DK,Bodycon dress,Garments,no search term
+DK,Bomber jacket,Garments,too few Google searches ('bomberjakke': 67% empty months; average 2.8 < 3)
+DK,Slip dress,Garments,no search term
+DK,Wide-leg jeans,Garments,no search term
+DK,Cotton,Fabrics,too few Google searches ('bomuldskjole': 79% empty months; average 1.9 < 3; 'cotton dress': 14% empty months)
+DK,Tweed,Fabrics,too few Google searches ('tweed jakke': 21% empty months; 'tweed jacket': 48% empty months)
+DK,Cashmere,Fabrics,too few Google searches ('kashmir sweater': 96% empty months; average 0.7 < 3; 'cashmere jumper': 87% empty months; average 1.8 < 3)
+DK,Fur,Fabrics,too few Google searches ('pelsjakke': 29% empty months; 'faux fur coat': 73% empty months)
+DK,Jersey,Fabrics,too few Google searches ('jerseykjole': 96% empty months; average 0.8 < 3; 'jersey dress': 42% empty months)
+FR,Chiffon,Fabrics,too few Google searches ('robe en mousseline': average 1.5 < 3)
+DK,Chiffon,Fabrics,too few Google searches ('chiffonkjole': 99% empty months; average 0.9 < 3; 'chiffon dress': 54% empty months)
+DK,Velvet,Fabrics,too few Google searches ('fløjlskjole': 55% empty months; 'velvet dress': 65% empty months)
+DK,Suede,Fabrics,too few Google searches ('ruskindsjakke': 13% empty months)
+FR,Crepe,Fabrics,too few Google searches ('robe en crêpe': 100% empty months; average 0.4 < 3)
+DK,Crepe,Fabrics,too few Google searches ('crepe kjole': 83% empty months; average 0.6 < 3; 'crepe dress': 73% empty months; average 0.6 < 3)
+FR,Mesh,Fabrics,too few Google searches ('top en résille': 100% empty months; average 0.5 < 3)
+FR,Bouclé,Fabrics,too few Google searches ('veste bouclette': 64% empty months; average 0.8 < 3)
+DK,Bouclé,Fabrics,too few Google searches ('bouclé jakke': 100% empty months; average 0.5 < 3; 'boucle jacket': 86% empty months)
+FR,Poplin,Fabrics,too few Google searches ('chemise en popeline': 89% empty months; average 0.1 < 3)
+DK,Poplin,Fabrics,too few Google searches ('poplin skjorte': 48% empty months; 'poplin shirt': 33% empty months)
+GB,Twill,Fabrics,a weave name that shoppers rarely search; shown from the posts only
+FR,Twill,Fabrics,a weave name that shoppers rarely search; shown from the posts only
+DK,Twill,Fabrics,a weave name that shoppers rarely search; shown from the posts only
+DK,Burgundy,Colours,too few Google searches ('bordeaux kjole': 62% empty months; average 1.5 < 3; 'burgundy dress': 87% empty months; average 0.7 < 3)
+FR,Cream,Colours,too few Google searches ('robe crème': 71% empty months; average 0.3 < 3)
+DK,Cream,Colours,too few Google searches ('creme kjole': 23% empty months; 'cream dress': 67% empty months)
+DK,Camel,Colours,too few Google searches ('camel frakke': 94% empty months; average 0.7 < 3; 'camel coat': 77% empty months; average 1.2 < 3)
+DK,Silver,Colours,too few Google searches ('sølv kjole': 17% empty months; 'silver dress': 52% empty months)
+DK,Polka dots,Colours,no search term
+DK,Casual,Styles,too few Google searches ('casual outfit': 75% empty months; average 2.0 < 3)
+FR,Formal / office,Styles,too few Google searches ('tenue de bureau': 42% empty months; average 0.6 < 3)
+DK,Formal / office,Styles,too few Google searches ('kontortøj': 98% empty months; average 0.7 < 3; 'office outfit': 99% empty months; average 0.5 < 3)
+FR,Loungewear,Styles,too few Google searches ('homewear': average 2.6 < 3)
+DK,Boho,Styles,no search term
+DK,Embroidery,Runway details,too few Google searches ('broderet kjole': 96% empty months; average 1.7 < 3; 'embroidered dress': 94% empty months; average 0.5 < 3)
+FR,Sequins & beads,Runway details,too few Google searches ('robe à sequins': 44% empty months; average 1.1 < 3)
+DK,Sequins & beads,Runway details,too few Google searches ('pailletkjole': 76% empty months; 'sequin dress': 23% empty months)
+FR,Pearls & crystals,Runway details,too few Google searches ('perles brodées': 98% empty months; average 0.5 < 3)
+DK,Pearls & crystals,Runway details,too few Google searches ('perler kjole': 83% empty months; 'pearl embellished': 100% empty months; average 0.5 < 3)
+FR,Gold hardware,Runway details,too few Google searches ('boutons dorés': average 1.4 < 3)
+DK,Gold hardware,Runway details,too few Google searches ('guldknapper': 33% empty months; 'gold buttons': 99% empty months; average 0.5 < 3)
+FR,Studs & rivets,Runway details,too few Google searches ('veste cloutée': 99% empty months; average 0.5 < 3)
+DK,Studs & rivets,Runway details,too few Google searches ('nitter jakke': 98% empty months; average 0.5 < 3; 'studded jacket': 100% empty months; average 0.5 < 3)
+GB,Exposed zips,Runway details,shoppers rarely search for zip styles; shown from the runway data only
+FR,Exposed zips,Runway details,shoppers rarely search for zip styles; shown from the runway data only
+DK,Exposed zips,Runway details,shoppers rarely search for zip styles; shown from the runway data only
+GB,Feathers,Runway details,"below the inclusion rule (4 runway entries, no posts)"
+FR,Feathers,Runway details,"below the inclusion rule (4 runway entries, no posts)"
+DK,Feathers,Runway details,"below the inclusion rule (4 runway entries, no posts)"
+FR,Geometric motifs,Runway details,too few Google searches ('imprimé géométrique': 95% empty months; average 2.7 < 3)
+DK,Geometric motifs,Runway details,too few Google searches ('geometrisk print': 100% empty months; average 0.5 < 3; 'geometric print': 99% empty months; average 0.5 < 3)

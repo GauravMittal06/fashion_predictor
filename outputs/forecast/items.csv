@@ -1,42 +1,169 @@
-key,country,country_name,term,english,group,note
-GB|leather jacket,GB,England,leather jacket,Leather jacket,Outerwear,
-GB|trench coat,GB,England,trench coat,Trench coat,Outerwear,
-GB|bomber jacket,GB,England,bomber jacket,Bomber jacket,Outerwear,
-GB|suede jacket,GB,England,suede jacket,Suede jacket,Outerwear,
-GB|wool coat,GB,England,wool coat,Wool coat,Outerwear,
-GB|satin dress,GB,England,satin dress,Satin dress,Dresses,
-GB|lace dress,GB,England,lace dress,Lace dress,Dresses,
-GB|bodycon dress,GB,England,bodycon dress,Bodycon dress,Dresses,
-GB|slip dress,GB,England,slip dress,Slip dress,Dresses,
-GB|boho dress,GB,England,boho dress,Boho dress,Dresses,
-GB|blazer,GB,England,blazer,Blazer,Pieces,
-GB|cardigan,GB,England,cardigan,Cardigan,Pieces,
-GB|wide leg jeans,GB,England,wide leg jeans,Wide-leg jeans,Pieces,
-GB|tweed jacket,GB,England,tweed jacket,Tweed jacket,Pieces,
-GB|burgundy dress,GB,England,burgundy dress,Burgundy dress,Colours & prints,
-GB|leopard print dress,GB,England,leopard print dress,Leopard print dress,Colours & prints,
-GB|polka dot dress,GB,England,polka dot dress,Polka dot dress,Colours & prints,
-GB|brown dress,GB,England,brown dress,Brown dress,Colours & prints,
-GB|yellow dress,GB,England,yellow dress,Yellow dress,Colours & prints,
-FR|veste en cuir,FR,France,veste en cuir,Leather jacket,Outerwear,
-FR|trench,FR,France,trench,Trench coat,Outerwear,
-FR|bomber,FR,France,bomber,Bomber jacket,Outerwear,
-FR|manteau en laine,FR,France,manteau en laine,Wool coat,Outerwear,
-FR|robe en satin,FR,France,robe en satin,Satin dress,Dresses,
-FR|robe en dentelle,FR,France,robe en dentelle,Lace dress,Dresses,
-FR|robe moulante,FR,France,robe moulante,Bodycon dress,Dresses,
-FR|robe nuisette,FR,France,robe nuisette,Slip dress,Dresses,
-FR|robe bohème,FR,France,robe bohème,Boho dress,Dresses,
-FR|blazer,FR,France,blazer,Blazer,Pieces,
-FR|cardigan,FR,France,cardigan,Cardigan,Pieces,
-FR|jean large,FR,France,jean large,Wide-leg jeans,Pieces,
-FR|robe bordeaux,FR,France,robe bordeaux,Burgundy dress,Colours & prints,
-FR|robe marron,FR,France,robe marron,Brown dress,Colours & prints,
-FR|robe jaune,FR,France,robe jaune,Yellow dress,Colours & prints,
-DK|læderjakke,DK,Denmark,læderjakke,Leather jacket,Outerwear,
-DK|trenchcoat,DK,Denmark,trenchcoat,Trench coat,Outerwear,
-DK|blazer,DK,Denmark,blazer,Blazer,Pieces,
-DK|cardigan,DK,Denmark,cardigan,Cardigan,Pieces,
-DK|uldfrakke,DK,Denmark,uldfrakke,Wool coat,Outerwear,
-DK|satin kjole,DK,Denmark,satin kjole,Satin dress,Dresses,
-DK|leopard,DK,Denmark,leopard,Leopard print,Colours & prints,all searches for the word (not only clothes)
+key,country,country_name,term,english,group,source,category,note
+GB|dress,GB,England,dress,Dress,Garments,local term,68,"counts every kind of dress, including bodycon and lace dresses; 'frock' merged"
+FR|robe,FR,France,robe,Dress,Garments,local term,68,"counts every kind of dress, including bodycon and lace dresses; 'frock' merged"
+DK|kjole,DK,Denmark,kjole,Dress,Garments,local term,68,"counts every kind of dress, including bodycon and lace dresses; 'frock' merged"
+GB|trench coat,GB,England,trench coat,Trench coat,Garments,site item,0,
+FR|trench,FR,France,trench,Trench coat,Garments,site item,0,
+DK|trenchcoat,DK,Denmark,trenchcoat,Trench coat,Garments,site item,0,
+GB|blazer,GB,England,blazer,Blazer,Garments,site item,0,
+FR|blazer,FR,France,blazer,Blazer,Garments,site item,0,
+DK|blazer,DK,Denmark,blazer,Blazer,Garments,site item,0,
+GB|coat,GB,England,coat,Coat,Garments,local term,68,'maxi coat' merged; trench coats counted separately
+FR|manteau,FR,France,manteau,Coat,Garments,local term,68,'maxi coat' merged; trench coats counted separately
+DK|frakke,DK,Denmark,frakke,Coat,Garments,local term,68,'maxi coat' merged; trench coats counted separately
+GB|shirt,GB,England,shirt,Shirt,Garments,local term,68,T-shirts are counted under Top
+FR|chemise,FR,France,chemise,Shirt,Garments,local term,68,T-shirts are counted under Top
+DK|skjorte,DK,Denmark,skjorte,Shirt,Garments,local term,68,T-shirts are counted under Top
+GB|jumper,GB,England,jumper,Sweater,Garments,local term,68,'jumper' and 'knitwear' merged
+FR|pull,FR,France,pull,Sweater,Garments,local term,68,'jumper' and 'knitwear' merged
+DK|sweater,DK,Denmark,sweater,Sweater,Garments,local term,68,'jumper' and 'knitwear' merged
+GB|trousers,GB,England,trousers,Trousers,Garments,local term,68,'trouser' and 'pants' merged
+FR|pantalon,FR,France,pantalon,Trousers,Garments,local term,68,'trouser' and 'pants' merged
+DK|bukser,DK,Denmark,bukser,Trousers,Garments,local term,68,'trouser' and 'pants' merged
+GB|jeans,GB,England,jeans,Jeans,Garments,local term,68,wide-leg jeans also has its own item
+FR|jean,FR,France,jean,Jeans,Garments,local term,68,wide-leg jeans also has its own item
+DK|jeans,DK,Denmark,jeans,Jeans,Garments,local term,68,wide-leg jeans also has its own item
+GB|skirt,GB,England,skirt,Skirt,Garments,local term,68,
+FR|jupe,FR,France,jupe,Skirt,Garments,local term,68,
+DK|nederdel,DK,Denmark,nederdel,Skirt,Garments,local term,68,
+GB|shorts,GB,England,shorts,Shorts,Garments,local term,68,
+FR|short,FR,France,short,Shorts,Garments,local term,68,
+DK|shorts,DK,Denmark,shorts,Shorts,Garments,local term,68,
+GB|top,GB,England,top,Top,Garments,local term,68,"tank, off-shoulder and T-shirt tops merged"
+FR|top,FR,France,top,Top,Garments,local term,68,"tank, off-shoulder and T-shirt tops merged"
+DK|top,DK,Denmark,top,Top,Garments,local term,68,"tank, off-shoulder and T-shirt tops merged"
+GB|turtleneck,GB,England,turtleneck,Turtleneck,Garments,local term,68,
+FR|col roulé,FR,France,col roulé,Turtleneck,Garments,local term,68,
+DK|rullekrave,DK,Denmark,rullekrave,Turtleneck,Garments,local term,68,
+GB|scarf,GB,England,scarf,Scarf,Garments,local term,68,bandanas merged (spelt 'bandhana'/'badhana' in the sheet)
+FR|écharpe,FR,France,écharpe,Scarf,Garments,local term,68,bandanas merged (spelt 'bandhana'/'badhana' in the sheet)
+DK|tørklæde,DK,Denmark,tørklæde,Scarf,Garments,local term,68,bandanas merged (spelt 'bandhana'/'badhana' in the sheet)
+GB|hat,GB,England,hat,Hat,Garments,local term,68,caps merged
+FR|chapeau,FR,France,chapeau,Hat,Garments,local term,68,caps merged
+DK|hat,DK,Denmark,hat,Hat,Garments,local term,68,caps merged
+GB|tights,GB,England,tights,Tights,Garments,local term,68,'stockings' (spelt 'stalkings') merged
+FR|collants,FR,France,collants,Tights,Garments,local term,68,'stockings' (spelt 'stalkings') merged
+DK|strømpebukser,DK,Denmark,strømpebukser,Tights,Garments,local term,68,'stockings' (spelt 'stalkings') merged
+GB|bodycon dress,GB,England,bodycon dress,Bodycon dress,Garments,site item,0,
+FR|robe moulante,FR,France,robe moulante,Bodycon dress,Garments,site item,0,
+GB|bomber jacket,GB,England,bomber jacket,Bomber jacket,Garments,site item,0,
+FR|bomber,FR,France,bomber,Bomber jacket,Garments,site item,0,
+GB|cardigan,GB,England,cardigan,Cardigan,Garments,site item,0,
+FR|cardigan,FR,France,cardigan,Cardigan,Garments,site item,0,
+DK|cardigan,DK,Denmark,cardigan,Cardigan,Garments,site item,0,
+GB|slip dress,GB,England,slip dress,Slip dress,Garments,site item,0,
+FR|robe nuisette,FR,France,robe nuisette,Slip dress,Garments,site item,0,
+GB|wide leg jeans,GB,England,wide leg jeans,Wide-leg jeans,Garments,site item,0,
+FR|jean large,FR,France,jean large,Wide-leg jeans,Garments,site item,0,
+GB|cotton dress,GB,England,cotton dress,Cotton,Fabrics,local term,0,'corton' typo merged
+FR|robe en coton,FR,France,robe en coton,Cotton,Fabrics,local term,0,'corton' typo merged
+GB|wool coat,GB,England,wool coat,Wool,Fabrics,site item,0,
+FR|manteau en laine,FR,France,manteau en laine,Wool,Fabrics,site item,0,
+DK|uldfrakke,DK,Denmark,uldfrakke,Wool,Fabrics,site item,0,
+GB|satin dress,GB,England,satin dress,Satin,Fabrics,site item,0,
+FR|robe en satin,FR,France,robe en satin,Satin,Fabrics,site item,0,
+DK|satin kjole,DK,Denmark,satin kjole,Satin,Fabrics,site item,0,
+GB|knit dress,GB,England,knit dress,Knit,Fabrics,local term,0,ribbed and cable knits merged
+FR|robe en maille,FR,France,robe en maille,Knit,Fabrics,local term,0,ribbed and cable knits merged
+DK|strikkjole,DK,Denmark,strikkjole,Knit,Fabrics,local term,0,ribbed and cable knits merged
+GB|denim jacket,GB,England,denim jacket,Denim,Fabrics,local term,0,
+FR|veste en jean,FR,France,veste en jean,Denim,Fabrics,local term,0,
+DK|cowboyjakke,DK,Denmark,cowboyjakke,Denim,Fabrics,local term,0,
+GB|tweed jacket,GB,England,tweed jacket,Tweed,Fabrics,site item,0,bouclé tweed also counted under Bouclé
+FR|veste en tweed,FR,France,veste en tweed,Tweed,Fabrics,site item,0,bouclé tweed also counted under Bouclé
+GB|leather jacket,GB,England,leather jacket,Leather,Fabrics,site item,0,faux leather included
+FR|veste en cuir,FR,France,veste en cuir,Leather,Fabrics,site item,0,faux leather included
+DK|læderjakke,DK,Denmark,læderjakke,Leather,Fabrics,site item,0,faux leather included
+GB|lace dress,GB,England,lace dress,Lace,Fabrics,site item,0,
+FR|robe en dentelle,FR,France,robe en dentelle,Lace,Fabrics,site item,0,
+DK|blondekjole,DK,Denmark,blondekjole,Lace,Fabrics,local term,0,
+GB|cashmere jumper,GB,England,cashmere jumper,Cashmere,Fabrics,site item,0,
+FR|pull en cachemire,FR,France,pull en cachemire,Cashmere,Fabrics,site item,0,
+GB|faux fur coat,GB,England,faux fur coat,Fur,Fabrics,local term,0,faux fur included
+FR|manteau fausse fourrure,FR,France,manteau fausse fourrure,Fur,Fabrics,local term,0,faux fur included
+GB|jersey dress,GB,England,jersey dress,Jersey,Fabrics,local term,0,
+FR|robe en jersey,FR,France,robe en jersey,Jersey,Fabrics,local term,0,
+GB|chiffon dress,GB,England,chiffon dress,Chiffon,Fabrics,local term,0,
+GB|velvet dress,GB,England,velvet dress,Velvet,Fabrics,local term,0,
+FR|robe en velours,FR,France,robe en velours,Velvet,Fabrics,local term,0,
+GB|suede jacket,GB,England,suede jacket,Suede,Fabrics,site item,0,
+FR|veste en daim,FR,France,veste en daim,Suede,Fabrics,site item,0,
+GB|tulle skirt,GB,England,tulle skirt,Tulle,Fabrics,local term,0,'net' merged
+FR|jupe en tulle,FR,France,jupe en tulle,Tulle,Fabrics,local term,0,'net' merged
+DK|tylskørt,DK,Denmark,tylskørt,Tulle,Fabrics,local term,0,'net' merged
+GB|silk dress,GB,England,silk dress,Silk,Fabrics,local term,0,
+FR|robe en soie,FR,France,robe en soie,Silk,Fabrics,local term,0,
+DK|silkekjole,DK,Denmark,silkekjole,Silk,Fabrics,local term,0,
+GB|linen trousers,GB,England,linen trousers,Linen,Fabrics,local term,0,
+FR|pantalon en lin,FR,France,pantalon en lin,Linen,Fabrics,local term,0,
+DK|hørbukser,DK,Denmark,hørbukser,Linen,Fabrics,local term,0,
+GB|crepe dress,GB,England,crepe dress,Crepe,Fabrics,local term,0,"plain word also means the pancake, so the garment form is the safer test"
+GB|mesh top,GB,England,mesh top,Mesh,Fabrics,local term,0,
+DK|mesh top,DK,Denmark,mesh top,Mesh,Fabrics,local term,0,
+GB|boucle jacket,GB,England,boucle jacket,Bouclé,Fabrics,local term,0,
+GB|poplin shirt,GB,England,poplin shirt,Poplin,Fabrics,local term,0,
+GB|white dress,GB,England,white dress,White,Colours,local term,0,'off white' counted under Cream
+FR|robe blanche,FR,France,robe blanche,White,Colours,local term,0,'off white' counted under Cream
+DK|hvid kjole,DK,Denmark,hvid kjole,White,Colours,local term,0,'off white' counted under Cream
+GB|black dress,GB,England,black dress,Black,Colours,local term,0,
+FR|robe noire,FR,France,robe noire,Black,Colours,local term,0,
+DK|sort kjole,DK,Denmark,sort kjole,Black,Colours,local term,0,
+GB|beige dress,GB,England,beige dress,Beige,Colours,local term,0,
+FR|robe beige,FR,France,robe beige,Beige,Colours,local term,0,
+DK|beige kjole,DK,Denmark,beige kjole,Beige,Colours,local term,0,
+GB|brown dress,GB,England,brown dress,Brown,Colours,site item,0,"light, dark and chocolate brown merged"
+FR|robe marron,FR,France,robe marron,Brown,Colours,site item,0,"light, dark and chocolate brown merged"
+DK|brun kjole,DK,Denmark,brun kjole,Brown,Colours,local term,0,"light, dark and chocolate brown merged"
+GB|blue dress,GB,England,blue dress,Blue,Colours,local term,0,"light, dark and pastel blue merged; navy counted separately"
+FR|robe bleue,FR,France,robe bleue,Blue,Colours,local term,0,"light, dark and pastel blue merged; navy counted separately"
+DK|blå kjole,DK,Denmark,blå kjole,Blue,Colours,local term,0,"light, dark and pastel blue merged; navy counted separately"
+GB|burgundy dress,GB,England,burgundy dress,Burgundy,Colours,site item,0,
+FR|robe bordeaux,FR,France,robe bordeaux,Burgundy,Colours,site item,0,
+GB|grey dress,GB,England,grey dress,Grey,Colours,local term,0,
+FR|robe grise,FR,France,robe grise,Grey,Colours,local term,0,
+DK|grå kjole,DK,Denmark,grå kjole,Grey,Colours,local term,0,
+GB|cream dress,GB,England,cream dress,Cream,Colours,local term,0,"'creme', 'off white' and 'ivory' merged"
+GB|camel coat,GB,England,camel coat,Camel,Colours,local term,0,searched with 'coat': a camel dress is rare and 'camel' alone is the animal
+FR|manteau camel,FR,France,manteau camel,Camel,Colours,local term,0,searched with 'coat': a camel dress is rare and 'camel' alone is the animal
+GB|red dress,GB,England,red dress,Red,Colours,local term,0,'cherry red' (spelt 'cheery'/'chery') merged
+FR|robe rouge,FR,France,robe rouge,Red,Colours,local term,0,'cherry red' (spelt 'cheery'/'chery') merged
+DK|rød kjole,DK,Denmark,rød kjole,Red,Colours,local term,0,'cherry red' (spelt 'cheery'/'chery') merged
+GB|navy dress,GB,England,navy dress,Navy,Colours,local term,0,
+FR|robe bleu marine,FR,France,robe bleu marine,Navy,Colours,local term,0,
+DK|navy dress,DK,Denmark,navy dress,Navy,Colours,English term,0,
+GB|pink dress,GB,England,pink dress,Pink,Colours,local term,0,"blush, pastel and rose merged"
+FR|robe rose,FR,France,robe rose,Pink,Colours,local term,0,"blush, pastel and rose merged"
+DK|lyserød kjole,DK,Denmark,lyserød kjole,Pink,Colours,local term,0,"blush, pastel and rose merged"
+GB|green dress,GB,England,green dress,Green,Colours,local term,0,
+FR|robe verte,FR,France,robe verte,Green,Colours,local term,0,
+DK|grøn kjole,DK,Denmark,grøn kjole,Green,Colours,local term,0,
+GB|yellow dress,GB,England,yellow dress,Yellow,Colours,site item,0,'butter' and 'buttermilk yellow' merged
+FR|robe jaune,FR,France,robe jaune,Yellow,Colours,site item,0,'butter' and 'buttermilk yellow' merged
+DK|gul kjole,DK,Denmark,gul kjole,Yellow,Colours,local term,0,'butter' and 'buttermilk yellow' merged
+GB|silver dress,GB,England,silver dress,Silver,Colours,local term,0,
+FR|robe argentée,FR,France,robe argentée,Silver,Colours,local term,0,
+GB|polka dot dress,GB,England,polka dot dress,Polka dots,Colours,site item,0,"a print, grouped with colours"
+FR|robe à pois,FR,France,robe à pois,Polka dots,Colours,site item,0,"a print, grouped with colours"
+GB|casual outfit,GB,England,casual outfit,Casual,Styles,local term,0,
+FR|tenue décontractée,FR,France,tenue décontractée,Casual,Styles,local term,0,
+GB|evening dress,GB,England,evening dress,Evening wear,Styles,local term,0,
+FR|robe de soirée,FR,France,robe de soirée,Evening wear,Styles,local term,0,
+DK|festkjole,DK,Denmark,festkjole,Evening wear,Styles,local term,0,
+GB|office outfit,GB,England,office outfit,Formal / office,Styles,local term,0,'corpcore' merged
+GB|loungewear,GB,England,loungewear,Loungewear,Styles,local term,0,'night wear' left out: in the sheet it is used both for evening and for at-home looks
+DK|loungewear,DK,Denmark,loungewear,Loungewear,Styles,local term,0,'night wear' left out: in the sheet it is used both for evening and for at-home looks
+GB|boho dress,GB,England,boho dress,Boho,Styles,site item,0,
+FR|robe bohème,FR,France,robe bohème,Boho,Styles,site item,0,
+GB|floral dress,GB,England,floral dress,Floral details,Runway details,local term,0,
+FR|robe fleurie,FR,France,robe fleurie,Floral details,Runway details,local term,0,
+DK|blomstret kjole,DK,Denmark,blomstret kjole,Floral details,Runway details,local term,0,
+GB|embroidered dress,GB,England,embroidered dress,Embroidery,Runway details,local term,0,
+FR|robe brodée,FR,France,robe brodée,Embroidery,Runway details,local term,0,
+GB|sequin dress,GB,England,sequin dress,Sequins & beads,Runway details,local term,0,
+GB|pearl embellished,GB,England,pearl embellished,Pearls & crystals,Runway details,local term,0,
+GB|gold buttons,GB,England,gold buttons,Gold hardware,Runway details,local term,0,"trim entries whose colour includes gold (buttons, zips, rivets, embroidery)"
+GB|studded jacket,GB,England,studded jacket,Studs & rivets,Runway details,local term,0,
+GB|geometric print,GB,England,geometric print,Geometric motifs,Runway details,local term,0,
+GB|leopard print dress,GB,England,leopard print dress,Animal motifs,Runway details,site item,0,"leopard print in posts; animal, bird, insect and butterfly motifs on the runway"
+FR|robe léopard,FR,France,robe léopard,Animal motifs,Runway details,site item,0,"leopard print in posts; animal, bird, insect and butterfly motifs on the runway"
+DK|leopard kjole,DK,Denmark,leopard kjole,Animal motifs,Runway details,local term,0,"leopard print in posts; animal, bird, insect and butterfly motifs on the runway"

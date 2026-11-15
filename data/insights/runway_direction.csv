@@ -1,0 +1,25 @@
+attribute,type,brand,share_2016_20,share_2021_25,change_points,direction,looks_2016_20,looks_2021_25
+Tweed,Fabrics,Chanel,0.2683,0.2963,2.8,steady,41,27
+Tweed,Fabrics,Dior,0.0,0.0,0.0,not seen,25,25
+Lace,Fabrics,Chanel,0.6585,0.7037,4.5,steady,41,27
+Lace,Fabrics,Dior,1.0,1.0,0.0,in every look,25,25
+Floral details,Runway details,Chanel,0.2195,0.2222,0.3,steady,41,27
+Floral details,Runway details,Dior,0.44,0.6,16.0,rising,25,25
+Embroidery,Runway details,Chanel,0.2683,0.3333,6.5,steady,41,27
+Embroidery,Runway details,Dior,1.0,1.0,0.0,in every look,25,25
+Sequins & beads,Runway details,Chanel,0.0488,0.2222,17.3,rising,41,27
+Sequins & beads,Runway details,Dior,0.28,0.12,-16.0,falling,25,25
+Pearls & crystals,Runway details,Chanel,0.2683,0.2222,-4.6,steady,41,27
+Pearls & crystals,Runway details,Dior,0.04,0.08,4.0,steady,25,25
+Gold hardware,Runway details,Chanel,0.561,0.5185,-4.2,steady,41,27
+Gold hardware,Runway details,Dior,0.6,0.56,-4.0,steady,25,25
+Studs & rivets,Runway details,Chanel,0.5854,0.5926,0.7,steady,41,27
+Studs & rivets,Runway details,Dior,0.0,0.0,0.0,not seen,25,25
+Exposed zips,Runway details,Chanel,0.0976,0.1111,1.4,steady,41,27
+Exposed zips,Runway details,Dior,0.36,0.28,-8.0,steady,25,25
+Feathers,Runway details,Chanel,0.0732,0.037,-3.6,steady,41,27
+Feathers,Runway details,Dior,0.0,0.0,0.0,not seen,25,25
+Geometric motifs,Runway details,Chanel,0.0488,0.037,-1.2,steady,41,27
+Geometric motifs,Runway details,Dior,0.12,0.16,4.0,steady,25,25
+Animal motifs,Runway details,Chanel,0.0,0.037,3.7,steady,41,27
+Animal motifs,Runway details,Dior,0.32,0.16,-16.0,falling,25,25

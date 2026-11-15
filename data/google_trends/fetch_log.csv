@@ -1,0 +1,61 @@
+file,geo,category,terms,months,fetched_on
+data/google_trends/pilot/GB_a_fabrics.csv,GB,68,satin;cotton;denim;velvet;linen,84,2026-11-15
+data/google_trends/pilot/GB_a_colours.csv,GB,68,black;white;beige;red;camel,84,2026-11-15
+data/google_trends/pilot/GB_b_fabrics.csv,GB,0,satin dress;cotton dress;denim jacket;velvet dress;linen trousers,84,2026-11-15
+data/google_trends/pilot/GB_b_colours.csv,GB,0,black dress;white dress;beige dress;red dress;camel coat,84,2026-11-15
+data/google_trends/v2/DK_c0_01.csv,DK,0,bomuldskjole;cotton dress;strikkjole;knit dress,84,2026-11-15
+data/google_trends/v2/DK_c0_02.csv,DK,0,cowboyjakke;denim jacket;tweed jakke;tweed jacket,84,2026-11-15
+data/google_trends/v2/DK_c0_03.csv,DK,0,blondekjole;lace dress;kashmir sweater;cashmere jumper,84,2026-11-15
+data/google_trends/v2/DK_c0_04.csv,DK,0,pelsjakke;faux fur coat;jerseykjole;jersey dress,84,2026-11-15
+data/google_trends/v2/DK_c0_05.csv,DK,0,chiffonkjole;chiffon dress;fløjlskjole;velvet dress,84,2026-11-15
+data/google_trends/v2/DK_c0_06.csv,DK,0,tylskørt;tulle skirt;silkekjole;silk dress,84,2026-11-15
+data/google_trends/v2/DK_c0_07.csv,DK,0,hørbukser;linen trousers;crepe kjole;crepe dress;mesh top,84,2026-11-15
+data/google_trends/v2/DK_c0_08.csv,DK,0,bouclé jakke;boucle jacket;poplin skjorte;poplin shirt,84,2026-11-15
+data/google_trends/v2/DK_c0_09.csv,DK,0,hvid kjole;white dress;sort kjole;black dress,84,2026-11-15
+data/google_trends/v2/DK_c0_10.csv,DK,0,beige kjole;beige dress;brun kjole;brown dress,84,2026-11-15
+data/google_trends/v2/DK_c0_11.csv,DK,0,blå kjole;blue dress;bordeaux kjole;burgundy dress,84,2026-11-15
+data/google_trends/v2/DK_c0_12.csv,DK,0,grå kjole;grey dress;creme kjole;cream dress,84,2026-11-15
+data/google_trends/v2/DK_c0_13.csv,DK,0,camel frakke;camel coat;rød kjole;red dress,84,2026-11-15
+data/google_trends/v2/DK_c0_14.csv,DK,0,marineblå kjole;navy dress;lyserød kjole;pink dress,84,2026-11-15
+data/google_trends/v2/DK_c0_15.csv,DK,0,grøn kjole;green dress;gul kjole;yellow dress,84,2026-11-15
+data/google_trends/v2/DK_c0_16.csv,DK,0,sølv kjole;silver dress;casual outfit;festkjole;evening dress,84,2026-11-15
+data/google_trends/v2/DK_c0_17.csv,DK,0,kontortøj;office outfit;loungewear;blomstret kjole;floral dress,84,2026-11-15
+data/google_trends/v2/DK_c0_18.csv,DK,0,broderet kjole;embroidered dress;pailletkjole;sequin dress,84,2026-11-15
+data/google_trends/v2/DK_c0_19.csv,DK,0,perler kjole;pearl embellished;guldknapper;gold buttons,84,2026-11-15
+data/google_trends/v2/DK_c0_20.csv,DK,0,nitter jakke;studded jacket;geometrisk print;geometric print,84,2026-11-15
+data/google_trends/v2/DK_c0_21.csv,DK,0,leopard kjole;leopard print dress,84,2026-11-15
+data/google_trends/v2/DK_c68_01.csv,DK,68,kjole;dress;frakke;coat,84,2026-11-15
+data/google_trends/v2/DK_c68_02.csv,DK,68,skjorte;shirt;sweater;jumper,84,2026-11-15
+data/google_trends/v2/DK_c68_03.csv,DK,68,bukser;trousers;jeans;nederdel;skirt,84,2026-11-15
+data/google_trends/v2/DK_c68_04.csv,DK,68,shorts;top;rullekrave;turtleneck,84,2026-11-15
+data/google_trends/v2/DK_c68_05.csv,DK,68,tørklæde;scarf;hat;strømpebukser;tights,84,2026-11-15
+data/google_trends/v2/FR_c0_01.csv,FR,0,robe en coton;robe en maille;veste en jean;manteau fausse fourrure;robe en jersey,84,2026-11-15
+data/google_trends/v2/FR_c0_02.csv,FR,0,robe en mousseline;robe en velours;jupe en tulle;robe en soie;pantalon en lin,84,2026-11-15
+data/google_trends/v2/FR_c0_03.csv,FR,0,robe en crêpe;top en résille;veste bouclette;chemise en popeline;robe blanche,84,2026-11-15
+data/google_trends/v2/FR_c0_04.csv,FR,0,robe noire;robe beige;robe bleue;robe grise;robe crème,84,2026-11-15
+data/google_trends/v2/FR_c0_05.csv,FR,0,manteau camel;robe rouge;robe bleu marine;robe rose;robe verte,84,2026-11-15
+data/google_trends/v2/FR_c0_06.csv,FR,0,robe argentée;tenue décontractée;robe de soirée;tenue de bureau;homewear,84,2026-11-15
+data/google_trends/v2/FR_c0_07.csv,FR,0,robe fleurie;robe brodée;robe à sequins;perles brodées;boutons dorés,84,2026-11-15
+data/google_trends/v2/FR_c0_08.csv,FR,0,veste cloutée;imprimé géométrique,84,2026-11-15
+data/google_trends/v2/FR_c68_01.csv,FR,68,robe;manteau;chemise;pull;pantalon,84,2026-11-15
+data/google_trends/v2/FR_c68_02.csv,FR,68,jean;jupe;short;top;col roulé,84,2026-11-15
+data/google_trends/v2/FR_c68_03.csv,FR,68,écharpe;chapeau;collants,84,2026-11-15
+data/google_trends/v2/GB_c0_01.csv,GB,0,cotton dress;knit dress;denim jacket;faux fur coat;jersey dress,84,2026-11-15
+data/google_trends/v2/GB_c0_02.csv,GB,0,chiffon dress;velvet dress;tulle skirt;silk dress;linen trousers,84,2026-11-15
+data/google_trends/v2/GB_c0_03.csv,GB,0,crepe dress;mesh top;boucle jacket;poplin shirt;white dress,84,2026-11-15
+data/google_trends/v2/GB_c0_04.csv,GB,0,black dress;beige dress;blue dress;grey dress;cream dress,84,2026-11-15
+data/google_trends/v2/GB_c0_05.csv,GB,0,camel coat;red dress;navy dress;pink dress;green dress,84,2026-11-15
+data/google_trends/v2/GB_c0_06.csv,GB,0,silver dress;casual outfit;evening dress;office outfit;loungewear,84,2026-11-15
+data/google_trends/v2/GB_c0_07.csv,GB,0,floral dress;embroidered dress;sequin dress;pearl embellished;gold buttons,84,2026-11-15
+data/google_trends/v2/GB_c0_08.csv,GB,0,studded jacket;geometric print,84,2026-11-15
+data/google_trends/v2/GB_c68_01.csv,GB,68,dress;coat;shirt;jumper;trousers,84,2026-11-15
+data/google_trends/v2/GB_c68_02.csv,GB,68,jeans;skirt;shorts;top;turtleneck,84,2026-11-15
+data/google_trends/v2/GB_c68_03.csv,GB,68,scarf;hat;tights,84,2026-11-15
+data/google_trends/v2/retry_DK_c0_01.csv,DK,0,ruskindsjakke,84,2026-11-15
+data/google_trends/v2/retry_DK_c68_01.csv,DK,68,bomberjakke;turtleneck;rullekrave,84,2026-11-15
+data/google_trends/v2/retry_FR_c0_01.csv,FR,0,veste en tweed;robe argentée;robe en jersey;tenue décontractée;veste en daim,84,2026-11-15
+data/google_trends/v2/retry_FR_c0_02.csv,FR,0,homewear;pull en cachemire;robe grise;robe en mousseline;boutons dorés,84,2026-11-15
+data/google_trends/v2/retry_FR_c0_03.csv,FR,0,robe léopard;robe brodée;robe à pois;robe en velours,84,2026-11-15
+data/google_trends/v2/retry_GB_c0_01.csv,GB,0,pearl embellished;crepe dress;poplin shirt;office outfit;boucle jacket,84,2026-11-15
+data/google_trends/v2/retry_GB_c0_02.csv,GB,0,beige dress;cashmere jumper,84,2026-11-15
+data/google_trends/v2/retry_GB_c68_01.csv,GB,68,turtleneck,84,2026-11-15
